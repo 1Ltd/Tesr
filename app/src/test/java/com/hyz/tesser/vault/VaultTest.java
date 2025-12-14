@@ -16,7 +16,7 @@ public class VaultTest {
     public void testGroupConversion()
             throws IOException, VaultFileException, VaultException {
         Vault vault;
-        try (InputStream inStream = getClass().getResourceAsStream("Tesser_plain_grouped_v2.json")) {
+        try (InputStream inStream = getClass().getResourceAsStream("tesser_plain_grouped_v2.json")) {
             byte[] bytes = IOUtils.readAll(inStream);
             VaultFile file = VaultFile.fromBytes(bytes);
             vault = Vault.fromJson(file.getContent());
