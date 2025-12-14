@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -32,41 +32,41 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.avito.android.krop.KropView;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.encoding.Base32;
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.encoding.Hex;
-import com.beemdevelopment.aegis.helpers.AnimationsHelper;
-import com.beemdevelopment.aegis.helpers.BitmapHelper;
-import com.beemdevelopment.aegis.helpers.DropdownHelper;
-import com.beemdevelopment.aegis.helpers.EditTextHelper;
-import com.beemdevelopment.aegis.helpers.SafHelper;
-import com.beemdevelopment.aegis.helpers.SimpleAnimationEndListener;
-import com.beemdevelopment.aegis.helpers.SimpleTextWatcher;
-import com.beemdevelopment.aegis.helpers.TextDrawableHelper;
-import com.beemdevelopment.aegis.helpers.ViewHelper;
-import com.beemdevelopment.aegis.icons.IconPack;
-import com.beemdevelopment.aegis.icons.IconType;
-import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
-import com.beemdevelopment.aegis.otp.HotpInfo;
-import com.beemdevelopment.aegis.otp.MotpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.SteamInfo;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.otp.YandexInfo;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.dialogs.IconPickerDialog;
-import com.beemdevelopment.aegis.ui.glide.GlideHelper;
-import com.beemdevelopment.aegis.ui.models.VaultGroupModel;
-import com.beemdevelopment.aegis.ui.tasks.ImportFileTask;
-import com.beemdevelopment.aegis.ui.views.IconAdapter;
-import com.beemdevelopment.aegis.util.Cloner;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultEntryIcon;
-import com.beemdevelopment.aegis.vault.VaultGroup;
-import com.beemdevelopment.aegis.vault.VaultRepository;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.encoding.Base32;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.encoding.Hex;
+import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
+import com.beemdevelopment.Tesser.helpers.BitmapHelper;
+import com.beemdevelopment.Tesser.helpers.DropdownHelper;
+import com.beemdevelopment.Tesser.helpers.EditTextHelper;
+import com.beemdevelopment.Tesser.helpers.SafHelper;
+import com.beemdevelopment.Tesser.helpers.SimpleAnimationEndListener;
+import com.beemdevelopment.Tesser.helpers.SimpleTextWatcher;
+import com.beemdevelopment.Tesser.helpers.TextDrawableHelper;
+import com.beemdevelopment.Tesser.helpers.ViewHelper;
+import com.beemdevelopment.Tesser.icons.IconPack;
+import com.beemdevelopment.Tesser.icons.IconType;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
+import com.beemdevelopment.Tesser.otp.HotpInfo;
+import com.beemdevelopment.Tesser.otp.MotpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.SteamInfo;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.otp.YandexInfo;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.dialogs.IconPickerDialog;
+import com.beemdevelopment.Tesser.ui.glide.GlideHelper;
+import com.beemdevelopment.Tesser.ui.models.VaultGroupModel;
+import com.beemdevelopment.Tesser.ui.tasks.ImportFileTask;
+import com.beemdevelopment.Tesser.ui.views.IconAdapter;
+import com.beemdevelopment.Tesser.util.Cloner;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
+import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.CustomTarget;
@@ -97,7 +97,7 @@ import java.util.UUID;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Collectors;
 
-public class EditEntryActivity extends AegisActivity {
+public class EditEntryActivity extends TesserActivity {
     private boolean _isNew = false;
     private boolean _isManual = false;
     private VaultEntry _origEntry;
@@ -834,7 +834,7 @@ public class EditEntryActivity extends AegisActivity {
     }
 
     private void onSaveError(String msg) {
-        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Aegis_AlertDialog_Error)
+        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Tesser_AlertDialog_Error)
                 .setTitle(getString(R.string.saving_profile_error))
                 .setMessage(msg)
                 .setIconAttribute(android.R.attr.alertDialogIcon)

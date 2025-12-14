@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.glide;
+package com.beemdevelopment.Tesser.ui.glide;
 
 import android.graphics.drawable.Drawable;
 import android.os.Build;
@@ -8,10 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.amulyakhare.textdrawable.TextDrawable;
-import com.beemdevelopment.aegis.helpers.TextDrawableHelper;
-import com.beemdevelopment.aegis.icons.IconPack;
-import com.beemdevelopment.aegis.icons.IconType;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.helpers.TextDrawableHelper;
+import com.beemdevelopment.Tesser.icons.IconPack;
+import com.beemdevelopment.Tesser.icons.IconType;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.bumptech.glide.RequestBuilder;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.DataSource;

@@ -1,9 +1,9 @@
-package com.beemdevelopment.aegis.otp;
+package com.beemdevelopment.Tesser.otp;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.aegis.crypto.otp.YAOTP;
+import com.beemdevelopment.Tesser.crypto.otp.YAOTP;
 
 import org.json.JSONException;
 import org.json.JSONObject;

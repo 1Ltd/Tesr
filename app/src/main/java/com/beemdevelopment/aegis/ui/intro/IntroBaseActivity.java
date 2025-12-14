@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.intro;
+package com.beemdevelopment.Tesser.ui.intro;
 
 import android.os.Bundle;
 import android.view.View;
@@ -12,16 +12,16 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.AnimationsHelper;
-import com.beemdevelopment.aegis.ui.AegisActivity;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
+import com.beemdevelopment.Tesser.ui.TesserActivity;
 import com.google.android.material.button.MaterialButton;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class IntroBaseActivity extends AegisActivity implements IntroActivityInterface {
+public abstract class IntroBaseActivity extends TesserActivity implements IntroActivityInterface {
     private Bundle _state;
     private ViewPager2 _pager;
     private ScreenSlidePagerAdapter _adapter;

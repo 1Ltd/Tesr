@@ -1,16 +1,16 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.util.Xml;
 
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.encoding.Hex;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.util.PreferenceParser;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.encoding.Hex;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.util.PreferenceParser;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.google.common.base.Strings;
 import com.topjohnwu.superuser.io.SuFile;
 

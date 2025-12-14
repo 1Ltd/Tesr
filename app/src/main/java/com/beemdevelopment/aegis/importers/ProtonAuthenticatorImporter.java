@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
@@ -7,11 +7,11 @@ import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
-import com.beemdevelopment.aegis.otp.GoogleAuthInfoException;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.topjohnwu.superuser.io.SuFile;
 
 import org.json.JSONArray;

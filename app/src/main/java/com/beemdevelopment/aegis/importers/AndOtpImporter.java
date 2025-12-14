@@ -1,26 +1,26 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import android.content.Context;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.lifecycle.Lifecycle;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.crypto.CryptParameters;
-import com.beemdevelopment.aegis.crypto.CryptResult;
-import com.beemdevelopment.aegis.crypto.CryptoUtils;
-import com.beemdevelopment.aegis.encoding.Base32;
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.helpers.ContextHelper;
-import com.beemdevelopment.aegis.otp.HotpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.SteamInfo;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.tasks.PBKDFTask;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.crypto.CryptParameters;
+import com.beemdevelopment.Tesser.crypto.CryptResult;
+import com.beemdevelopment.Tesser.crypto.CryptoUtils;
+import com.beemdevelopment.Tesser.encoding.Base32;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.helpers.ContextHelper;
+import com.beemdevelopment.Tesser.otp.HotpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.SteamInfo;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.tasks.PBKDFTask;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.topjohnwu.superuser.io.SuFile;
 

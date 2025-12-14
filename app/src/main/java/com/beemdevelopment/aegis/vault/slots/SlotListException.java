@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.vault.slots;
+package com.beemdevelopment.Tesser.vault.slots;
 
 public class SlotListException extends Exception {
     public SlotListException(Throwable cause) {

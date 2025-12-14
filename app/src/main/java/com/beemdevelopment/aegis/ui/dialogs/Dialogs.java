@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.dialogs;
+package com.beemdevelopment.Tesser.ui.dialogs;
 
 import android.app.Dialog;
 import android.content.ClipData;
@@ -29,18 +29,18 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AlertDialog;
 
-import com.beemdevelopment.aegis.BackupsVersioningStrategy;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.EditTextHelper;
-import com.beemdevelopment.aegis.helpers.PasswordStrengthHelper;
-import com.beemdevelopment.aegis.helpers.SimpleTextWatcher;
-import com.beemdevelopment.aegis.importers.DatabaseImporter;
-import com.beemdevelopment.aegis.ui.tasks.KeyDerivationTask;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
-import com.beemdevelopment.aegis.vault.slots.Slot;
-import com.beemdevelopment.aegis.vault.slots.SlotException;
+import com.beemdevelopment.Tesser.BackupsVersioningStrategy;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.EditTextHelper;
+import com.beemdevelopment.Tesser.helpers.PasswordStrengthHelper;
+import com.beemdevelopment.Tesser.helpers.SimpleTextWatcher;
+import com.beemdevelopment.Tesser.importers.DatabaseImporter;
+import com.beemdevelopment.Tesser.ui.tasks.KeyDerivationTask;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.vault.slots.Slot;
+import com.beemdevelopment.Tesser.vault.slots.SlotException;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
@@ -87,7 +87,7 @@ public class Dialogs {
         }
         textMessage.setText(message);
 
-        showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+        showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                 .setTitle(title)
                 .setView(view)
                 .setIconAttribute(android.R.attr.alertDialogIcon)
@@ -109,7 +109,7 @@ public class Dialogs {
     }
 
     public static void showDiscardDialog(Context context, DialogInterface.OnClickListener onSave, DialogInterface.OnClickListener onDiscard) {
-        showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+        showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                 .setTitle(context.getString(R.string.discard_changes))
                 .setMessage(context.getString(R.string.discard_changes_description))
                 .setIconAttribute(android.R.attr.alertDialogIcon)
@@ -383,7 +383,7 @@ public class Dialogs {
         TextView textMessage = view.findViewById(R.id.error_message);
         textMessage.setText(message);
 
-        AlertDialog dialog = new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Aegis_AlertDialog_Error)
+        AlertDialog dialog = new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Tesser_AlertDialog_Error)
                 .setTitle(R.string.error_occurred)
                 .setView(view)
                 .setCancelable(false)
@@ -426,7 +426,7 @@ public class Dialogs {
 
     public static void showMultiErrorDialog(
             Context context, @StringRes int title, String message, List<CharSequence> messages, DialogInterface.OnClickListener listener) {
-        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Aegis_AlertDialog_Error)
+        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Tesser_AlertDialog_Error)
                 .setTitle(title)
                 .setMessage(message)
                 .setCancelable(false)
@@ -460,7 +460,7 @@ public class Dialogs {
             builder.append("\n\n");
         }
 
-        AlertDialog dialog = new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Aegis_AlertDialog_Error)
+        AlertDialog dialog = new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Tesser_AlertDialog_Error)
                 .setTitle(title)
                 .setMessage(builder)
                 .setCancelable(false)
@@ -491,7 +491,7 @@ public class Dialogs {
         View view = LayoutInflater.from(context).inflate(R.layout.dialog_time_sync, null);
         CheckBox checkBox = view.findViewById(R.id.check_warning_disable);
 
-        showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+        showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                 .setTitle(R.string.time_sync_warning_title)
                 .setView(view)
                 .setCancelable(false)
@@ -551,7 +551,7 @@ public class Dialogs {
             errorDetails.append("\n\n");
         }
 
-        MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+        MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                 .setTitle(R.string.partial_google_auth_import)
                 .setMessage(context.getString(R.string.partial_google_auth_import_warning, missingIndexesAsString))
                 .setView(view)

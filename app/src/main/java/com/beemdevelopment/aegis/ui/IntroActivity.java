@@ -1,9 +1,9 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
-import static com.beemdevelopment.aegis.ui.slides.SecurityPickerSlide.CRYPT_TYPE_BIOMETRIC;
-import static com.beemdevelopment.aegis.ui.slides.SecurityPickerSlide.CRYPT_TYPE_INVALID;
-import static com.beemdevelopment.aegis.ui.slides.SecurityPickerSlide.CRYPT_TYPE_NONE;
-import static com.beemdevelopment.aegis.ui.slides.SecurityPickerSlide.CRYPT_TYPE_PASS;
+import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_BIOMETRIC;
+import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_INVALID;
+import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_NONE;
+import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_PASS;
 
 import android.os.Bundle;
 import android.view.WindowManager;
@@ -12,20 +12,20 @@ import android.view.inputmethod.InputMethodManager;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.intro.IntroBaseActivity;
-import com.beemdevelopment.aegis.ui.intro.SlideFragment;
-import com.beemdevelopment.aegis.ui.slides.DoneSlide;
-import com.beemdevelopment.aegis.ui.slides.SecurityPickerSlide;
-import com.beemdevelopment.aegis.ui.slides.SecuritySetupSlide;
-import com.beemdevelopment.aegis.ui.slides.WelcomeSlide;
-import com.beemdevelopment.aegis.vault.VaultFile;
-import com.beemdevelopment.aegis.vault.VaultFileCredentials;
-import com.beemdevelopment.aegis.vault.VaultRepository;
-import com.beemdevelopment.aegis.vault.VaultRepositoryException;
-import com.beemdevelopment.aegis.vault.slots.BiometricSlot;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.intro.IntroBaseActivity;
+import com.beemdevelopment.Tesser.ui.intro.SlideFragment;
+import com.beemdevelopment.Tesser.ui.slides.DoneSlide;
+import com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide;
+import com.beemdevelopment.Tesser.ui.slides.SecuritySetupSlide;
+import com.beemdevelopment.Tesser.ui.slides.WelcomeSlide;
+import com.beemdevelopment.Tesser.vault.VaultFile;
+import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
+import com.beemdevelopment.Tesser.vault.slots.BiometricSlot;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
 
 public class IntroActivity extends IntroBaseActivity {
     // Permission request codes

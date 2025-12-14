@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -40,35 +40,35 @@ import androidx.appcompat.widget.SearchView;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.beemdevelopment.aegis.GroupPlaceholderType;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.SortCategory;
-import com.beemdevelopment.aegis.helpers.BitmapHelper;
-import com.beemdevelopment.aegis.helpers.DropdownHelper;
-import com.beemdevelopment.aegis.helpers.FabScrollHelper;
-import com.beemdevelopment.aegis.helpers.PermissionHelper;
-import com.beemdevelopment.aegis.helpers.ViewHelper;
-import com.beemdevelopment.aegis.icons.IconType;
-import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
-import com.beemdevelopment.aegis.otp.GoogleAuthInfoException;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.fragments.preferences.BackupsPreferencesFragment;
-import com.beemdevelopment.aegis.ui.fragments.preferences.PreferencesFragment;
-import com.beemdevelopment.aegis.ui.models.ErrorCardInfo;
-import com.beemdevelopment.aegis.ui.models.VaultGroupModel;
-import com.beemdevelopment.aegis.ui.tasks.IconOptimizationTask;
-import com.beemdevelopment.aegis.ui.tasks.QrDecodeTask;
-import com.beemdevelopment.aegis.ui.views.EntryListView;
-import com.beemdevelopment.aegis.util.TimeUtils;
-import com.beemdevelopment.aegis.util.UUIDMap;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultEntryIcon;
-import com.beemdevelopment.aegis.vault.VaultFile;
-import com.beemdevelopment.aegis.vault.VaultGroup;
-import com.beemdevelopment.aegis.vault.VaultRepository;
-import com.beemdevelopment.aegis.vault.VaultRepositoryException;
+import com.beemdevelopment.Tesser.GroupPlaceholderType;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.SortCategory;
+import com.beemdevelopment.Tesser.helpers.BitmapHelper;
+import com.beemdevelopment.Tesser.helpers.DropdownHelper;
+import com.beemdevelopment.Tesser.helpers.FabScrollHelper;
+import com.beemdevelopment.Tesser.helpers.PermissionHelper;
+import com.beemdevelopment.Tesser.helpers.ViewHelper;
+import com.beemdevelopment.Tesser.icons.IconType;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.fragments.preferences.BackupsPreferencesFragment;
+import com.beemdevelopment.Tesser.ui.fragments.preferences.PreferencesFragment;
+import com.beemdevelopment.Tesser.ui.models.ErrorCardInfo;
+import com.beemdevelopment.Tesser.ui.models.VaultGroupModel;
+import com.beemdevelopment.Tesser.ui.tasks.IconOptimizationTask;
+import com.beemdevelopment.Tesser.ui.tasks.QrDecodeTask;
+import com.beemdevelopment.Tesser.ui.views.EntryListView;
+import com.beemdevelopment.Tesser.util.TimeUtils;
+import com.beemdevelopment.Tesser.util.UUIDMap;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
+import com.beemdevelopment.Tesser.vault.VaultFile;
+import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
@@ -92,7 +92,7 @@ import java.util.UUID;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Collectors;
 
-public class MainActivity extends AegisActivity implements EntryListView.Listener {
+public class MainActivity extends TesserActivity implements EntryListView.Listener {
     // Permission request codes
     private static final int CODE_PERM_CAMERA = 0;
 
@@ -1141,7 +1141,7 @@ public class MainActivity extends AegisActivity implements EntryListView.Listene
                text = getString(R.string.backup_reminder_bar_message);
            }
            info = new ErrorCardInfo(text, view -> {
-               Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Aegis_AlertDialog_Error)
+               Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Tesser_AlertDialog_Error)
                        .setTitle(R.string.backup_reminder_bar_dialog_title)
                        .setMessage(R.string.backup_reminder_bar_dialog_summary)
                        .setIconAttribute(android.R.attr.alertDialogIcon)
@@ -1161,7 +1161,7 @@ public class MainActivity extends AegisActivity implements EntryListView.Listene
     private void showPlaintextExportWarningOptions() {
         View view = LayoutInflater.from(this).inflate(R.layout.dialog_plaintext_warning, null);
 
-        AlertDialog dialog = new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+        AlertDialog dialog = new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                 .setTitle(R.string.backup_plaintext_export_warning)
                 .setView(view)
                 .setIconAttribute(android.R.attr.alertDialogIcon)

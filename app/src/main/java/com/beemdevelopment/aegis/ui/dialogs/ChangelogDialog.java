@@ -1,8 +1,8 @@
-package com.beemdevelopment.aegis.ui.dialogs;
+package com.beemdevelopment.Tesser.ui.dialogs;
 
 import android.content.Context;
 
-import com.beemdevelopment.aegis.R;
+import com.beemdevelopment.Tesser.R;
 
 public class ChangelogDialog extends SimpleWebViewDialog {
     public ChangelogDialog() {

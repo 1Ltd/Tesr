@@ -1,6 +1,6 @@
-package com.beemdevelopment.aegis.helpers.comparators;
+package com.beemdevelopment.Tesser.helpers.comparators;
 
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 
 import java.util.Comparator;
 

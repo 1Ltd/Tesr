@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.intro;
+package com.beemdevelopment.Tesser.ui.intro;
 
 import android.os.Bundle;
 

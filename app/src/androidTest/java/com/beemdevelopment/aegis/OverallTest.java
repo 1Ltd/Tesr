@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.Espresso.openContextualActionModeOverflowMenu;
@@ -30,19 +30,19 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 
-import com.beemdevelopment.aegis.encoding.Base32;
-import com.beemdevelopment.aegis.encoding.Hex;
-import com.beemdevelopment.aegis.otp.HotpInfo;
-import com.beemdevelopment.aegis.otp.MotpInfo;
-import com.beemdevelopment.aegis.otp.SteamInfo;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.otp.YandexInfo;
-import com.beemdevelopment.aegis.rules.ScreenshotTestRule;
-import com.beemdevelopment.aegis.ui.MainActivity;
-import com.beemdevelopment.aegis.ui.views.EntryAdapter;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultRepository;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.encoding.Base32;
+import com.beemdevelopment.Tesser.encoding.Hex;
+import com.beemdevelopment.Tesser.otp.HotpInfo;
+import com.beemdevelopment.Tesser.otp.MotpInfo;
+import com.beemdevelopment.Tesser.otp.SteamInfo;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.otp.YandexInfo;
+import com.beemdevelopment.Tesser.rules.ScreenshotTestRule;
+import com.beemdevelopment.Tesser.ui.MainActivity;
+import com.beemdevelopment.Tesser.ui.views.EntryAdapter;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -61,7 +61,7 @@ import dagger.hilt.android.testing.HiltAndroidTest;
 @RunWith(AndroidJUnit4.class)
 @HiltAndroidTest
 @LargeTest
-public class OverallTest extends AegisTest {
+public class OverallTest extends TesserTest {
     private static final String _groupName = "Test";
 
     private final ActivityScenarioRule<MainActivity> _activityRule = new ActivityScenarioRule<>(MainActivity.class);

@@ -1,6 +1,6 @@
-package com.beemdevelopment.aegis.crypto;
+package com.beemdevelopment.Tesser.crypto;
 
-import com.beemdevelopment.aegis.crypto.bc.SCrypt;
+import com.beemdevelopment.Tesser.crypto.bc.SCrypt;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

@@ -1,8 +1,8 @@
-package com.beemdevelopment.aegis.ui.glide;
+package com.beemdevelopment.Tesser.ui.glide;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.aegis.icons.IconType;
+import com.beemdevelopment.Tesser.icons.IconType;
 import com.bumptech.glide.load.Options;
 import com.bumptech.glide.load.ResourceDecoder;
 import com.bumptech.glide.load.engine.Resource;

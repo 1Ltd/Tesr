@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -9,13 +9,13 @@ import androidx.fragment.app.FragmentManager;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ui.fragments.preferences.AppearancePreferencesFragment;
-import com.beemdevelopment.aegis.ui.fragments.preferences.MainPreferencesFragment;
-import com.beemdevelopment.aegis.ui.fragments.preferences.PreferencesFragment;
-import com.beemdevelopment.aegis.helpers.ViewHelper;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ui.fragments.preferences.AppearancePreferencesFragment;
+import com.beemdevelopment.Tesser.ui.fragments.preferences.MainPreferencesFragment;
+import com.beemdevelopment.Tesser.ui.fragments.preferences.PreferencesFragment;
+import com.beemdevelopment.Tesser.helpers.ViewHelper;
 
-public class PreferencesActivity extends AegisActivity implements
+public class PreferencesActivity extends TesserActivity implements
         PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
     private Fragment _fragment;
     private CharSequence _prefTitle;

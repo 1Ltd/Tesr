@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 public class DatabaseImporterException extends Exception {
     public DatabaseImporterException(Throwable cause) {

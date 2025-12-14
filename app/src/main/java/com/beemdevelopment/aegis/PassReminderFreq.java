@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import androidx.annotation.StringRes;
 

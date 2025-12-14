@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.helpers;
+package com.beemdevelopment.Tesser.helpers;
 
 import androidx.recyclerview.widget.RecyclerView;
 

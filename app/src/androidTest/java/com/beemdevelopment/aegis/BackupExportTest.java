@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -31,28 +31,28 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
-import com.beemdevelopment.aegis.crypto.CryptoUtils;
-import com.beemdevelopment.aegis.crypto.MasterKey;
-import com.beemdevelopment.aegis.encoding.Hex;
-import com.beemdevelopment.aegis.importers.DatabaseImporter;
-import com.beemdevelopment.aegis.importers.DatabaseImporterException;
-import com.beemdevelopment.aegis.importers.GoogleAuthUriImporter;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.rules.ScreenshotTestRule;
-import com.beemdevelopment.aegis.ui.PreferencesActivity;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.vault.VaultBackupManager;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultFile;
-import com.beemdevelopment.aegis.vault.VaultFileCredentials;
-import com.beemdevelopment.aegis.vault.VaultFileException;
-import com.beemdevelopment.aegis.vault.VaultRepository;
-import com.beemdevelopment.aegis.vault.VaultRepositoryException;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
-import com.beemdevelopment.aegis.vault.slots.SlotException;
-import com.beemdevelopment.aegis.vault.slots.SlotIntegrityException;
-import com.beemdevelopment.aegis.vault.slots.SlotList;
-import com.beemdevelopment.aegis.vectors.VaultEntries;
+import com.beemdevelopment.Tesser.crypto.CryptoUtils;
+import com.beemdevelopment.Tesser.crypto.MasterKey;
+import com.beemdevelopment.Tesser.encoding.Hex;
+import com.beemdevelopment.Tesser.importers.DatabaseImporter;
+import com.beemdevelopment.Tesser.importers.DatabaseImporterException;
+import com.beemdevelopment.Tesser.importers.GoogleAuthUriImporter;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.rules.ScreenshotTestRule;
+import com.beemdevelopment.Tesser.ui.PreferencesActivity;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.vault.VaultBackupManager;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultFile;
+import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
+import com.beemdevelopment.Tesser.vault.VaultFileException;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.vault.slots.SlotException;
+import com.beemdevelopment.Tesser.vault.slots.SlotIntegrityException;
+import com.beemdevelopment.Tesser.vault.slots.SlotList;
+import com.beemdevelopment.Tesser.vectors.VaultEntries;
 
 import org.junit.After;
 import org.junit.Before;
@@ -84,7 +84,7 @@ import dagger.hilt.android.testing.HiltAndroidTest;
 @RunWith(AndroidJUnit4.class)
 @HiltAndroidTest
 @SmallTest
-public class BackupExportTest extends AegisTest {
+public class BackupExportTest extends TesserTest {
     private final ActivityScenarioRule<PreferencesActivity> _activityRule = new ActivityScenarioRule<>(PreferencesActivity.class);
 
     @Rule

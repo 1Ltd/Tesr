@@ -1,10 +1,10 @@
-package com.beemdevelopment.aegis.helpers;
+package com.beemdevelopment.Tesser.helpers;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import com.beemdevelopment.aegis.icons.IconType;
-import com.beemdevelopment.aegis.vault.VaultEntryIcon;
+import com.beemdevelopment.Tesser.icons.IconType;
+import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
 
 import java.io.ByteArrayOutputStream;
 import java.util.Objects;

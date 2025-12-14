@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.crypto.pins;
+package com.beemdevelopment.Tesser.crypto.pins;
 
 import info.guardianproject.trustedintents.ApkSignaturePin;
 

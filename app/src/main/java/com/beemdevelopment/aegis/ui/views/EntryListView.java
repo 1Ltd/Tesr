@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import static androidx.recyclerview.widget.RecyclerView.NO_POSITION;
 
@@ -28,23 +28,23 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.AccountNamePosition;
-import com.beemdevelopment.aegis.CopyBehavior;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.SortCategory;
-import com.beemdevelopment.aegis.VibrationPatterns;
-import com.beemdevelopment.aegis.ViewMode;
-import com.beemdevelopment.aegis.helpers.AnimationsHelper;
-import com.beemdevelopment.aegis.helpers.MetricsHelper;
-import com.beemdevelopment.aegis.helpers.SimpleItemTouchHelperCallback;
-import com.beemdevelopment.aegis.helpers.UiRefresher;
-import com.beemdevelopment.aegis.helpers.VibrationHelper;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.ui.glide.GlideHelper;
-import com.beemdevelopment.aegis.ui.models.ErrorCardInfo;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultGroup;
+import com.beemdevelopment.Tesser.AccountNamePosition;
+import com.beemdevelopment.Tesser.CopyBehavior;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.SortCategory;
+import com.beemdevelopment.Tesser.VibrationPatterns;
+import com.beemdevelopment.Tesser.ViewMode;
+import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
+import com.beemdevelopment.Tesser.helpers.MetricsHelper;
+import com.beemdevelopment.Tesser.helpers.SimpleItemTouchHelperCallback;
+import com.beemdevelopment.Tesser.helpers.UiRefresher;
+import com.beemdevelopment.Tesser.helpers.VibrationHelper;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.ui.glide.GlideHelper;
+import com.beemdevelopment.Tesser.ui.models.ErrorCardInfo;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultGroup;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.ListPreloader;
 import com.bumptech.glide.RequestBuilder;
@@ -570,7 +570,7 @@ public class EntryListView extends Fragment implements EntryAdapter.Listener {
         private VerticalSpaceItemDecoration(float offset) {
             _offset = MetricsHelper.convertDpToPixels(requireContext(), offset);
 
-            int shapeAppearanceId = getStyledAttrs(R.style.Widget_Aegis_EntryCardView,
+            int shapeAppearanceId = getStyledAttrs(R.style.Widget_Tesser_EntryCardView,
                     com.google.android.material.R.attr.shapeAppearance);
 
             _defaultShapeModel = ShapeAppearanceModel.builder(

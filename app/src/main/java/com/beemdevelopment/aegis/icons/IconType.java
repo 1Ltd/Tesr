@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.icons;
+package com.beemdevelopment.Tesser.icons;
 
 import com.google.common.io.Files;
 

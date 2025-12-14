@@ -1,14 +1,14 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 
 import androidx.annotation.StringRes;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.util.UUIDMap;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultGroup;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.util.UUIDMap;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultGroup;
 import com.topjohnwu.superuser.Shell;
 import com.topjohnwu.superuser.io.SuFile;
 import com.topjohnwu.superuser.io.SuFileInputStream;
@@ -31,7 +31,7 @@ public abstract class DatabaseImporter {
         // note: keep these lists sorted alphabetically
         _importers = new ArrayList<>();
         _importers.add(new Definition("2FAS Authenticator", TwoFASImporter.class, R.string.importer_help_2fas, false));
-        _importers.add(new Definition("Aegis", AegisImporter.class, R.string.importer_help_aegis, false));
+        _importers.add(new Definition("Tesser", TesserImporter.class, R.string.importer_help_Tesser, false));
         _importers.add(new Definition("andOTP", AndOtpImporter.class, R.string.importer_help_andotp, false));
         _importers.add(new Definition("Authenticator Plus", AuthenticatorPlusImporter.class, R.string.importer_help_authenticator_plus, false));
         _importers.add(new Definition("Authy", AuthyImporter.class, R.string.importer_help_authy, true));

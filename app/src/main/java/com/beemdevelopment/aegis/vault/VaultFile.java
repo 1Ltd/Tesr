@@ -1,12 +1,12 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
-import com.beemdevelopment.aegis.crypto.CryptParameters;
-import com.beemdevelopment.aegis.crypto.CryptResult;
-import com.beemdevelopment.aegis.crypto.MasterKeyException;
-import com.beemdevelopment.aegis.encoding.Base64;
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.vault.slots.SlotList;
-import com.beemdevelopment.aegis.vault.slots.SlotListException;
+import com.beemdevelopment.Tesser.crypto.CryptParameters;
+import com.beemdevelopment.Tesser.crypto.CryptResult;
+import com.beemdevelopment.Tesser.crypto.MasterKeyException;
+import com.beemdevelopment.Tesser.encoding.Base64;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.vault.slots.SlotList;
+import com.beemdevelopment.Tesser.vault.slots.SlotListException;
 
 import org.json.JSONException;
 import org.json.JSONObject;

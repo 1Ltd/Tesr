@@ -1,9 +1,9 @@
-package com.beemdevelopment.aegis.ui.slides;
+package com.beemdevelopment.Tesser.ui.slides;
 
-import static com.beemdevelopment.aegis.ui.slides.SecurityPickerSlide.CRYPT_TYPE_BIOMETRIC;
-import static com.beemdevelopment.aegis.ui.slides.SecurityPickerSlide.CRYPT_TYPE_INVALID;
-import static com.beemdevelopment.aegis.ui.slides.SecurityPickerSlide.CRYPT_TYPE_NONE;
-import static com.beemdevelopment.aegis.ui.slides.SecurityPickerSlide.CRYPT_TYPE_PASS;
+import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_BIOMETRIC;
+import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_INVALID;
+import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_NONE;
+import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_PASS;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -20,20 +20,20 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.biometric.BiometricPrompt;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.BiometricSlotInitializer;
-import com.beemdevelopment.aegis.helpers.BiometricsHelper;
-import com.beemdevelopment.aegis.helpers.EditTextHelper;
-import com.beemdevelopment.aegis.helpers.PasswordStrengthHelper;
-import com.beemdevelopment.aegis.helpers.SimpleTextWatcher;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.intro.SlideFragment;
-import com.beemdevelopment.aegis.ui.tasks.KeyDerivationTask;
-import com.beemdevelopment.aegis.vault.VaultFileCredentials;
-import com.beemdevelopment.aegis.vault.slots.BiometricSlot;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
-import com.beemdevelopment.aegis.vault.slots.Slot;
-import com.beemdevelopment.aegis.vault.slots.SlotException;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.BiometricSlotInitializer;
+import com.beemdevelopment.Tesser.helpers.BiometricsHelper;
+import com.beemdevelopment.Tesser.helpers.EditTextHelper;
+import com.beemdevelopment.Tesser.helpers.PasswordStrengthHelper;
+import com.beemdevelopment.Tesser.helpers.SimpleTextWatcher;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.intro.SlideFragment;
+import com.beemdevelopment.Tesser.ui.tasks.KeyDerivationTask;
+import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
+import com.beemdevelopment.Tesser.vault.slots.BiometricSlot;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.vault.slots.Slot;
+import com.beemdevelopment.Tesser.vault.slots.SlotException;
 import com.google.android.material.textfield.TextInputLayout;
 
 import javax.crypto.Cipher;

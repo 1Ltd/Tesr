@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.glide;
+package com.beemdevelopment.Tesser.ui.glide;
 
 import androidx.annotation.NonNull;
 

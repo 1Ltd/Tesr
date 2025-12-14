@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,9 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.icons.IconPack;
-import com.beemdevelopment.aegis.icons.IconType;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.icons.IconPack;
+import com.beemdevelopment.Tesser.icons.IconType;
 
 import java.util.ArrayList;
 import java.util.Collections;

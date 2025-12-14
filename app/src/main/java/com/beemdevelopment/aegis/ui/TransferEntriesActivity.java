@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.content.ClipData;
 import android.content.ClipDescription;
@@ -22,14 +22,14 @@ import android.widget.Toast;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.Theme;
-import com.beemdevelopment.aegis.helpers.QrCodeHelper;
-import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
-import com.beemdevelopment.aegis.otp.GoogleAuthInfoException;
-import com.beemdevelopment.aegis.otp.Transferable;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.helpers.ViewHelper;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.Theme;
+import com.beemdevelopment.Tesser.helpers.QrCodeHelper;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
+import com.beemdevelopment.Tesser.otp.Transferable;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.helpers.ViewHelper;
 import com.google.android.material.color.MaterialColors;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.zxing.WriterException;
@@ -37,7 +37,7 @@ import com.google.zxing.WriterException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TransferEntriesActivity extends AegisActivity {
+public class TransferEntriesActivity extends TesserActivity {
     private List<Transferable> _authInfos;
     private ShapeableImageView _qrImage;
     private TextView _description;

@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -30,13 +30,13 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.beemdevelopment.aegis.rules.ScreenshotTestRule;
-import com.beemdevelopment.aegis.ui.IntroActivity;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.vault.VaultRepository;
-import com.beemdevelopment.aegis.vault.slots.BiometricSlot;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
-import com.beemdevelopment.aegis.vault.slots.SlotList;
+import com.beemdevelopment.Tesser.rules.ScreenshotTestRule;
+import com.beemdevelopment.Tesser.ui.IntroActivity;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.beemdevelopment.Tesser.vault.slots.BiometricSlot;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.vault.slots.SlotList;
 
 import org.junit.After;
 import org.junit.Before;
@@ -56,7 +56,7 @@ import dagger.hilt.android.testing.HiltAndroidTest;
 @RunWith(AndroidJUnit4.class)
 @HiltAndroidTest
 @LargeTest
-public class IntroTest extends AegisTest {
+public class IntroTest extends TesserTest {
     private final ActivityScenarioRule<IntroActivity> _activityRule = new ActivityScenarioRule<>(IntroActivity.class);
 
     private ViewPager2IdlingResource _viewPager2IdlingResource;
@@ -138,7 +138,7 @@ public class IntroTest extends AegisTest {
     @Test
     public void testIntro_Import_Plain() {
         assertFalse(_prefs.isIntroDone());
-        Uri uri = getResourceUri("aegis_plain.json");
+        Uri uri = getResourceUri("Tesser_plain.json");
         Intent resultData = new Intent();
         resultData.setData(uri);
 
@@ -158,7 +158,7 @@ public class IntroTest extends AegisTest {
     @Test
     public void testIntro_Import_Encrypted() {
         assertFalse(_prefs.isIntroDone());
-        Uri uri = getResourceUri("aegis_encrypted.json");
+        Uri uri = getResourceUri("Tesser_encrypted.json");
         Intent resultData = new Intent();
         resultData.setData(uri);
 

@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import android.view.View;
 
@@ -11,18 +11,18 @@ import androidx.test.espresso.matcher.BoundedMatcher;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.rule.GrantPermissionRule;
 
-import com.beemdevelopment.aegis.crypto.CryptoUtils;
-import com.beemdevelopment.aegis.crypto.SCryptParameters;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.ui.views.EntryHolder;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultFileCredentials;
-import com.beemdevelopment.aegis.vault.VaultManager;
-import com.beemdevelopment.aegis.vault.VaultRepository;
-import com.beemdevelopment.aegis.vault.VaultRepositoryException;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
-import com.beemdevelopment.aegis.vault.slots.SlotException;
-import com.beemdevelopment.aegis.vectors.VaultEntries;
+import com.beemdevelopment.Tesser.crypto.CryptoUtils;
+import com.beemdevelopment.Tesser.crypto.SCryptParameters;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.ui.views.EntryHolder;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
+import com.beemdevelopment.Tesser.vault.VaultManager;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.vault.slots.SlotException;
+import com.beemdevelopment.Tesser.vectors.VaultEntries;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
@@ -42,7 +42,7 @@ import javax.inject.Inject;
 
 import dagger.hilt.android.testing.HiltAndroidRule;
 
-public abstract class AegisTest {
+public abstract class TesserTest {
     public static final String VAULT_PASSWORD = "test";
     public static final String VAULT_PASSWORD_CHANGED = "test2";
     public static final String VAULT_BACKUP_PASSWORD = "something";
@@ -74,8 +74,8 @@ public abstract class AegisTest {
         return GrantPermissionRule.grant(perms.toArray(new String[0]));
     }
 
-    protected AegisApplicationBase getApp() {
-        return (AegisApplicationBase) InstrumentationRegistry.getInstrumentation().getTargetContext().getApplicationContext();
+    protected TesserApplicationBase getApp() {
+        return (TesserApplicationBase) InstrumentationRegistry.getInstrumentation().getTargetContext().getApplicationContext();
     }
 
     protected VaultRepository initEncryptedVault() {

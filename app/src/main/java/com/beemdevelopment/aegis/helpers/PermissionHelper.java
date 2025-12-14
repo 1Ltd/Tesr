@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.helpers;
+package com.beemdevelopment.Tesser.helpers;
 
 import android.app.Activity;
 import android.content.Context;

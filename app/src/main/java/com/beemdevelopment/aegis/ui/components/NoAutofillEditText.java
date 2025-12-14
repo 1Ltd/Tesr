@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.components;
+package com.beemdevelopment.Tesser.ui.components;
 
 import android.content.Context;
 import android.os.Build;

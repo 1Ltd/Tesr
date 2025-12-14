@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.components;
+package com.beemdevelopment.Tesser.ui.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,7 +15,7 @@ import android.widget.Filterable;
 import androidx.annotation.PluralsRes;
 import androidx.appcompat.widget.AppCompatAutoCompleteTextView;
 
-import com.beemdevelopment.aegis.R;
+import com.beemdevelopment.Tesser.R;
 
 import java.util.ArrayList;
 import java.util.HashSet;

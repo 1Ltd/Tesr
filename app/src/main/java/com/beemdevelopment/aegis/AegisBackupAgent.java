@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import android.app.backup.BackupAgent;
 import android.app.backup.BackupDataInput;
@@ -8,12 +8,12 @@ import android.os.Build;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import com.beemdevelopment.aegis.database.AppDatabase;
-import com.beemdevelopment.aegis.database.AuditLogRepository;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.vault.VaultFile;
-import com.beemdevelopment.aegis.vault.VaultRepository;
-import com.beemdevelopment.aegis.vault.VaultRepositoryException;
+import com.beemdevelopment.Tesser.database.AppDatabase;
+import com.beemdevelopment.Tesser.database.AuditLogRepository;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.vault.VaultFile;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -22,8 +22,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class AegisBackupAgent extends BackupAgent {
-    private static final String TAG = AegisBackupAgent.class.getSimpleName();
+public class TesserBackupAgent extends BackupAgent {
+    private static final String TAG = TesserBackupAgent.class.getSimpleName();
 
     private Preferences _prefs;
 
@@ -35,8 +35,8 @@ public class AegisBackupAgent extends BackupAgent {
 
         // Cannot use injection with Dagger Hilt here, because the app is launched in a restricted mode on restore
         _prefs = new Preferences(this);
-        AppDatabase appDatabase = AegisModule.provideAppDatabase(this);
-        _auditLogRepository = AegisModule.provideAuditLogRepository(appDatabase);
+        AppDatabase appDatabase = TesserModule.provideAppDatabase(this);
+        _auditLogRepository = TesserModule.provideAuditLogRepository(appDatabase);
     }
 
     @Override

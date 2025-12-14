@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import android.content.Context;
 import android.view.View;
@@ -7,10 +7,10 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.icons.IconPack;
-import com.beemdevelopment.aegis.icons.IconType;
-import com.beemdevelopment.aegis.ui.glide.GlideHelper;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.icons.IconPack;
+import com.beemdevelopment.Tesser.icons.IconType;
+import com.beemdevelopment.Tesser.ui.glide.GlideHelper;
 import com.bumptech.glide.Glide;
 import com.google.android.material.color.MaterialColors;
 

@@ -1,8 +1,8 @@
-package com.beemdevelopment.aegis.helpers;
+package com.beemdevelopment.Tesser.helpers;
 
 import android.os.Handler;
 
-import com.beemdevelopment.aegis.VibrationPatterns;
+import com.beemdevelopment.Tesser.VibrationPatterns;
 
 public class UiRefresher {
     private boolean _running;

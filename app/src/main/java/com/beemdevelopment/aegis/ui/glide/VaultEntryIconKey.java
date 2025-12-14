@@ -1,8 +1,8 @@
-package com.beemdevelopment.aegis.ui.glide;
+package com.beemdevelopment.Tesser.ui.glide;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.aegis.vault.VaultEntryIcon;
+import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
 import com.bumptech.glide.load.Key;
 
 import java.security.MessageDigest;

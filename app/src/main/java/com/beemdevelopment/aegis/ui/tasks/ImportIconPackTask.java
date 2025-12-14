@@ -1,13 +1,13 @@
-package com.beemdevelopment.aegis.ui.tasks;
+package com.beemdevelopment.Tesser.ui.tasks;
 
 import android.content.Context;
 import android.net.Uri;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.icons.IconPack;
-import com.beemdevelopment.aegis.icons.IconPackException;
-import com.beemdevelopment.aegis.icons.IconPackManager;
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.icons.IconPack;
+import com.beemdevelopment.Tesser.icons.IconPackException;
+import com.beemdevelopment.Tesser.icons.IconPackManager;
+import com.beemdevelopment.Tesser.util.IOUtils;
 
 import java.io.File;
 import java.io.FileOutputStream;

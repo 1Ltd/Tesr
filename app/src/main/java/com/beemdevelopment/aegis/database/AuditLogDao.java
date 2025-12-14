@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.database;
+package com.beemdevelopment.Tesser.database;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;

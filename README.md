@@ -1,16 +1,16 @@
 <img align="left" width="80" height="80" src="metadata/en-US/images/icon.png"
 alt="App icon">
 
-# Aegis Authenticator
+# Tesser Authenticator
 
 <br>
 
-[![Build](https://github.com/beemdevelopment/Aegis/actions/workflows/build-app-workflow.yaml/badge.svg)](https://github.com/beemdevelopment/Aegis/actions/workflows/build-app-workflow.yaml?query=branch%3Amaster) [![Crowdin](https://badges.crowdin.net/aegis-authenticator/localized.svg)](https://crowdin.com/project/aegis-authenticator) [![Donate](https://img.shields.io/badge/donate-buy%20us%20a%20beer-%23FF813F)](https://www.buymeacoffee.com/beemdevelopment) [![Matrix](https://img.shields.io/matrix/aegis:matrix.org?color=blue)](https://matrix.to/#/#aegis:matrix.org)
+[![Build](https://github.com/beemdevelopment/Tesser/actions/workflows/build-app-workflow.yaml/badge.svg)](https://github.com/beemdevelopment/Tesser/actions/workflows/build-app-workflow.yaml?query=branch%3Amaster) [![Crowdin](https://badges.crowdin.net/Tesser-authenticator/localized.svg)](https://crowdin.com/project/Tesser-authenticator) [![Donate](https://img.shields.io/badge/donate-buy%20us%20a%20beer-%23FF813F)](https://www.buymeacoffee.com/beemdevelopment) [![Matrix](https://img.shields.io/matrix/Tesser:matrix.org?color=blue)](https://matrix.to/#/#Tesser:matrix.org)
 
-**Aegis Authenticator** is a free, secure and open source 2FA app for Android.
+**Tesser Authenticator** is a free, secure and open source 2FA app for Android.
 It aims to provide a secure authenticator for your online services, while also
 including some features missing in existing authenticator apps, like proper
-encryption and backups. Aegis supports HOTP and TOTP, making it compatible with
+encryption and backups. Tesser supports HOTP and TOTP, making it compatible with
 thousands of services.
 
 For a list of frequently asked questions, please check out [the FAQ](FAQ.md).
@@ -70,14 +70,14 @@ src="metadata/en-US/images/phoneScreenshots/screenshot8.png?raw=true">](metadata
 
 ## Downloads
 
-Aegis is available on the Google Play Store and on F-Droid.
+Tesser is available on the Google Play Store and on F-Droid.
 
 [<img height=80 alt="Get it on Google Play"
 src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
-/>](http://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
+/>](http://play.google.com/store/apps/details?id=com.beemdevelopment.Tesser)
 [<img height="80" alt="Get it on F-Droid"
 src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-/>](https://f-droid.org/app/com.beemdevelopment.aegis)
+/>](https://f-droid.org/app/com.beemdevelopment.Tesser)
 
 ### Verification
 
@@ -86,7 +86,7 @@ be verified using
 [apksigner](https://developer.android.com/studio/command-line/apksigner.html#options-verify):
 
 ```
-apksigner verify --print-certs --verbose aegis.apk
+apksigner verify --print-certs --verbose Tesser.apk
 ```
 
 The output should look like:
@@ -112,60 +112,60 @@ Certificate fingerprints:
 
 ### Icon packs
 
-Aegis supports icon packs to make it easier to assign icons to the entries in
+Tesser supports icon packs to make it easier to assign icons to the entries in
 your vault. There are no official icon packs, but the community maintains a
 number of third-party icon packs you may want to check out. To learn how to
-create your own Aegis-compatible icon pack, see [the
+create your own Tesser-compatible icon pack, see [the
 documentation](docs/iconpacks.md).
 
-- [aegis-icons](https://github.com/aegis-icons/aegis-icons)
+- [Tesser-icons](https://github.com/Tesser-icons/Tesser-icons)
 
   Unofficial monochrome-styled 2FA icons.
 
-  [<img width=500 alt="aegis-icons preview"
-  src="metadata/en-US/images/iconPacks/aegis-icons.png">](https://github.com/aegis-icons/aegis-icons)
+  [<img width=500 alt="Tesser-icons preview"
+  src="metadata/en-US/images/iconPacks/Tesser-icons.png">](https://github.com/Tesser-icons/Tesser-icons)
 
-- [delta-aegis-icons](https://github.com/Delta-Icons/aegis-icons)
+- [delta-Tesser-icons](https://github.com/Delta-Icons/Tesser-icons)
 
-  Delta version of the unofficial monochrome-styled 2FA icon pack aegis-icons.
+  Delta version of the unofficial monochrome-styled 2FA icon pack Tesser-icons.
 
   [<img width=500 alt="delta-icons preview"
-  src="metadata/en-US/images/iconPacks/delta-icons.png">](https://github.com/Delta-Icons/aegis-icons)
+  src="metadata/en-US/images/iconPacks/delta-icons.png">](https://github.com/Delta-Icons/Tesser-icons)
 
-- [aegis-simple-icons](https://github.com/alexbakker/aegis-simple-icons) \*
+- [Tesser-simple-icons](https://github.com/alexbakker/Tesser-simple-icons) \*
 
-  This project periodically generates an icon pack for Aegis based on [Simple
+  This project periodically generates an icon pack for Tesser based on [Simple
   Icons](https://simpleicons.org/).
 
-  [<img width=500 alt="aegis-simple-icons preview"
-  src="metadata/en-US/images/iconPacks/aegis-simple-icons.png">](https://github.com/alexbakker/aegis-simple-icons)
+  [<img width=500 alt="Tesser-simple-icons preview"
+  src="metadata/en-US/images/iconPacks/Tesser-simple-icons.png">](https://github.com/alexbakker/Tesser-simple-icons)
 
-- [aegis-simple-icons-outlined](https://github.com/michaelschattgen/aegis-simple-icons-outlined) \*
+- [Tesser-simple-icons-outlined](https://github.com/michaelschattgen/Tesser-simple-icons-outlined) \*
 
-  This is a variant on the aegis-simple-icons pack where the icons contain no solid background and just the outlines are being used.
+  This is a variant on the Tesser-simple-icons pack where the icons contain no solid background and just the outlines are being used.
 
-  [<img width=500 alt="aegis-simple-icons-outlined preview"
-  src="metadata/en-US/images/iconPacks/aegis-simple-icons-outlined.png">](https://github.com/michaelschattgen/aegis-simple-icons-outlined)
+  [<img width=500 alt="Tesser-simple-icons-outlined preview"
+  src="metadata/en-US/images/iconPacks/Tesser-simple-icons-outlined.png">](https://github.com/michaelschattgen/Tesser-simple-icons-outlined)
 
 \* The icons are automatically generated, so
 not all of them are as high quality as the ones you'll find in
-[aegis-icons](https://github.com/aegis-icons/aegis-icons).
+[Tesser-icons](https://github.com/Tesser-icons/Tesser-icons).
 
 ## Contributing
 
-Looking to contribute to Aegis? That's great! There are a couple of ways to help
+Looking to contribute to Tesser? That's great! There are a couple of ways to help
 out. Translations, bug reports and pull requests are all greatly appreciated.
 Please refer to our [contributing guidelines](CONTRIBUTING.md) to get started.
 
 Swing by our Matrix room to interact with other contributors:
-[#aegis:matrix.org](https://matrix.to/#/#aegis:matrix.org).
+[#Tesser:matrix.org](https://matrix.to/#/#Tesser:matrix.org).
 
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the
 [LICENSE](LICENSE) file for details.
 
-A couple of libraries vendored in Aegis' repository are licensed under a
+A couple of libraries vendored in Tesser' repository are licensed under a
 different license:
 
 - [TextDrawable](app/src/main/java/com/amulyakhare/textdrawable)

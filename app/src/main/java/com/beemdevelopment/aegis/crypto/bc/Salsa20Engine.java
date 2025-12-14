@@ -18,7 +18,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 DEALINGS IN THE SOFTWARE.
  */
 
-package com.beemdevelopment.aegis.crypto.bc;
+package com.beemdevelopment.Tesser.crypto.bc;
 
 /**
  * Implementation of Daniel J. Bernstein's Salsa20 stream cipher, Snuffle 2005

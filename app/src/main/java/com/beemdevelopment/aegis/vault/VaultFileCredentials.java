@@ -1,13 +1,13 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.aegis.crypto.CryptParameters;
-import com.beemdevelopment.aegis.crypto.CryptResult;
-import com.beemdevelopment.aegis.crypto.MasterKey;
-import com.beemdevelopment.aegis.crypto.MasterKeyException;
-import com.beemdevelopment.aegis.util.Cloner;
-import com.beemdevelopment.aegis.vault.slots.SlotList;
+import com.beemdevelopment.Tesser.crypto.CryptParameters;
+import com.beemdevelopment.Tesser.crypto.CryptResult;
+import com.beemdevelopment.Tesser.crypto.MasterKey;
+import com.beemdevelopment.Tesser.crypto.MasterKeyException;
+import com.beemdevelopment.Tesser.util.Cloner;
+import com.beemdevelopment.Tesser.vault.slots.SlotList;
 
 import java.io.Serializable;
 

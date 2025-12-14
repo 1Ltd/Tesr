@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import com.google.common.collect.ImmutableMap;
 
@@ -10,8 +10,8 @@ public class ThemeMap {
     }
 
     public static final Map<Theme, Integer> DEFAULT = ImmutableMap.of(
-            Theme.LIGHT, R.style.Theme_Aegis_Light,
-            Theme.DARK, R.style.Theme_Aegis_Dark,
-            Theme.AMOLED, R.style.Theme_Aegis_Amoled
+            Theme.LIGHT, R.style.Theme_Tesser_Light,
+            Theme.DARK, R.style.Theme_Tesser_Dark,
+            Theme.AMOLED, R.style.Theme_Tesser_Amoled
     );
 }

@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.content.Intent;
 import android.graphics.Rect;
@@ -15,19 +15,19 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.MetricsHelper;
-import com.beemdevelopment.aegis.icons.IconPack;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.dialogs.IconPickerDialog;
-import com.beemdevelopment.aegis.ui.glide.GlideHelper;
-import com.beemdevelopment.aegis.ui.models.AssignIconEntry;
-import com.beemdevelopment.aegis.ui.views.AssignIconAdapter;
-import com.beemdevelopment.aegis.ui.views.IconAdapter;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.helpers.ViewHelper;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultEntryIcon;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.MetricsHelper;
+import com.beemdevelopment.Tesser.icons.IconPack;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.dialogs.IconPickerDialog;
+import com.beemdevelopment.Tesser.ui.glide.GlideHelper;
+import com.beemdevelopment.Tesser.ui.models.AssignIconEntry;
+import com.beemdevelopment.Tesser.ui.views.AssignIconAdapter;
+import com.beemdevelopment.Tesser.ui.views.IconAdapter;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.helpers.ViewHelper;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.ListPreloader;
 import com.bumptech.glide.RequestBuilder;
@@ -45,7 +45,7 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-public class AssignIconsActivity extends AegisActivity implements AssignIconAdapter.Listener {
+public class AssignIconsActivity extends TesserActivity implements AssignIconAdapter.Listener {
     private AssignIconAdapter _adapter;
     private ArrayList<AssignIconEntry> _entries = new ArrayList<>();
     private RecyclerView _entriesView;

@@ -1,9 +1,9 @@
-package com.beemdevelopment.aegis.icons;
+package com.beemdevelopment.Tesser.icons;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.aegis.util.JsonUtils;
+import com.beemdevelopment.Tesser.util.JsonUtils;
 import com.google.common.base.Objects;
 import com.google.common.io.Files;
 

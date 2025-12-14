@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.fragments.preferences;
+package com.beemdevelopment.Tesser.ui.fragments.preferences;
 
 import static android.text.TextUtils.isDigitsOnly;
 
@@ -13,23 +13,23 @@ import androidx.biometric.BiometricPrompt;
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreferenceCompat;
 
-import com.beemdevelopment.aegis.PassReminderFreq;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.crypto.KeyStoreHandle;
-import com.beemdevelopment.aegis.crypto.KeyStoreHandleException;
-import com.beemdevelopment.aegis.helpers.BiometricSlotInitializer;
-import com.beemdevelopment.aegis.helpers.BiometricsHelper;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.preferences.SwitchPreference;
-import com.beemdevelopment.aegis.ui.tasks.PasswordSlotDecryptTask;
-import com.beemdevelopment.aegis.vault.VaultFileCredentials;
-import com.beemdevelopment.aegis.vault.VaultRepositoryException;
-import com.beemdevelopment.aegis.vault.slots.BiometricSlot;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
-import com.beemdevelopment.aegis.vault.slots.Slot;
-import com.beemdevelopment.aegis.vault.slots.SlotException;
-import com.beemdevelopment.aegis.vault.slots.SlotList;
+import com.beemdevelopment.Tesser.PassReminderFreq;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.crypto.KeyStoreHandle;
+import com.beemdevelopment.Tesser.crypto.KeyStoreHandleException;
+import com.beemdevelopment.Tesser.helpers.BiometricSlotInitializer;
+import com.beemdevelopment.Tesser.helpers.BiometricsHelper;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.preferences.SwitchPreference;
+import com.beemdevelopment.Tesser.ui.tasks.PasswordSlotDecryptTask;
+import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
+import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
+import com.beemdevelopment.Tesser.vault.slots.BiometricSlot;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.vault.slots.Slot;
+import com.beemdevelopment.Tesser.vault.slots.SlotException;
+import com.beemdevelopment.Tesser.vault.slots.SlotList;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.Arrays;
@@ -83,7 +83,7 @@ public class SecurityPreferencesFragment extends PreferencesFragment {
             if (!_vaultManager.getVault().isEncryptionEnabled()) {
                 Dialogs.showSetPasswordDialog(requireActivity(), new EnableEncryptionListener());
             } else {
-                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                         .setTitle(R.string.disable_encryption)
                         .setMessage(getText(R.string.disable_encryption_description))
                         .setIconAttribute(android.R.attr.alertDialogIcon)
@@ -162,7 +162,7 @@ public class SecurityPreferencesFragment extends PreferencesFragment {
                     task.execute(getLifecycle(), params);
                 } else {
                     _pinKeyboardPreference.setChecked(false);
-                    Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Aegis_AlertDialog_Error)
+                    Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Tesser_AlertDialog_Error)
                             .setTitle(R.string.pin_keyboard_error)
                             .setMessage(R.string.pin_keyboard_error_description)
                             .setIconAttribute(android.R.attr.alertDialogIcon)
@@ -453,7 +453,7 @@ public class SecurityPreferencesFragment extends PreferencesFragment {
             if (result != null) {
                 _pinKeyboardPreference.setChecked(true);
             } else {
-                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Aegis_AlertDialog_Error)
+                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Tesser_AlertDialog_Error)
                         .setTitle(R.string.pin_keyboard_error)
                         .setMessage(R.string.invalid_password)
                         .setIconAttribute(android.R.attr.alertDialogIcon)

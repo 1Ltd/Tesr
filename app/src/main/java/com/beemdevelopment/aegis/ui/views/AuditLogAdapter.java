@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,10 +7,10 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.database.AuditLogEntry;
-import com.beemdevelopment.aegis.ui.models.AuditLogEntryModel;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.database.AuditLogEntry;
+import com.beemdevelopment.Tesser.ui.models.AuditLogEntryModel;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 
 import java.util.ArrayList;
 import java.util.List;

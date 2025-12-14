@@ -1,12 +1,12 @@
-package com.beemdevelopment.aegis.helpers;
+package com.beemdevelopment.Tesser.helpers;
 
 import android.content.res.Configuration;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.Theme;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.Theme;
 import com.google.android.material.color.DynamicColors;
 import com.google.android.material.color.DynamicColorsOptions;
 
@@ -32,9 +32,9 @@ public class ThemeHelper {
         if (_prefs.isDynamicColorsEnabled()) {
             DynamicColorsOptions.Builder optsBuilder = new DynamicColorsOptions.Builder();
             if (getConfiguredTheme().equals(Theme.AMOLED)) {
-                optsBuilder.setThemeOverlay(R.style.ThemeOverlay_Aegis_Dynamic_Amoled);
+                optsBuilder.setThemeOverlay(R.style.ThemeOverlay_Tesser_Dynamic_Amoled);
             } else if (getConfiguredTheme().equals(Theme.DARK)) {
-                optsBuilder.setThemeOverlay(R.style.ThemeOverlay_Aegis_Dynamic_Dark);
+                optsBuilder.setThemeOverlay(R.style.ThemeOverlay_Tesser_Dynamic_Dark);
             }
 
             DynamicColors.applyToActivityIfAvailable(_activity, optsBuilder.build());

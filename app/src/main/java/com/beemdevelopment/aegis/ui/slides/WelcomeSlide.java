@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.slides;
+package com.beemdevelopment.Tesser.ui.slides;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -11,15 +11,15 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult;
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.importers.AegisImporter;
-import com.beemdevelopment.aegis.importers.DatabaseImporter;
-import com.beemdevelopment.aegis.importers.DatabaseImporterException;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.intro.SlideFragment;
-import com.beemdevelopment.aegis.ui.tasks.ImportFileTask;
-import com.beemdevelopment.aegis.vault.VaultFileCredentials;
-import com.beemdevelopment.aegis.vault.VaultRepository;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.importers.TesserImporter;
+import com.beemdevelopment.Tesser.importers.DatabaseImporter;
+import com.beemdevelopment.Tesser.importers.DatabaseImporterException;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.intro.SlideFragment;
+import com.beemdevelopment.Tesser.ui.tasks.ImportFileTask;
+import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -63,13 +63,13 @@ public class WelcomeSlide extends SlideFragment {
             }
 
             try (FileInputStream inStream = new FileInputStream(result.getFile())) {
-                AegisImporter importer = new AegisImporter(requireContext());
+                TesserImporter importer = new TesserImporter(requireContext());
                 DatabaseImporter.State state = importer.read(inStream, false);
                 if (state.isEncrypted()) {
                     state.decrypt(requireContext(), new DatabaseImporter.DecryptListener() {
                         @Override
                         protected void onStateDecrypted(DatabaseImporter.State state) {
-                            _creds = ((AegisImporter.DecryptedState) state).getCredentials();
+                            _creds = ((TesserImporter.DecryptedState) state).getCredentials();
                             importVault(result.getFile());
                         }
 

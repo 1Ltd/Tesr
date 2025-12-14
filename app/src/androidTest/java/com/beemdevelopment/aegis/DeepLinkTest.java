@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -12,10 +12,10 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;
 
-import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.ui.MainActivity;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.ui.MainActivity;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -26,7 +26,7 @@ import dagger.hilt.android.testing.HiltAndroidTest;
 @RunWith(AndroidJUnit4.class)
 @HiltAndroidTest
 @LargeTest
-public class DeepLinkTest extends AegisTest {
+public class DeepLinkTest extends TesserTest {
     @Before
     public void before() {
         initEmptyEncryptedVault();

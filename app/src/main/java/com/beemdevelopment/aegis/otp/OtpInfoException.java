@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.otp;
+package com.beemdevelopment.Tesser.otp;
 
 public class OtpInfoException extends Exception {
     public OtpInfoException(Throwable cause) {

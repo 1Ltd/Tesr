@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.models;
+package com.beemdevelopment.Tesser.ui.models;
 
 import android.view.View;
 

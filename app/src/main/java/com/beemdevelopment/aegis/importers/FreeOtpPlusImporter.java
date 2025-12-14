@@ -1,9 +1,9 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.util.IOUtils;
 import com.topjohnwu.superuser.io.SuFile;
 
 import org.json.JSONArray;

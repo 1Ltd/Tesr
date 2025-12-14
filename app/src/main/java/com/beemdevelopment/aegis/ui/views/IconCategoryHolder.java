@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
+import com.beemdevelopment.Tesser.R;
 
 public class IconCategoryHolder extends RecyclerView.ViewHolder {
     private final TextView _textView;

@@ -1,18 +1,18 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.beemdevelopment.aegis.BuildConfig;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.crypto.pins.GuardianProjectFDroidRSA2048;
-import com.beemdevelopment.aegis.vault.VaultRepository;
+import com.beemdevelopment.Tesser.BuildConfig;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.crypto.pins.GuardianProjectFDroidRSA2048;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
 
 import info.guardianproject.GuardianProjectRSA4096;
 import info.guardianproject.trustedintents.TrustedIntents;
 
-public class PanicResponderActivity extends AegisActivity {
+public class PanicResponderActivity extends TesserActivity {
     public static final String PANIC_TRIGGER_ACTION = "info.guardianproject.panic.action.TRIGGER";
 
     @Override

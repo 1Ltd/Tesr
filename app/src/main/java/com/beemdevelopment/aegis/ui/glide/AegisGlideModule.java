@@ -1,12 +1,12 @@
-package com.beemdevelopment.aegis.ui.glide;
+package com.beemdevelopment.Tesser.ui.glide;
 
 import android.content.Context;
 import android.graphics.drawable.PictureDrawable;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultEntryIcon;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.Registry;
 import com.bumptech.glide.annotation.GlideModule;
@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.nio.ByteBuffer;
 
 @GlideModule
-public class AegisGlideModule extends AppGlideModule {
+public class TesserGlideModule extends AppGlideModule {
     @Override
     public void registerComponents(@NonNull Context context, @NonNull Glide glide, @NonNull Registry registry) {
         registry.prepend(VaultEntryIcon.class, ByteBuffer.class, new VaultEntryIconLoader.Factory());

@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.rules;
+package com.beemdevelopment.Tesser.rules;
 
 import android.graphics.Bitmap;
 

@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThrows;
@@ -10,8 +10,8 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 import androidx.test.rule.ActivityTestRule;
 
-import com.beemdevelopment.aegis.ui.PanicResponderActivity;
-import com.beemdevelopment.aegis.vault.VaultRepository;
+import com.beemdevelopment.Tesser.ui.PanicResponderActivity;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -22,7 +22,7 @@ import dagger.hilt.android.testing.HiltAndroidTest;
 @RunWith(AndroidJUnit4.class)
 @HiltAndroidTest
 @SmallTest
-public class PanicTriggerTest extends AegisTest {
+public class PanicTriggerTest extends TesserTest {
     @Before
     public void before() {
         initEncryptedVault();

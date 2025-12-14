@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.fragments.preferences;
+package com.beemdevelopment.Tesser.ui.fragments.preferences;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -6,10 +6,10 @@ import android.widget.Button;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 
-import com.beemdevelopment.aegis.CopyBehavior;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.CopyBehavior;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class BehaviorPreferencesFragment extends PreferencesFragment {

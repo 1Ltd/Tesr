@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -9,8 +9,8 @@ import static org.junit.Assert.assertTrue;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
-import com.beemdevelopment.aegis.AegisTest;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.TesserTest;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -21,7 +21,7 @@ import dagger.hilt.android.testing.HiltAndroidTest;
 @RunWith(AndroidJUnit4.class)
 @HiltAndroidTest
 @SmallTest
-public class VaultRepositoryTest extends AegisTest {
+public class VaultRepositoryTest extends TesserTest {
     @Before
     public void before() {
         initEncryptedVault();

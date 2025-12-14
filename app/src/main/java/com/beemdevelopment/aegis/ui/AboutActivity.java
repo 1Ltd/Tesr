@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -17,22 +17,22 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.beemdevelopment.aegis.BuildConfig;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ui.dialogs.ChangelogDialog;
-import com.beemdevelopment.aegis.ui.dialogs.LicenseDialog;
-import com.beemdevelopment.aegis.helpers.ViewHelper;
+import com.beemdevelopment.Tesser.BuildConfig;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ui.dialogs.ChangelogDialog;
+import com.beemdevelopment.Tesser.ui.dialogs.LicenseDialog;
+import com.beemdevelopment.Tesser.helpers.ViewHelper;
 import com.google.android.material.color.MaterialColors;
 
-public class AboutActivity extends AegisActivity {
+public class AboutActivity extends TesserActivity {
 
-    private static String GITHUB = "https://github.com/beemdevelopment/Aegis";
+    private static String GITHUB = "https://github.com/beemdevelopment/Tesser";
     private static String WEBSITE_ALEXANDER = "https://alexbakker.me";
     private static String GITHUB_MICHAEL = "https://github.com/michaelschattgen";
 
     private static String MAIL_BEEMDEVELOPMENT = "beemdevelopment@gmail.com";
     private static String WEBSITE_BEEMDEVELOPMENT = "https://beem.dev/";
-    private static String PLAYSTORE_BEEMDEVELOPMENT = "https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis";
+    private static String PLAYSTORE_BEEMDEVELOPMENT = "https://play.google.com/store/apps/details?id=com.beemdevelopment.Tesser";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

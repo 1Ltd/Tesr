@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.database;
+package com.beemdevelopment.Tesser.database;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,7 +7,7 @@ import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
-import com.beemdevelopment.aegis.EventType;
+import com.beemdevelopment.Tesser.EventType;
 
 @Entity(tableName = "audit_logs")
 public class AuditLogEntry {

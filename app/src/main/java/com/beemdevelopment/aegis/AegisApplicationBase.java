@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import android.app.Application;
 import android.app.NotificationChannel;
@@ -18,10 +18,10 @@ import androidx.lifecycle.LifecycleEventObserver;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ProcessLifecycleOwner;
 
-import com.beemdevelopment.aegis.receivers.VaultLockReceiver;
-import com.beemdevelopment.aegis.ui.MainActivity;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.vault.VaultManager;
+import com.beemdevelopment.Tesser.receivers.VaultLockReceiver;
+import com.beemdevelopment.Tesser.ui.MainActivity;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.vault.VaultManager;
 import com.topjohnwu.superuser.Shell;
 
 import java.util.Collections;
@@ -31,7 +31,7 @@ import dagger.hilt.android.EarlyEntryPoint;
 import dagger.hilt.android.EarlyEntryPoints;
 import dagger.hilt.components.SingletonComponent;
 
-public abstract class AegisApplicationBase extends Application {
+public abstract class TesserApplicationBase extends Application {
     private static final String CODE_LOCK_STATUS_ID = "lock_status_channel";
 
     private VaultManager _vaultManager;

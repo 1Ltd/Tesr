@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -17,13 +17,13 @@ import androidx.camera.lifecycle.ProcessCameraProvider;
 import androidx.camera.view.PreviewView;
 import androidx.core.content.ContextCompat;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.QrCodeAnalyzer;
-import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
-import com.beemdevelopment.aegis.otp.GoogleAuthInfoException;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.helpers.ViewHelper;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.QrCodeAnalyzer;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.helpers.ViewHelper;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.zxing.Result;
 
@@ -33,7 +33,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class ScannerActivity extends AegisActivity implements QrCodeAnalyzer.Listener {
+public class ScannerActivity extends TesserActivity implements QrCodeAnalyzer.Listener {
     private ProcessCameraProvider _cameraProvider;
     private ListenableFuture<ProcessCameraProvider> _cameraProviderFuture;
 

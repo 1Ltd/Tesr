@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
 public class VaultRepositoryException extends Exception {
     public VaultRepositoryException(Throwable cause) {

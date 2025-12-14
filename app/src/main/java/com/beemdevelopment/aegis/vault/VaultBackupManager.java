@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -10,10 +10,10 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.documentfile.provider.DocumentFile;
 
-import com.beemdevelopment.aegis.BackupsVersioningStrategy;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.database.AuditLogRepository;
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.BackupsVersioningStrategy;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.database.AuditLogRepository;
+import com.beemdevelopment.Tesser.util.IOUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -39,7 +39,7 @@ public class VaultBackupManager {
     private static final StrictDateFormat _dateFormat =
             new StrictDateFormat("yyyyMMdd-HHmmss", Locale.ENGLISH);
 
-    public static final String FILENAME_PREFIX = "aegis-backup";
+    public static final String FILENAME_PREFIX = "Tesser-backup";
     public static final String FILENAME_SINGLE = String.format("%s.json", FILENAME_PREFIX);
 
     private final Context _context;

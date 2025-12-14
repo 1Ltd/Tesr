@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import android.animation.AnimatorSet;
 import android.animation.ArgbEvaluator;
@@ -22,22 +22,22 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.AccountNamePosition;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ViewMode;
-import com.beemdevelopment.aegis.helpers.AnimationsHelper;
-import com.beemdevelopment.aegis.helpers.CenterVerticalSpan;
-import com.beemdevelopment.aegis.helpers.SimpleAnimationEndListener;
-import com.beemdevelopment.aegis.helpers.UiRefresher;
-import com.beemdevelopment.aegis.otp.HotpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.SteamInfo;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.otp.YandexInfo;
-import com.beemdevelopment.aegis.ui.glide.GlideHelper;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.AccountNamePosition;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ViewMode;
+import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
+import com.beemdevelopment.Tesser.helpers.CenterVerticalSpan;
+import com.beemdevelopment.Tesser.helpers.SimpleAnimationEndListener;
+import com.beemdevelopment.Tesser.helpers.UiRefresher;
+import com.beemdevelopment.Tesser.otp.HotpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.SteamInfo;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.otp.YandexInfo;
+import com.beemdevelopment.Tesser.ui.glide.GlideHelper;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.bumptech.glide.Glide;
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.color.MaterialColors;
@@ -316,7 +316,7 @@ public class EntryHolder extends RecyclerView.ViewHolder {
     private String getOtp(int offset) {
         OtpInfo info = _entry.getInfo();
 
-        // In previous versions of Aegis, it was possible to import entries with an empty
+        // In previous versions of Tesser, it was possible to import entries with an empty
         // secret. Attempting to generate OTP's for such entries would result in a crash.
         // In case we encounter an old entry that has this issue, we display "ERROR" as
         // the OTP, instead of crashing.

@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -6,17 +6,17 @@ import android.util.Xml;
 
 import androidx.lifecycle.Lifecycle;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.ContextHelper;
-import com.beemdevelopment.aegis.otp.HotpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.SteamInfo;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.tasks.PBKDFTask;
-import com.beemdevelopment.aegis.util.PreferenceParser;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.ContextHelper;
+import com.beemdevelopment.Tesser.otp.HotpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.SteamInfo;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.tasks.PBKDFTask;
+import com.beemdevelopment.Tesser.util.PreferenceParser;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.topjohnwu.superuser.io.SuFile;
 
@@ -173,13 +173,13 @@ public class FreeOtpImporter extends DatabaseImporter {
 
         @Override
         public void decrypt(Context context, DecryptListener listener) {
-            Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+            Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                     .setTitle(R.string.importer_warning_title_freeotp2)
                     .setMessage(R.string.importer_warning_message_freeotp2)
                     .setIconAttribute(android.R.attr.alertDialogIcon)
                     .setCancelable(false)
                     .setPositiveButton(android.R.string.ok, (dialog, which) -> {
-                        Dialogs.showPasswordInputDialog(context, R.string.enter_password_aegis_title, 0, password -> {
+                        Dialogs.showPasswordInputDialog(context, R.string.enter_password_Tesser_title, 0, password -> {
                             PBKDFTask.Params params = getKeyDerivationParams(password, _mkAlgo);
                             PBKDFTask task = new PBKDFTask(context, key -> {
                                 try {

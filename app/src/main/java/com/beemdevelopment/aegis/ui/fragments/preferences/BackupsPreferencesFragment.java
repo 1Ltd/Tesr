@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.fragments.preferences;
+package com.beemdevelopment.Tesser.ui.fragments.preferences;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -17,12 +17,12 @@ import androidx.annotation.Nullable;
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreferenceCompat;
 
-import com.beemdevelopment.aegis.BackupsVersioningStrategy;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.vault.VaultBackupManager;
-import com.beemdevelopment.aegis.vault.VaultRepositoryException;
+import com.beemdevelopment.Tesser.BackupsVersioningStrategy;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.vault.VaultBackupManager;
+import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
 import com.google.android.material.color.MaterialColors;
 
 public class BackupsPreferencesFragment extends PreferencesFragment {

@@ -1,10 +1,10 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import android.content.Context;
 
-import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
-import com.beemdevelopment.aegis.otp.GoogleAuthInfoException;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.topjohnwu.superuser.io.SuFile;
 
 import java.io.BufferedReader;

@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.util;
+package com.beemdevelopment.Tesser.util;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

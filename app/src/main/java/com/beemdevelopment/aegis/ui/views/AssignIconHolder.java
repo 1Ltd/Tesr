@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -6,9 +6,9 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ui.glide.GlideHelper;
-import com.beemdevelopment.aegis.ui.models.AssignIconEntry;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ui.glide.GlideHelper;
+import com.beemdevelopment.Tesser.ui.models.AssignIconEntry;
 import com.bumptech.glide.Glide;
 
 public class AssignIconHolder extends RecyclerView.ViewHolder implements AssignIconEntry.Listener {

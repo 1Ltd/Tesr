@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -12,11 +12,11 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.rules.ScreenshotTestRule;
-import com.beemdevelopment.aegis.ui.MainActivity;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.rules.ScreenshotTestRule;
+import com.beemdevelopment.Tesser.ui.MainActivity;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 
 import org.junit.After;
 import org.junit.Before;
@@ -31,7 +31,7 @@ import dagger.hilt.android.testing.HiltAndroidTest;
 @RunWith(AndroidJUnit4.class)
 @HiltAndroidTest
 @SmallTest
-public class EmptySecretTest extends AegisTest {
+public class EmptySecretTest extends TesserTest {
     private ActivityScenario<MainActivity> _scenario;
 
     @Before

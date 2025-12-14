@@ -1,7 +1,7 @@
-package com.beemdevelopment.aegis.otp;
+package com.beemdevelopment.Tesser.otp;
 
-import com.beemdevelopment.aegis.crypto.otp.OTP;
-import com.beemdevelopment.aegis.crypto.otp.TOTP;
+import com.beemdevelopment.Tesser.crypto.otp.OTP;
+import com.beemdevelopment.Tesser.crypto.otp.TOTP;
 
 import org.json.JSONException;
 import org.json.JSONObject;

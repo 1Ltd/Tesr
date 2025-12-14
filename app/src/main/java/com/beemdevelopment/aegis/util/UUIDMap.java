@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.util;
+package com.beemdevelopment.Tesser.util;
 
 import androidx.annotation.NonNull;
 

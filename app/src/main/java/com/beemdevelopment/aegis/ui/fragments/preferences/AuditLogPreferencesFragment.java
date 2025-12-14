@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.fragments.preferences;
+package com.beemdevelopment.Tesser.ui.fragments.preferences;
 
 import android.graphics.Rect;
 import android.os.Bundle;
@@ -14,14 +14,14 @@ import androidx.lifecycle.LiveData;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.database.AuditLogEntry;
-import com.beemdevelopment.aegis.database.AuditLogRepository;
-import com.beemdevelopment.aegis.helpers.MetricsHelper;
-import com.beemdevelopment.aegis.ui.models.AuditLogEntryModel;
-import com.beemdevelopment.aegis.ui.views.AuditLogAdapter;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultManager;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.database.AuditLogEntry;
+import com.beemdevelopment.Tesser.database.AuditLogRepository;
+import com.beemdevelopment.Tesser.helpers.MetricsHelper;
+import com.beemdevelopment.Tesser.ui.models.AuditLogEntryModel;
+import com.beemdevelopment.Tesser.ui.views.AuditLogAdapter;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultManager;
 
 import java.util.List;
 import java.util.UUID;

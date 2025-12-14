@@ -1,7 +1,7 @@
-package com.beemdevelopment.aegis.crypto;
+package com.beemdevelopment.Tesser.crypto;
 
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.encoding.Hex;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.encoding.Hex;
 
 import org.json.JSONException;
 import org.json.JSONObject;

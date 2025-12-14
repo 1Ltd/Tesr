@@ -1,11 +1,11 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.os.Bundle;
 
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ThemeMap;
-import com.beemdevelopment.aegis.helpers.ThemeHelper;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ThemeMap;
+import com.beemdevelopment.Tesser.helpers.ThemeHelper;
 import com.mikepenz.aboutlibraries.LibsBuilder;
 import com.mikepenz.aboutlibraries.ui.LibsActivity;
 

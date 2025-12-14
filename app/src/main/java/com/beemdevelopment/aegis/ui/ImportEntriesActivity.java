@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -14,24 +14,24 @@ import androidx.appcompat.app.ActionBar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.BitmapHelper;
-import com.beemdevelopment.aegis.helpers.FabScrollHelper;
-import com.beemdevelopment.aegis.helpers.ViewHelper;
-import com.beemdevelopment.aegis.icons.IconType;
-import com.beemdevelopment.aegis.importers.DatabaseImporter;
-import com.beemdevelopment.aegis.importers.DatabaseImporterEntryException;
-import com.beemdevelopment.aegis.importers.DatabaseImporterException;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.models.ImportEntry;
-import com.beemdevelopment.aegis.ui.tasks.IconOptimizationTask;
-import com.beemdevelopment.aegis.ui.tasks.RootShellTask;
-import com.beemdevelopment.aegis.ui.views.ImportEntriesAdapter;
-import com.beemdevelopment.aegis.util.UUIDMap;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultEntryIcon;
-import com.beemdevelopment.aegis.vault.VaultGroup;
-import com.beemdevelopment.aegis.vault.VaultRepository;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.BitmapHelper;
+import com.beemdevelopment.Tesser.helpers.FabScrollHelper;
+import com.beemdevelopment.Tesser.helpers.ViewHelper;
+import com.beemdevelopment.Tesser.icons.IconType;
+import com.beemdevelopment.Tesser.importers.DatabaseImporter;
+import com.beemdevelopment.Tesser.importers.DatabaseImporterEntryException;
+import com.beemdevelopment.Tesser.importers.DatabaseImporterException;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.models.ImportEntry;
+import com.beemdevelopment.Tesser.ui.tasks.IconOptimizationTask;
+import com.beemdevelopment.Tesser.ui.tasks.RootShellTask;
+import com.beemdevelopment.Tesser.ui.views.ImportEntriesAdapter;
+import com.beemdevelopment.Tesser.util.UUIDMap;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
+import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -49,7 +49,7 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-public class ImportEntriesActivity extends AegisActivity {
+public class ImportEntriesActivity extends TesserActivity {
     private View _view;
     private Menu _menu;
     private RecyclerView _entriesView;
@@ -110,7 +110,7 @@ public class ImportEntriesActivity extends AegisActivity {
             if (importer.isInstalledAppVersionSupported()) {
                 startImportApp(importer);
             } else {
-                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                         .setTitle(R.string.warning)
                         .setMessage(getString(R.string.app_version_error, importerDef.getName()))
                         .setCancelable(false)

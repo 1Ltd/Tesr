@@ -1,9 +1,9 @@
-package com.beemdevelopment.aegis.ui.tasks;
+package com.beemdevelopment.Tesser.ui.tasks;
 
 import android.content.Context;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.crypto.CryptoUtils;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.crypto.CryptoUtils;
 
 import org.bouncycastle.crypto.digests.SHA512Digest;
 import org.bouncycastle.crypto.generators.PKCS5S2ParametersGenerator;

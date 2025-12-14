@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import static android.database.sqlite.SQLiteDatabase.OPEN_READONLY;
 
@@ -8,7 +8,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.util.IOUtils;
 import com.google.common.io.Files;
 import com.topjohnwu.superuser.io.SuFile;
 import com.topjohnwu.superuser.io.SuFileInputStream;

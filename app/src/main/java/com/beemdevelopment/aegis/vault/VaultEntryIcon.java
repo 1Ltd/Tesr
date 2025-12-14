@@ -1,13 +1,13 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.aegis.encoding.Base64;
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.encoding.Hex;
-import com.beemdevelopment.aegis.icons.IconType;
-import com.beemdevelopment.aegis.util.JsonUtils;
+import com.beemdevelopment.Tesser.encoding.Base64;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.encoding.Hex;
+import com.beemdevelopment.Tesser.icons.IconType;
+import com.beemdevelopment.Tesser.util.JsonUtils;
 import com.google.common.hash.HashCode;
 
 import org.json.JSONException;

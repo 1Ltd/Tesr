@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.glide;
+package com.beemdevelopment.Tesser.ui.glide;
 
 import android.graphics.Picture;
 import android.graphics.drawable.PictureDrawable;

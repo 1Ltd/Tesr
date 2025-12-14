@@ -1,13 +1,13 @@
-package com.beemdevelopment.aegis.ui.tasks;
+package com.beemdevelopment.Tesser.ui.tasks;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.BitmapHelper;
-import com.beemdevelopment.aegis.icons.IconType;
-import com.beemdevelopment.aegis.vault.VaultEntryIcon;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.BitmapHelper;
+import com.beemdevelopment.Tesser.icons.IconType;
+import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
 
 import java.util.HashMap;
 import java.util.Map;

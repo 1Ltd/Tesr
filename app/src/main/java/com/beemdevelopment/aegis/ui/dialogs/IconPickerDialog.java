@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.dialogs;
+package com.beemdevelopment.Tesser.ui.dialogs;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
@@ -16,11 +16,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.PopupMenu;
 import androidx.recyclerview.widget.GridLayoutManager;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.icons.IconPack;
-import com.beemdevelopment.aegis.ui.glide.GlideHelper;
-import com.beemdevelopment.aegis.ui.views.IconAdapter;
-import com.beemdevelopment.aegis.ui.views.IconRecyclerView;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.icons.IconPack;
+import com.beemdevelopment.Tesser.ui.glide.GlideHelper;
+import com.beemdevelopment.Tesser.ui.views.IconAdapter;
+import com.beemdevelopment.Tesser.ui.views.IconRecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.ListPreloader;
 import com.bumptech.glide.RequestBuilder;

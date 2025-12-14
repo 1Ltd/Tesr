@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-// source (slightly modified for Aegis): https://github.com/chiuki/android-recyclerview/blob/745dc88/app/src/main/java/com/sqisland/android/recyclerview/AutofitRecyclerView.java
+// source (slightly modified for Tesser): https://github.com/chiuki/android-recyclerview/blob/745dc88/app/src/main/java/com/sqisland/android/recyclerview/AutofitRecyclerView.java
 public class IconRecyclerView extends RecyclerView {
     private GridLayoutManager _manager;
     private int _columnWidth = -1;

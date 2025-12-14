@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.intro;
+package com.beemdevelopment.Tesser.ui.intro;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,7 +10,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.aegis.R;
+import com.beemdevelopment.Tesser.R;
 
 public class SlideIndicator extends View {
     private Paint _paint;

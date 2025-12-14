@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.icons;
+package com.beemdevelopment.Tesser.icons;
 
 public class IconPackException extends Exception {
     public IconPackException(Throwable cause) {

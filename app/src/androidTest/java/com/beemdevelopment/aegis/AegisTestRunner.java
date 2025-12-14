@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import android.app.Application;
 import android.app.Instrumentation;
@@ -8,9 +8,9 @@ import androidx.preference.PreferenceManager;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.runner.AndroidJUnitRunner;
 
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.util.IOUtils;
 
-public class AegisTestRunner extends AndroidJUnitRunner {
+public class TesserTestRunner extends AndroidJUnitRunner {
     static {
         BuildConfig.TEST.set(true);
     }
@@ -18,7 +18,7 @@ public class AegisTestRunner extends AndroidJUnitRunner {
     @Override
     public Application newApplication(ClassLoader cl, String name, Context context)
             throws ClassNotFoundException, IllegalAccessException, InstantiationException {
-        return Instrumentation.newApplication(AegisTestApplication_Application.class, context);
+        return Instrumentation.newApplication(TesserTestApplication_Application.class, context);
     }
 
     @Override

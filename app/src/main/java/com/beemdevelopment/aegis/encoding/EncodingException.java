@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.encoding;
+package com.beemdevelopment.Tesser.encoding;
 
 import java.io.IOException;
 

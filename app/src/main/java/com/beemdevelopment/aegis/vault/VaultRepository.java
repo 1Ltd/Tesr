@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
 import android.content.Context;
 
@@ -6,9 +6,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.util.AtomicFile;
 
-import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
-import com.beemdevelopment.aegis.util.Cloner;
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
+import com.beemdevelopment.Tesser.util.Cloner;
+import com.beemdevelopment.Tesser.util.IOUtils;
 import com.google.zxing.WriterException;
 
 import org.json.JSONObject;
@@ -28,11 +28,11 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 public class VaultRepository {
-    public static final String FILENAME = "aegis.json";
-    public static final String FILENAME_PREFIX_EXPORT = "aegis-export";
-    public static final String FILENAME_PREFIX_EXPORT_PLAIN = "aegis-export-plain";
-    public static final String FILENAME_PREFIX_EXPORT_URI = "aegis-export-uri";
-    public static final String FILENAME_PREFIX_EXPORT_HTML = "aegis-export-html";
+    public static final String FILENAME = "Tesser.json";
+    public static final String FILENAME_PREFIX_EXPORT = "Tesser-export";
+    public static final String FILENAME_PREFIX_EXPORT_PLAIN = "Tesser-export-plain";
+    public static final String FILENAME_PREFIX_EXPORT_URI = "Tesser-export-uri";
+    public static final String FILENAME_PREFIX_EXPORT_HTML = "Tesser-export-html";
 
     @NonNull
     private final Vault _vault;

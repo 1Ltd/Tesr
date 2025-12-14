@@ -1,12 +1,12 @@
-package com.beemdevelopment.aegis.ui.models;
+package com.beemdevelopment.Tesser.ui.models;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.aegis.GroupPlaceholderType;
-import com.beemdevelopment.aegis.vault.VaultGroup;
+import com.beemdevelopment.Tesser.GroupPlaceholderType;
+import com.beemdevelopment.Tesser.vault.VaultGroup;
 
 import java.io.Serializable;
 import java.util.UUID;

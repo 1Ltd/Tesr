@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -17,14 +17,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ActionMode;
 import androidx.core.view.ViewPropertyAnimatorCompat;
 
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ThemeMap;
-import com.beemdevelopment.aegis.database.AuditLogRepository;
-import com.beemdevelopment.aegis.helpers.ThemeHelper;
-import com.beemdevelopment.aegis.icons.IconPackManager;
-import com.beemdevelopment.aegis.vault.VaultManager;
-import com.beemdevelopment.aegis.vault.VaultRepositoryException;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ThemeMap;
+import com.beemdevelopment.Tesser.database.AuditLogRepository;
+import com.beemdevelopment.Tesser.helpers.ThemeHelper;
+import com.beemdevelopment.Tesser.icons.IconPackManager;
+import com.beemdevelopment.Tesser.vault.VaultManager;
+import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.color.MaterialColors;
 
@@ -42,7 +42,7 @@ import dagger.hilt.android.EarlyEntryPoints;
 import dagger.hilt.components.SingletonComponent;
 
 @AndroidEntryPoint
-public abstract class AegisActivity extends AppCompatActivity implements VaultManager.LockListener {
+public abstract class TesserActivity extends AppCompatActivity implements VaultManager.LockListener {
     protected Preferences _prefs;
     protected ThemeHelper _themeHelper;
 
@@ -68,7 +68,7 @@ public abstract class AegisActivity extends AppCompatActivity implements VaultMa
 
         _statusGuardHack = new ActionModeStatusGuardHack();
 
-        // set FLAG_SECURE on the window of every AegisActivity
+        // set FLAG_SECURE on the window of every TesserActivity
         if (_prefs.isSecureScreenEnabled()) {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
         }

@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,12 +11,12 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.views.GroupAdapter;
-import com.beemdevelopment.aegis.util.Cloner;
-import com.beemdevelopment.aegis.helpers.ViewHelper;
-import com.beemdevelopment.aegis.vault.VaultGroup;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.views.GroupAdapter;
+import com.beemdevelopment.Tesser.util.Cloner;
+import com.beemdevelopment.Tesser.helpers.ViewHelper;
+import com.beemdevelopment.Tesser.vault.VaultGroup;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
-public class GroupManagerActivity extends AegisActivity implements GroupAdapter.Listener {
+public class GroupManagerActivity extends TesserActivity implements GroupAdapter.Listener {
     private GroupAdapter _adapter;
     private HashSet<UUID> _removedGroups;
     private RecyclerView _groupsView;
@@ -127,7 +127,7 @@ public class GroupManagerActivity extends AegisActivity implements GroupAdapter.
 
     @Override
     public void onRemoveGroup(VaultGroup group) {
-        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                 .setTitle(R.string.remove_group)
                 .setMessage(R.string.remove_group_description)
                 .setIconAttribute(android.R.attr.alertDialogIcon)
@@ -142,7 +142,7 @@ public class GroupManagerActivity extends AegisActivity implements GroupAdapter.
     }
 
     public void onRemoveUnusedGroups() {
-        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                 .setTitle(R.string.remove_unused_groups)
                 .setMessage(R.string.remove_unused_groups_description)
                 .setIconAttribute(android.R.attr.alertDialogIcon)

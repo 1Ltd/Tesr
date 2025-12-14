@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.fragments.preferences;
+package com.beemdevelopment.Tesser.ui.fragments.preferences;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -22,17 +22,17 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.AnimationsHelper;
-import com.beemdevelopment.aegis.helpers.FabScrollHelper;
-import com.beemdevelopment.aegis.icons.IconPack;
-import com.beemdevelopment.aegis.icons.IconPackException;
-import com.beemdevelopment.aegis.icons.IconPackExistsException;
-import com.beemdevelopment.aegis.icons.IconPackManager;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.tasks.ImportIconPackTask;
-import com.beemdevelopment.aegis.ui.views.IconPackAdapter;
-import com.beemdevelopment.aegis.vault.VaultManager;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
+import com.beemdevelopment.Tesser.helpers.FabScrollHelper;
+import com.beemdevelopment.Tesser.icons.IconPack;
+import com.beemdevelopment.Tesser.icons.IconPackException;
+import com.beemdevelopment.Tesser.icons.IconPackExistsException;
+import com.beemdevelopment.Tesser.icons.IconPackManager;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.tasks.ImportIconPackTask;
+import com.beemdevelopment.Tesser.ui.views.IconPackAdapter;
+import com.beemdevelopment.Tesser.vault.VaultManager;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -119,7 +119,7 @@ public class IconPacksManagerFragment extends Fragment implements IconPackAdapte
 
     @Override
     public void onRemoveIconPack(IconPack pack) {
-        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                 .setTitle(R.string.remove_icon_pack)
                 .setMessage(R.string.remove_icon_pack_description)
                 .setIconAttribute(android.R.attr.alertDialogIcon)
@@ -134,7 +134,7 @@ public class IconPacksManagerFragment extends Fragment implements IconPackAdapte
         ImportIconPackTask task = new ImportIconPackTask(requireContext(), result -> {
             Exception e = result.getException();
             if (e instanceof IconPackExistsException) {
-                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Aegis_AlertDialog_Error)
+                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(requireContext(), R.style.ThemeOverlay_Tesser_AlertDialog_Error)
                         .setTitle(R.string.error_occurred)
                         .setMessage(R.string.icon_pack_import_exists_error)
                         .setIconAttribute(android.R.attr.alertDialogIcon)

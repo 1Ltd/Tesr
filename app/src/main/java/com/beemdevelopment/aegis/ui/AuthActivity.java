@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui;
+package com.beemdevelopment.Tesser.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -21,26 +21,26 @@ import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.biometric.BiometricPrompt;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.crypto.KeyStoreHandle;
-import com.beemdevelopment.aegis.crypto.KeyStoreHandleException;
-import com.beemdevelopment.aegis.crypto.MasterKey;
-import com.beemdevelopment.aegis.helpers.BiometricsHelper;
-import com.beemdevelopment.aegis.helpers.EditTextHelper;
-import com.beemdevelopment.aegis.helpers.MetricsHelper;
-import com.beemdevelopment.aegis.helpers.UiThreadExecutor;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.tasks.PasswordSlotDecryptTask;
-import com.beemdevelopment.aegis.vault.VaultFile;
-import com.beemdevelopment.aegis.vault.VaultFileCredentials;
-import com.beemdevelopment.aegis.vault.VaultRepository;
-import com.beemdevelopment.aegis.vault.VaultRepositoryException;
-import com.beemdevelopment.aegis.vault.slots.BiometricSlot;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
-import com.beemdevelopment.aegis.vault.slots.Slot;
-import com.beemdevelopment.aegis.vault.slots.SlotException;
-import com.beemdevelopment.aegis.vault.slots.SlotIntegrityException;
-import com.beemdevelopment.aegis.vault.slots.SlotList;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.crypto.KeyStoreHandle;
+import com.beemdevelopment.Tesser.crypto.KeyStoreHandleException;
+import com.beemdevelopment.Tesser.crypto.MasterKey;
+import com.beemdevelopment.Tesser.helpers.BiometricsHelper;
+import com.beemdevelopment.Tesser.helpers.EditTextHelper;
+import com.beemdevelopment.Tesser.helpers.MetricsHelper;
+import com.beemdevelopment.Tesser.helpers.UiThreadExecutor;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.tasks.PasswordSlotDecryptTask;
+import com.beemdevelopment.Tesser.vault.VaultFile;
+import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
+import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
+import com.beemdevelopment.Tesser.vault.slots.BiometricSlot;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.vault.slots.Slot;
+import com.beemdevelopment.Tesser.vault.slots.SlotException;
+import com.beemdevelopment.Tesser.vault.slots.SlotIntegrityException;
+import com.beemdevelopment.Tesser.vault.slots.SlotList;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.textfield.TextInputLayout;
 
@@ -49,7 +49,7 @@ import java.util.List;
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 
-public class AuthActivity extends AegisActivity {
+public class AuthActivity extends TesserActivity {
     // Permission request codes
     private static final int CODE_PERM_NOTIFICATIONS = 0;
 
@@ -179,7 +179,7 @@ public class AuthActivity extends AegisActivity {
 
         biometricsButton.setOnClickListener(v -> {
             if (_prefs.isPasswordReminderNeeded()) {
-                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Aegis_AlertDialog_Warning)
+                Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_Tesser_AlertDialog_Warning)
                         .setTitle(getString(R.string.password_reminder_dialog_title))
                         .setMessage(getString(R.string.password_reminder_dialog_message))
                         .setCancelable(false)
@@ -311,7 +311,7 @@ public class AuthActivity extends AegisActivity {
     }
 
     private void onInvalidPassword() {
-        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(AuthActivity.this, R.style.ThemeOverlay_Aegis_AlertDialog_Error)
+        Dialogs.showSecureDialog(new MaterialAlertDialogBuilder(AuthActivity.this, R.style.ThemeOverlay_Tesser_AlertDialog_Error)
                 .setTitle(getString(R.string.unlock_vault_error))
                 .setMessage(getString(R.string.unlock_vault_error_description))
                 .setCancelable(false)

@@ -1,10 +1,10 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
-import com.beemdevelopment.aegis.helpers.comparators.LastUsedComparator;
-import com.beemdevelopment.aegis.helpers.comparators.UsageCountComparator;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.helpers.comparators.AccountNameComparator;
-import com.beemdevelopment.aegis.helpers.comparators.IssuerNameComparator;
+import com.beemdevelopment.Tesser.helpers.comparators.LastUsedComparator;
+import com.beemdevelopment.Tesser.helpers.comparators.UsageCountComparator;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.helpers.comparators.AccountNameComparator;
+import com.beemdevelopment.Tesser.helpers.comparators.IssuerNameComparator;
 
 import java.util.Collections;
 import java.util.Comparator;

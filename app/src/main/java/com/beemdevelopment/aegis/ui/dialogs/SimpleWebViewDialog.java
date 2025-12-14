@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.dialogs;
+package com.beemdevelopment.Tesser.ui.dialogs;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -15,8 +15,8 @@ import androidx.annotation.StringRes;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.Theme;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.Theme;
 import com.google.android.material.color.MaterialColors;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.common.io.CharStreams;

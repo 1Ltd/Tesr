@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.encoding;
+package com.beemdevelopment.Tesser.encoding;
 
 import com.google.common.io.BaseEncoding;
 

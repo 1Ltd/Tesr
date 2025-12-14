@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
 import android.app.Activity;
 import android.app.backup.BackupManager;
@@ -12,14 +12,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.beemdevelopment.aegis.BackupsVersioningStrategy;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.crypto.KeyStoreHandle;
-import com.beemdevelopment.aegis.crypto.KeyStoreHandleException;
-import com.beemdevelopment.aegis.database.AuditLogRepository;
-import com.beemdevelopment.aegis.services.NotificationService;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.BackupsVersioningStrategy;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.crypto.KeyStoreHandle;
+import com.beemdevelopment.Tesser.crypto.KeyStoreHandleException;
+import com.beemdevelopment.Tesser.database.AuditLogRepository;
+import com.beemdevelopment.Tesser.services.NotificationService;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -237,7 +237,7 @@ public class VaultManager {
     }
 
     /**
-     * Starts an external activity, temporarily blocks automatic lock of Aegis and
+     * Starts an external activity, temporarily blocks automatic lock of Tesser and
      * shows an error dialog if the target activity is not found.
      */
     public void fireIntentLauncher(Activity activity, Intent intent, ActivityResultLauncher<Intent> resultLauncher) {
@@ -257,7 +257,7 @@ public class VaultManager {
     }
 
     /**
-     * Starts an external activity, temporarily blocks automatic lock of Aegis and
+     * Starts an external activity, temporarily blocks automatic lock of Tesser and
      * shows an error dialog if the target activity is not found.
      */
     public void fireIntentLauncher(Fragment fragment, Intent intent, ActivityResultLauncher<Intent> resultLauncher) {

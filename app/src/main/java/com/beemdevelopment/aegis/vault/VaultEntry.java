@@ -1,11 +1,11 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
-import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.util.JsonUtils;
-import com.beemdevelopment.aegis.util.UUIDMap;
+import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.util.JsonUtils;
+import com.beemdevelopment.Tesser.util.UUIDMap;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -105,7 +105,7 @@ public class VaultEntry extends UUIDMap.Value {
 
             // Silently ignore any errors that occur when trying to parse the icon of an
             // entry. This allows us to introduce new icon types in the future (e.g. WebP)
-            // without breaking compatibility with older versions of Aegis.
+            // without breaking compatibility with older versions of Tesser.
             try {
                 VaultEntryIcon icon = VaultEntryIcon.fromJson(obj);
                 entry.setIcon(icon);

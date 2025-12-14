@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.icons;
+package com.beemdevelopment.Tesser.icons;
 
 public class IconPackExistsException extends IconPackException {
     private IconPack _pack;

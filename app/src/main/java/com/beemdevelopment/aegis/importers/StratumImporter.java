@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -6,20 +6,20 @@ import android.database.Cursor;
 
 import androidx.lifecycle.Lifecycle;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.encoding.Base32;
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.helpers.ContextHelper;
-import com.beemdevelopment.aegis.otp.HotpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.SteamInfo;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.tasks.Argon2Task;
-import com.beemdevelopment.aegis.ui.tasks.PBKDFTask;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.encoding.Base32;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.helpers.ContextHelper;
+import com.beemdevelopment.Tesser.otp.HotpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.SteamInfo;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.tasks.Argon2Task;
+import com.beemdevelopment.Tesser.ui.tasks.PBKDFTask;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.topjohnwu.superuser.io.SuFile;
 
 import org.bouncycastle.crypto.params.Argon2Parameters;
@@ -165,7 +165,7 @@ public class StratumImporter extends DatabaseImporter {
 
         @Override
         public void decrypt(Context context, DecryptListener listener) throws DatabaseImporterException {
-            Dialogs.showPasswordInputDialog(context, R.string.enter_password_aegis_title, 0, (Dialogs.TextInputListener) password -> {
+            Dialogs.showPasswordInputDialog(context, R.string.enter_password_Tesser_title, 0, (Dialogs.TextInputListener) password -> {
                 Argon2Task.Params params = getKeyDerivationParams(password);
                 Argon2Task task = new Argon2Task(context, key -> {
                     try {
@@ -240,7 +240,7 @@ public class StratumImporter extends DatabaseImporter {
 
         @Override
         public void decrypt(Context context, DecryptListener listener) throws DatabaseImporterException {
-            Dialogs.showPasswordInputDialog(context, R.string.enter_password_aegis_title, 0, (Dialogs.TextInputListener) password -> {
+            Dialogs.showPasswordInputDialog(context, R.string.enter_password_Tesser_title, 0, (Dialogs.TextInputListener) password -> {
                 PBKDFTask.Params params = getKeyDerivationParams(password);
                 PBKDFTask task = new PBKDFTask(context, key -> {
                     try {

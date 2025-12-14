@@ -1,14 +1,14 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import android.content.Context;
 
 import androidx.room.Room;
 
-import com.beemdevelopment.aegis.database.AppDatabase;
-import com.beemdevelopment.aegis.database.AuditLogDao;
-import com.beemdevelopment.aegis.database.AuditLogRepository;
-import com.beemdevelopment.aegis.icons.IconPackManager;
-import com.beemdevelopment.aegis.vault.VaultManager;
+import com.beemdevelopment.Tesser.database.AppDatabase;
+import com.beemdevelopment.Tesser.database.AuditLogDao;
+import com.beemdevelopment.Tesser.database.AuditLogRepository;
+import com.beemdevelopment.Tesser.icons.IconPackManager;
+import com.beemdevelopment.Tesser.vault.VaultManager;
 
 import javax.inject.Singleton;
 
@@ -20,7 +20,7 @@ import dagger.hilt.components.SingletonComponent;
 
 @Module
 @InstallIn(SingletonComponent.class)
-public class AegisModule {
+public class TesserModule {
     @Provides
     @Singleton
     public static IconPackManager provideIconPackManager(@ApplicationContext Context context) {
@@ -49,7 +49,7 @@ public class AegisModule {
     @Singleton
     public static AppDatabase provideAppDatabase(@ApplicationContext Context context) {
         return Room.databaseBuilder(context.getApplicationContext(),
-                        AppDatabase.class, "aegis-db")
+                        AppDatabase.class, "Tesser-db")
                 .build();
     }
 }

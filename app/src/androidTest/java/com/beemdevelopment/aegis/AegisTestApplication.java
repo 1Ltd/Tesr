@@ -1,7 +1,7 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import dagger.hilt.android.testing.CustomTestApplication;
 
-@CustomTestApplication(AegisApplicationBase.class)
-public interface AegisTestApplication {
+@CustomTestApplication(TesserApplicationBase.class)
+public interface TesserTestApplication {
 }

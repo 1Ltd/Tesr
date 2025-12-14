@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import android.view.View;
 import android.widget.TextView;
@@ -6,8 +6,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ui.models.ErrorCardInfo;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ui.models.ErrorCardInfo;
 import com.google.android.material.card.MaterialCardView;
 
 public class ErrorCardHolder extends RecyclerView.ViewHolder {

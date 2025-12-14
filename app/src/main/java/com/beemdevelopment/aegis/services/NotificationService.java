@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.services;
+package com.beemdevelopment.Tesser.services;
 
 import android.annotation.SuppressLint;
 import android.app.PendingIntent;
@@ -10,9 +10,9 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.beemdevelopment.aegis.BuildConfig;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.receivers.VaultLockReceiver;
+import com.beemdevelopment.Tesser.BuildConfig;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.receivers.VaultLockReceiver;
 
 public class NotificationService extends Service {
     private static final int NOTIFICATION_VAULT_UNLOCKED = 1;
@@ -35,7 +35,7 @@ public class NotificationService extends Service {
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 1, intent, flags);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
-                .setSmallIcon(R.drawable.ic_aegis_notification)
+                .setSmallIcon(R.drawable.ic_Tesser_notification)
                 .setContentTitle(getString(R.string.app_name_full))
                 .setContentText(getString(R.string.vault_unlocked_state))
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)

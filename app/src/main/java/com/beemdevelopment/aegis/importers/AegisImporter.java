@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -6,19 +6,19 @@ import android.content.DialogInterface;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.Lifecycle;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.ContextHelper;
-import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
-import com.beemdevelopment.aegis.ui.tasks.PasswordSlotDecryptTask;
-import com.beemdevelopment.aegis.util.IOUtils;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultEntryException;
-import com.beemdevelopment.aegis.vault.VaultFile;
-import com.beemdevelopment.aegis.vault.VaultFileCredentials;
-import com.beemdevelopment.aegis.vault.VaultFileException;
-import com.beemdevelopment.aegis.vault.VaultGroup;
-import com.beemdevelopment.aegis.vault.slots.PasswordSlot;
-import com.beemdevelopment.aegis.vault.slots.SlotList;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.ContextHelper;
+import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.beemdevelopment.Tesser.ui.tasks.PasswordSlotDecryptTask;
+import com.beemdevelopment.Tesser.util.IOUtils;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultEntryException;
+import com.beemdevelopment.Tesser.vault.VaultFile;
+import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
+import com.beemdevelopment.Tesser.vault.VaultFileException;
+import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.beemdevelopment.Tesser.vault.slots.SlotList;
 import com.topjohnwu.superuser.io.SuFile;
 
 import org.json.JSONArray;
@@ -30,9 +30,9 @@ import java.io.InputStream;
 import java.util.List;
 import java.util.UUID;
 
-public class AegisImporter extends DatabaseImporter {
+public class TesserImporter extends DatabaseImporter {
 
-    public AegisImporter(Context context) {
+    public TesserImporter(Context context) {
         super(context);
     }
 
@@ -87,7 +87,7 @@ public class AegisImporter extends DatabaseImporter {
 
         @Override
         public void decrypt(Context context, DecryptListener listener) {
-            Dialogs.showPasswordInputDialog(context, R.string.enter_password_aegis_title, 0, (Dialogs.TextInputListener) password -> {
+            Dialogs.showPasswordInputDialog(context, R.string.enter_password_Tesser_title, 0, (Dialogs.TextInputListener) password -> {
                 List<PasswordSlot> slots = getSlots().findAll(PasswordSlot.class);
                 PasswordSlotDecryptTask.Params params = new PasswordSlotDecryptTask.Params(slots, password);
                 PasswordSlotDecryptTask task = new PasswordSlotDecryptTask(context, result -> {

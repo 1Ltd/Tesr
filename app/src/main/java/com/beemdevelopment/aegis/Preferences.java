@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis;
+package com.beemdevelopment.Tesser;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,9 +11,9 @@ import androidx.annotation.Nullable;
 import androidx.core.provider.DocumentsContractCompat;
 import androidx.preference.PreferenceManager;
 
-import com.beemdevelopment.aegis.util.JsonUtils;
-import com.beemdevelopment.aegis.util.TimeUtils;
-import com.beemdevelopment.aegis.vault.VaultBackupPermissionException;
+import com.beemdevelopment.Tesser.util.JsonUtils;
+import com.beemdevelopment.Tesser.util.TimeUtils;
+import com.beemdevelopment.Tesser.vault.VaultBackupPermissionException;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,11 +1,11 @@
-package com.beemdevelopment.aegis.ui.tasks;
+package com.beemdevelopment.Tesser.ui.tasks;
 
 import android.content.Context;
 import android.net.Uri;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.helpers.QrCodeHelper;
-import com.beemdevelopment.aegis.helpers.SafHelper;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.helpers.QrCodeHelper;
+import com.beemdevelopment.Tesser.helpers.SafHelper;
 
 import java.io.IOException;
 import java.io.InputStream;

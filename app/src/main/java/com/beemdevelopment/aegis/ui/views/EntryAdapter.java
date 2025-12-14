@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import static androidx.recyclerview.widget.RecyclerView.NO_POSITION;
 
@@ -19,22 +19,22 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.AccountNamePosition;
-import com.beemdevelopment.aegis.CopyBehavior;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.SortCategory;
-import com.beemdevelopment.aegis.ViewMode;
-import com.beemdevelopment.aegis.helpers.ItemTouchHelperAdapter;
-import com.beemdevelopment.aegis.helpers.comparators.FavoriteComparator;
-import com.beemdevelopment.aegis.otp.HotpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.ui.models.ErrorCardInfo;
-import com.beemdevelopment.aegis.util.CollectionUtils;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vault.VaultGroup;
+import com.beemdevelopment.Tesser.AccountNamePosition;
+import com.beemdevelopment.Tesser.CopyBehavior;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.SortCategory;
+import com.beemdevelopment.Tesser.ViewMode;
+import com.beemdevelopment.Tesser.helpers.ItemTouchHelperAdapter;
+import com.beemdevelopment.Tesser.helpers.comparators.FavoriteComparator;
+import com.beemdevelopment.Tesser.otp.HotpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.ui.models.ErrorCardInfo;
+import com.beemdevelopment.Tesser.util.CollectionUtils;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vault.VaultGroup;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.helpers;
+package com.beemdevelopment.Tesser.helpers;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;
@@ -6,7 +6,7 @@ import android.widget.AutoCompleteTextView;
 
 import androidx.annotation.ArrayRes;
 
-import com.beemdevelopment.aegis.R;
+import com.beemdevelopment.Tesser.R;
 
 import java.util.List;
 

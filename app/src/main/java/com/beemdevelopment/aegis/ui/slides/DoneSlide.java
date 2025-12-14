@@ -1,12 +1,12 @@
-package com.beemdevelopment.aegis.ui.slides;
+package com.beemdevelopment.Tesser.ui.slides;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.ui.intro.SlideFragment;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.ui.intro.SlideFragment;
 
 public class DoneSlide extends SlideFragment {
     @Override

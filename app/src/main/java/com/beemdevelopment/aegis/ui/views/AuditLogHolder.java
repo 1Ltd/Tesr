@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.ui.views;
+package com.beemdevelopment.Tesser.ui.views;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -9,11 +9,11 @@ import android.widget.TextView;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.aegis.EventType;
-import com.beemdevelopment.aegis.R;
-import com.beemdevelopment.aegis.database.AuditLogEntry;
-import com.beemdevelopment.aegis.ui.models.AuditLogEntryModel;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.EventType;
+import com.beemdevelopment.Tesser.R;
+import com.beemdevelopment.Tesser.database.AuditLogEntry;
+import com.beemdevelopment.Tesser.ui.models.AuditLogEntryModel;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.google.android.material.color.MaterialColors;
 
 import java.time.Instant;

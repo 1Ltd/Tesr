@@ -1,12 +1,12 @@
-package com.beemdevelopment.aegis.receivers;
+package com.beemdevelopment.Tesser.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.beemdevelopment.aegis.BuildConfig;
-import com.beemdevelopment.aegis.Preferences;
-import com.beemdevelopment.aegis.vault.VaultManager;
+import com.beemdevelopment.Tesser.BuildConfig;
+import com.beemdevelopment.Tesser.Preferences;
+import com.beemdevelopment.Tesser.vault.VaultManager;
 
 import javax.inject.Inject;
 

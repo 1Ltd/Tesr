@@ -15,7 +15,7 @@ def getCmdOutput = { cmd ->
 def getGitHash = { -> return getCmdOutput(["git", "rev-parse", "--short", "HEAD"]) }
 def getGitBranch = { -> return getCmdOutput(["git", "rev-parse", "--abbrev-ref", "HEAD"]) }
 
-def packageName = "com.beemdevelopment.aegis"
+def packageName = "com.beemdevelopment.Tesser"
 def fileProviderAuthority = "${packageName}.fileprovider"
 def fileProviderAuthorityDebug = "${packageName}.debug.fileprovider"
 
@@ -41,7 +41,7 @@ android {
             }
         }
 
-        testInstrumentationRunner "com.beemdevelopment.aegis.AegisTestRunner"
+        testInstrumentationRunner "com.beemdevelopment.Tesser.TesserTestRunner"
         testInstrumentationRunnerArguments clearPackageData: 'true'
     }
 
@@ -71,7 +71,7 @@ android {
         debug {
             applicationIdSuffix ".debug"
             manifestPlaceholders = [
-                title: "AegisDev",
+                title: "TesserDev",
                 iconName: "ic_launcher_debug",
                 fileProviderAuthority: "${fileProviderAuthorityDebug}"
             ]
@@ -80,7 +80,7 @@ android {
         }
         release {
             manifestPlaceholders = [
-                title: "Aegis",
+                title: "Tesser",
                 iconName: "ic_launcher",
                 fileProviderAuthority: "${fileProviderAuthority}"
             ]

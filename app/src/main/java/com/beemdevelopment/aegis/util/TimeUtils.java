@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.util;
+package com.beemdevelopment.Tesser.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

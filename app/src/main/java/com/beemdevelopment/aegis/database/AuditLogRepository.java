@@ -1,8 +1,8 @@
-package com.beemdevelopment.aegis.database;
+package com.beemdevelopment.Tesser.database;
 
 import androidx.lifecycle.LiveData;
 
-import com.beemdevelopment.aegis.EventType;
+import com.beemdevelopment.Tesser.EventType;
 
 import java.util.List;
 import java.util.concurrent.Executor;

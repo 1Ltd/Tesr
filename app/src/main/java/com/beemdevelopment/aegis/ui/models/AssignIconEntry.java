@@ -1,7 +1,7 @@
-package com.beemdevelopment.aegis.ui.models;
+package com.beemdevelopment.Tesser.ui.models;
 
-import com.beemdevelopment.aegis.icons.IconPack;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.icons.IconPack;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 
 import java.io.Serializable;
 

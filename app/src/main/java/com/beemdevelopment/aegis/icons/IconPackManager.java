@@ -1,10 +1,10 @@
-package com.beemdevelopment.aegis.icons;
+package com.beemdevelopment.Tesser.icons;
 
 import android.content.Context;
 
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.util.IOUtils;
 
 import net.lingala.zip4j.ZipFile;
 import net.lingala.zip4j.io.inputstream.ZipInputStream;

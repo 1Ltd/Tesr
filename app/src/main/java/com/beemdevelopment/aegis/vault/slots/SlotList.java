@@ -1,6 +1,6 @@
-package com.beemdevelopment.aegis.vault.slots;
+package com.beemdevelopment.Tesser.vault.slots;
 
-import com.beemdevelopment.aegis.util.UUIDMap;
+import com.beemdevelopment.Tesser.util.UUIDMap;
 
 import org.json.JSONArray;
 import org.json.JSONException;

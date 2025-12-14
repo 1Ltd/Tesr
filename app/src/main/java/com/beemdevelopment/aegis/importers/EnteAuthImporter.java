@@ -1,8 +1,8 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import android.content.Context;
 
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.util.IOUtils;
 import com.topjohnwu.superuser.io.SuFile;
 
 import java.io.ByteArrayInputStream;
