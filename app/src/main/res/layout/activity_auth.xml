@@ -24,7 +24,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/ic_Tesser_iconx" />
+                app:srcCompat="@drawable/ic_tesser_iconx" />
 
             <TextView
                 android:layout_width="match_parent"
