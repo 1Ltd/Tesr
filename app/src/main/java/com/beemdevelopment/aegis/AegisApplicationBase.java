@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import android.app.Application;
 import android.app.NotificationChannel;
@@ -18,10 +18,10 @@ import androidx.lifecycle.LifecycleEventObserver;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ProcessLifecycleOwner;
 
-import com.beemdevelopment.Tesser.receivers.VaultLockReceiver;
-import com.beemdevelopment.Tesser.ui.MainActivity;
-import com.beemdevelopment.Tesser.util.IOUtils;
-import com.beemdevelopment.Tesser.vault.VaultManager;
+import com.hyz.tesser.receivers.VaultLockReceiver;
+import com.hyz.tesser.ui.MainActivity;
+import com.hyz.tesser.util.IOUtils;
+import com.hyz.tesser.vault.VaultManager;
 import com.topjohnwu.superuser.Shell;
 
 import java.util.Collections;

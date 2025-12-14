@@ -1,8 +1,8 @@
-package com.beemdevelopment.Tesser.ui.dialogs;
+package com.hyz.tesser.ui.dialogs;
 
 import android.content.Context;
 
-import com.beemdevelopment.Tesser.R;
+import com.hyz.tesser.R;
 
 public class LicenseDialog extends SimpleWebViewDialog {
     public LicenseDialog() {

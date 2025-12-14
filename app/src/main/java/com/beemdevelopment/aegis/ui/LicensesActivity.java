@@ -1,11 +1,11 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
 import android.os.Bundle;
 
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.ThemeMap;
-import com.beemdevelopment.Tesser.helpers.ThemeHelper;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.R;
+import com.hyz.tesser.ThemeMap;
+import com.hyz.tesser.helpers.ThemeHelper;
 import com.mikepenz.aboutlibraries.LibsBuilder;
 import com.mikepenz.aboutlibraries.ui.LibsActivity;
 

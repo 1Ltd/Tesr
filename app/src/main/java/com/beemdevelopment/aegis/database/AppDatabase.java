@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.database;
+package com.hyz.tesser.database;
 
 import android.content.Context;
 

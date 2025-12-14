@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -9,8 +9,8 @@ import static org.junit.Assert.assertTrue;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
-import com.beemdevelopment.Tesser.TesserTest;
-import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.hyz.tesser.TesserTest;
+import com.hyz.tesser.vault.slots.PasswordSlot;
 
 import org.junit.Before;
 import org.junit.Test;

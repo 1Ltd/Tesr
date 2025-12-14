@@ -1,14 +1,14 @@
-package com.beemdevelopment.Tesser.otp;
+package com.hyz.tesser.otp;
 
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.Tesser.GoogleAuthProtos;
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.Base64;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.encoding.Hex;
+import com.hyz.tesser.GoogleAuthProtos;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.Base64;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Hex;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
 

@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import android.app.Application;
 import android.app.Instrumentation;
@@ -8,7 +8,7 @@ import androidx.preference.PreferenceManager;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.runner.AndroidJUnitRunner;
 
-import com.beemdevelopment.Tesser.util.IOUtils;
+import com.hyz.tesser.util.IOUtils;
 
 public class TesserTestRunner extends AndroidJUnitRunner {
     static {

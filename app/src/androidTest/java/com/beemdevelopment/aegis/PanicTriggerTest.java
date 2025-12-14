@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThrows;
@@ -10,8 +10,8 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 import androidx.test.rule.ActivityTestRule;
 
-import com.beemdevelopment.Tesser.ui.PanicResponderActivity;
-import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.hyz.tesser.ui.PanicResponderActivity;
+import com.hyz.tesser.vault.VaultRepository;
 
 import org.junit.Before;
 import org.junit.Test;

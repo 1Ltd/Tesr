@@ -1,15 +1,15 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import androidx.annotation.NonNull;
 import androidx.biometric.BiometricPrompt;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
-import com.beemdevelopment.Tesser.crypto.KeyStoreHandle;
-import com.beemdevelopment.Tesser.crypto.KeyStoreHandleException;
-import com.beemdevelopment.Tesser.vault.slots.BiometricSlot;
-import com.beemdevelopment.Tesser.vault.slots.Slot;
-import com.beemdevelopment.Tesser.vault.slots.SlotException;
+import com.hyz.tesser.crypto.KeyStoreHandle;
+import com.hyz.tesser.crypto.KeyStoreHandleException;
+import com.hyz.tesser.vault.slots.BiometricSlot;
+import com.hyz.tesser.vault.slots.Slot;
+import com.hyz.tesser.vault.slots.SlotException;
 
 import java.util.Objects;
 

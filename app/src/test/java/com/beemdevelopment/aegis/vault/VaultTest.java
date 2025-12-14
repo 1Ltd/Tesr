@@ -1,8 +1,8 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 import static org.junit.Assert.assertEquals;
 
-import com.beemdevelopment.Tesser.util.IOUtils;
+import com.hyz.tesser.util.IOUtils;
 
 import org.junit.Test;
 

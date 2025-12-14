@@ -1,8 +1,8 @@
-package com.beemdevelopment.Tesser.otp;
+package com.hyz.tesser.otp;
 
 import static org.junit.Assert.assertEquals;
 
-import com.beemdevelopment.Tesser.crypto.otp.HOTPTest;
+import com.hyz.tesser.crypto.otp.HOTPTest;
 
 import org.junit.Test;
 

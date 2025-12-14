@@ -1,21 +1,21 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.util.Xml;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.Base64;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.encoding.Hex;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.util.JsonUtils;
-import com.beemdevelopment.Tesser.util.PreferenceParser;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.R;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.Base64;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Hex;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.util.JsonUtils;
+import com.hyz.tesser.util.PreferenceParser;
+import com.hyz.tesser.vault.VaultEntry;
 import com.topjohnwu.superuser.Shell;
 import com.topjohnwu.superuser.io.SuFile;
 import com.topjohnwu.superuser.io.SuFileInputStream;

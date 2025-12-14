@@ -1,12 +1,12 @@
-package com.beemdevelopment.Tesser.ui.models;
+package com.hyz.tesser.ui.models;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.Tesser.GroupPlaceholderType;
-import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.hyz.tesser.GroupPlaceholderType;
+import com.hyz.tesser.vault.VaultGroup;
 
 import java.io.Serializable;
 import java.util.UUID;

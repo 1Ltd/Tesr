@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import androidx.annotation.LayoutRes;
 

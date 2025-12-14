@@ -1,12 +1,12 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import android.content.res.Configuration;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.Theme;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.R;
+import com.hyz.tesser.Theme;
 import com.google.android.material.color.DynamicColors;
 import com.google.android.material.color.DynamicColorsOptions;
 

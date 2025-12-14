@@ -1,13 +1,13 @@
-package com.beemdevelopment.Tesser.ui.tasks;
+package com.hyz.tesser.ui.tasks;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.helpers.BitmapHelper;
-import com.beemdevelopment.Tesser.icons.IconType;
-import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
+import com.hyz.tesser.R;
+import com.hyz.tesser.helpers.BitmapHelper;
+import com.hyz.tesser.icons.IconType;
+import com.hyz.tesser.vault.VaultEntryIcon;
 
 import java.util.HashMap;
 import java.util.Map;

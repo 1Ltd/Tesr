@@ -1,11 +1,11 @@
-package com.beemdevelopment.Tesser.crypto;
+package com.hyz.tesser.crypto;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertFalse;
 
-import com.beemdevelopment.Tesser.crypto.bc.SCrypt;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.encoding.Hex;
+import com.hyz.tesser.crypto.bc.SCrypt;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Hex;
 
 import org.junit.Test;
 

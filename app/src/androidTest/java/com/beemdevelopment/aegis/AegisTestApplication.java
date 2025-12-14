@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import dagger.hilt.android.testing.CustomTestApplication;
 

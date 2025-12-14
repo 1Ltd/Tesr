@@ -1,8 +1,8 @@
-package com.beemdevelopment.Tesser.ui.tasks;
+package com.hyz.tesser.ui.tasks;
 
 import android.content.Context;
 
-import com.beemdevelopment.Tesser.R;
+import com.hyz.tesser.R;
 
 import org.bouncycastle.crypto.generators.Argon2BytesGenerator;
 import org.bouncycastle.crypto.params.Argon2Parameters;

@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import android.view.View;
 
@@ -11,18 +11,18 @@ import androidx.test.espresso.matcher.BoundedMatcher;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.rule.GrantPermissionRule;
 
-import com.beemdevelopment.Tesser.crypto.CryptoUtils;
-import com.beemdevelopment.Tesser.crypto.SCryptParameters;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.ui.views.EntryHolder;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
-import com.beemdevelopment.Tesser.vault.VaultManager;
-import com.beemdevelopment.Tesser.vault.VaultRepository;
-import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
-import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
-import com.beemdevelopment.Tesser.vault.slots.SlotException;
-import com.beemdevelopment.Tesser.vectors.VaultEntries;
+import com.hyz.tesser.crypto.CryptoUtils;
+import com.hyz.tesser.crypto.SCryptParameters;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.ui.views.EntryHolder;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.vault.VaultFileCredentials;
+import com.hyz.tesser.vault.VaultManager;
+import com.hyz.tesser.vault.VaultRepository;
+import com.hyz.tesser.vault.VaultRepositoryException;
+import com.hyz.tesser.vault.slots.PasswordSlot;
+import com.hyz.tesser.vault.slots.SlotException;
+import com.hyz.tesser.vectors.VaultEntries;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;

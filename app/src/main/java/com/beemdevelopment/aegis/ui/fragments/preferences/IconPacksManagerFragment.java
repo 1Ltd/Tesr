@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.fragments.preferences;
+package com.hyz.tesser.ui.fragments.preferences;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -22,17 +22,17 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
-import com.beemdevelopment.Tesser.helpers.FabScrollHelper;
-import com.beemdevelopment.Tesser.icons.IconPack;
-import com.beemdevelopment.Tesser.icons.IconPackException;
-import com.beemdevelopment.Tesser.icons.IconPackExistsException;
-import com.beemdevelopment.Tesser.icons.IconPackManager;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.ui.tasks.ImportIconPackTask;
-import com.beemdevelopment.Tesser.ui.views.IconPackAdapter;
-import com.beemdevelopment.Tesser.vault.VaultManager;
+import com.hyz.tesser.R;
+import com.hyz.tesser.helpers.AnimationsHelper;
+import com.hyz.tesser.helpers.FabScrollHelper;
+import com.hyz.tesser.icons.IconPack;
+import com.hyz.tesser.icons.IconPackException;
+import com.hyz.tesser.icons.IconPackExistsException;
+import com.hyz.tesser.icons.IconPackManager;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.ui.tasks.ImportIconPackTask;
+import com.hyz.tesser.ui.views.IconPackAdapter;
+import com.hyz.tesser.vault.VaultManager;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 

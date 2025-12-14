@@ -1,8 +1,8 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.Tesser.util.UUIDMap;
+import com.hyz.tesser.util.UUIDMap;
 
 import org.json.JSONArray;
 import org.json.JSONException;

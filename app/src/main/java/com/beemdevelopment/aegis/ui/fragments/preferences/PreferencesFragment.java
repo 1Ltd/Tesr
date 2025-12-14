@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.fragments.preferences;
+package com.hyz.tesser.ui.fragments.preferences;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,13 +16,13 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.database.AuditLogRepository;
-import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.vault.VaultManager;
-import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.R;
+import com.hyz.tesser.database.AuditLogRepository;
+import com.hyz.tesser.helpers.AnimationsHelper;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.vault.VaultManager;
+import com.hyz.tesser.vault.VaultRepositoryException;
 
 import javax.inject.Inject;
 

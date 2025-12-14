@@ -1,9 +1,9 @@
-package com.beemdevelopment.Tesser.otp;
+package com.hyz.tesser.otp;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.Tesser.crypto.otp.YAOTP;
+import com.hyz.tesser.crypto.otp.YAOTP;
 
 import org.json.JSONException;
 import org.json.JSONObject;

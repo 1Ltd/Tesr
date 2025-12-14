@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

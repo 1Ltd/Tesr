@@ -1,12 +1,12 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
-import com.beemdevelopment.Tesser.crypto.CryptParameters;
-import com.beemdevelopment.Tesser.crypto.CryptResult;
-import com.beemdevelopment.Tesser.crypto.MasterKeyException;
-import com.beemdevelopment.Tesser.encoding.Base64;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.vault.slots.SlotList;
-import com.beemdevelopment.Tesser.vault.slots.SlotListException;
+import com.hyz.tesser.crypto.CryptParameters;
+import com.hyz.tesser.crypto.CryptResult;
+import com.hyz.tesser.crypto.MasterKeyException;
+import com.hyz.tesser.encoding.Base64;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.vault.slots.SlotList;
+import com.hyz.tesser.vault.slots.SlotListException;
 
 import org.json.JSONException;
 import org.json.JSONObject;

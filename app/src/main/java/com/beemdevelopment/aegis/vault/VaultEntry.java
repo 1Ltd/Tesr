@@ -1,11 +1,11 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.util.JsonUtils;
-import com.beemdevelopment.Tesser.util.UUIDMap;
+import com.hyz.tesser.otp.GoogleAuthInfo;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.util.JsonUtils;
+import com.hyz.tesser.util.UUIDMap;
 
 import org.json.JSONArray;
 import org.json.JSONException;

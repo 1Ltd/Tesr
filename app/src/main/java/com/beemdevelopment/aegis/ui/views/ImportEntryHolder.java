@@ -1,12 +1,12 @@
-package com.beemdevelopment.Tesser.ui.views;
+package com.hyz.tesser.ui.views;
 
 import android.content.Context;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.ui.models.ImportEntry;
+import com.hyz.tesser.R;
+import com.hyz.tesser.ui.models.ImportEntry;
 
 import androidx.recyclerview.widget.RecyclerView;
 

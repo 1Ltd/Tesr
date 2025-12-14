@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.vault.slots;
+package com.hyz.tesser.vault.slots;
 
 public class SlotIntegrityException extends Exception {
     public SlotIntegrityException() {

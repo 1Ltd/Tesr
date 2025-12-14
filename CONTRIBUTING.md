@@ -109,11 +109,11 @@ These navigation steps may differ slightly across Android versions and ROMs.
    one below:
 
    ```sh
-   adb logcat --pid=$(adb shell pidof -s com.beemdevelopment.Tesser) > debug.log
+   adb logcat --pid=$(adb shell pidof -s com.hyz.tesser) > debug.log
    ```
 
-   _If you are using a debug APK, replace `com.beemdevelopment.Tesser` with
-   `com.beemdevelopment.Tesser.debug`._
+   _If you are using a debug APK, replace `com.hyz.tesser` with
+   `com.hyz.tesser.debug`._
 
 **On your Android device**:
 

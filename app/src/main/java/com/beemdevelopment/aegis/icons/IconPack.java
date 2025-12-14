@@ -1,9 +1,9 @@
-package com.beemdevelopment.Tesser.icons;
+package com.hyz.tesser.icons;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.Tesser.util.JsonUtils;
+import com.hyz.tesser.util.JsonUtils;
 import com.google.common.base.Objects;
 import com.google.common.io.Files;
 

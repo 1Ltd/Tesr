@@ -1,16 +1,16 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.util.Xml;
 
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.encoding.Hex;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.util.PreferenceParser;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Hex;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.util.PreferenceParser;
+import com.hyz.tesser.vault.VaultEntry;
 import com.google.common.base.Strings;
 import com.topjohnwu.superuser.io.SuFile;
 

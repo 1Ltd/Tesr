@@ -1,19 +1,19 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.util.Base64;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.Hex;
-import com.beemdevelopment.Tesser.helpers.QrCodeHelper;
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
-import com.beemdevelopment.Tesser.otp.HotpInfo;
-import com.beemdevelopment.Tesser.otp.MotpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.otp.YandexInfo;
+import com.hyz.tesser.R;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.Hex;
+import com.hyz.tesser.helpers.QrCodeHelper;
+import com.hyz.tesser.otp.GoogleAuthInfo;
+import com.hyz.tesser.otp.HotpInfo;
+import com.hyz.tesser.otp.MotpInfo;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.otp.YandexInfo;
 import com.google.common.html.HtmlEscapers;
 import com.google.zxing.WriterException;
 

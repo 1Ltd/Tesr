@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -6,17 +6,17 @@ import android.util.Xml;
 
 import androidx.lifecycle.Lifecycle;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.helpers.ContextHelper;
-import com.beemdevelopment.Tesser.otp.HotpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.SteamInfo;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.ui.tasks.PBKDFTask;
-import com.beemdevelopment.Tesser.util.PreferenceParser;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.R;
+import com.hyz.tesser.helpers.ContextHelper;
+import com.hyz.tesser.otp.HotpInfo;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.SteamInfo;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.ui.tasks.PBKDFTask;
+import com.hyz.tesser.util.PreferenceParser;
+import com.hyz.tesser.vault.VaultEntry;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.topjohnwu.superuser.io.SuFile;
 

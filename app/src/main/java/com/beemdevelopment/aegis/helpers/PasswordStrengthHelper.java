@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -7,7 +7,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.beemdevelopment.Tesser.R;
+import com.hyz.tesser.R;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.common.base.Strings;
 import com.nulabinc.zxcvbn.Strength;

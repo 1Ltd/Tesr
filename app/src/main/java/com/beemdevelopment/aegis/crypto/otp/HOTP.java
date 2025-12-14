@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.crypto.otp;
+package com.hyz.tesser.crypto.otp;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

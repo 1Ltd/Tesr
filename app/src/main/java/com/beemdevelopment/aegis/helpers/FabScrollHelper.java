@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

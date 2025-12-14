@@ -1,11 +1,11 @@
-package com.beemdevelopment.Tesser.ui.tasks;
+package com.hyz.tesser.ui.tasks;
 
 import android.content.Context;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.crypto.CryptoUtils;
-import com.beemdevelopment.Tesser.crypto.SCryptParameters;
-import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.hyz.tesser.R;
+import com.hyz.tesser.crypto.CryptoUtils;
+import com.hyz.tesser.crypto.SCryptParameters;
+import com.hyz.tesser.vault.slots.PasswordSlot;
 
 import javax.crypto.SecretKey;
 

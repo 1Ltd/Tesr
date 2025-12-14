@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import android.app.backup.BackupAgent;
 import android.app.backup.BackupDataInput;
@@ -8,12 +8,12 @@ import android.os.Build;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import com.beemdevelopment.Tesser.database.AppDatabase;
-import com.beemdevelopment.Tesser.database.AuditLogRepository;
-import com.beemdevelopment.Tesser.util.IOUtils;
-import com.beemdevelopment.Tesser.vault.VaultFile;
-import com.beemdevelopment.Tesser.vault.VaultRepository;
-import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
+import com.hyz.tesser.database.AppDatabase;
+import com.hyz.tesser.database.AuditLogRepository;
+import com.hyz.tesser.util.IOUtils;
+import com.hyz.tesser.vault.VaultFile;
+import com.hyz.tesser.vault.VaultRepository;
+import com.hyz.tesser.vault.VaultRepositoryException;
 
 import java.io.File;
 import java.io.FileInputStream;

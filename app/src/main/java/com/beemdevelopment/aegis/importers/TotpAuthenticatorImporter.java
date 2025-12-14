@@ -1,21 +1,21 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.util.Xml;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.crypto.CryptoUtils;
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.Base64;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.encoding.Hex;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.util.IOUtils;
-import com.beemdevelopment.Tesser.util.PreferenceParser;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.R;
+import com.hyz.tesser.crypto.CryptoUtils;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.Base64;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Hex;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.util.IOUtils;
+import com.hyz.tesser.util.PreferenceParser;
+import com.hyz.tesser.vault.VaultEntry;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.topjohnwu.superuser.io.SuFile;
 

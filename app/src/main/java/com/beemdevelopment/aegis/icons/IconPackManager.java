@@ -1,10 +1,10 @@
-package com.beemdevelopment.Tesser.icons;
+package com.hyz.tesser.icons;
 
 import android.content.Context;
 
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.Tesser.util.IOUtils;
+import com.hyz.tesser.util.IOUtils;
 
 import net.lingala.zip4j.ZipFile;
 import net.lingala.zip4j.io.inputstream.ZipInputStream;

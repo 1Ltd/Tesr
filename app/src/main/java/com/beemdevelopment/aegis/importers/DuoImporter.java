@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
@@ -7,14 +7,14 @@ import android.content.pm.PackageManager.NameNotFoundException;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.otp.HotpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.util.IOUtils;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.otp.HotpInfo;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.util.IOUtils;
+import com.hyz.tesser.vault.VaultEntry;
 import com.topjohnwu.superuser.io.SuFile;
 
 import org.json.JSONArray;

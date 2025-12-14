@@ -1,9 +1,9 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.util.IOUtils;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.util.IOUtils;
 import com.topjohnwu.superuser.io.SuFile;
 
 import net.lingala.zip4j.io.inputstream.ZipInputStream;

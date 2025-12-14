@@ -91,7 +91,7 @@
             android:visibility="gone"
             style="?attr/dropdownStyle">
 
-            <com.beemdevelopment.Tesser.ui.components.DropdownCheckBoxes
+            <com.hyz.tesser.ui.components.DropdownCheckBoxes
                 android:id="@+id/group_selection_dropdown"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

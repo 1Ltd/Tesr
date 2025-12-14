@@ -1,9 +1,9 @@
-package com.beemdevelopment.Tesser.ui.tasks;
+package com.hyz.tesser.ui.tasks;
 
 import android.content.Context;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.crypto.CryptoUtils;
+import com.hyz.tesser.R;
+import com.hyz.tesser.crypto.CryptoUtils;
 
 import org.bouncycastle.crypto.digests.SHA512Digest;
 import org.bouncycastle.crypto.generators.PKCS5S2ParametersGenerator;

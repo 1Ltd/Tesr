@@ -1,14 +1,14 @@
-package com.beemdevelopment.Tesser.ui.tasks;
+package com.hyz.tesser.ui.tasks;
 
 import android.content.Context;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.crypto.CryptoUtils;
-import com.beemdevelopment.Tesser.crypto.MasterKey;
-import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
-import com.beemdevelopment.Tesser.vault.slots.Slot;
-import com.beemdevelopment.Tesser.vault.slots.SlotException;
-import com.beemdevelopment.Tesser.vault.slots.SlotIntegrityException;
+import com.hyz.tesser.R;
+import com.hyz.tesser.crypto.CryptoUtils;
+import com.hyz.tesser.crypto.MasterKey;
+import com.hyz.tesser.vault.slots.PasswordSlot;
+import com.hyz.tesser.vault.slots.Slot;
+import com.hyz.tesser.vault.slots.SlotException;
+import com.hyz.tesser.vault.slots.SlotIntegrityException;
 
 import java.util.List;
 

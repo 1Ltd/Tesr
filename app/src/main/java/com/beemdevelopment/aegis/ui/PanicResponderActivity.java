@@ -1,13 +1,13 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.beemdevelopment.Tesser.BuildConfig;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.crypto.pins.GuardianProjectFDroidRSA2048;
-import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.hyz.tesser.BuildConfig;
+import com.hyz.tesser.R;
+import com.hyz.tesser.crypto.pins.GuardianProjectFDroidRSA2048;
+import com.hyz.tesser.vault.VaultRepository;
 
 import info.guardianproject.GuardianProjectRSA4096;
 import info.guardianproject.trustedintents.TrustedIntents;

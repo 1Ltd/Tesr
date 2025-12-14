@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.otp;
+package com.hyz.tesser.otp;
 
 import static org.junit.Assert.assertThrows;
 

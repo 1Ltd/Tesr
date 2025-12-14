@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -17,11 +17,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.beemdevelopment.Tesser.BuildConfig;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.ui.dialogs.ChangelogDialog;
-import com.beemdevelopment.Tesser.ui.dialogs.LicenseDialog;
-import com.beemdevelopment.Tesser.helpers.ViewHelper;
+import com.hyz.tesser.BuildConfig;
+import com.hyz.tesser.R;
+import com.hyz.tesser.ui.dialogs.ChangelogDialog;
+import com.hyz.tesser.ui.dialogs.LicenseDialog;
+import com.hyz.tesser.helpers.ViewHelper;
 import com.google.android.material.color.MaterialColors;
 
 public class AboutActivity extends TesserActivity {
@@ -32,7 +32,7 @@ public class AboutActivity extends TesserActivity {
 
     private static String MAIL_BEEMDEVELOPMENT = "beemdevelopment@gmail.com";
     private static String WEBSITE_BEEMDEVELOPMENT = "https://beem.dev/";
-    private static String PLAYSTORE_BEEMDEVELOPMENT = "https://play.google.com/store/apps/details?id=com.beemdevelopment.Tesser";
+    private static String PLAYSTORE_BEEMDEVELOPMENT = "https://play.google.com/store/apps/details?id=com.hyz.tesser";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

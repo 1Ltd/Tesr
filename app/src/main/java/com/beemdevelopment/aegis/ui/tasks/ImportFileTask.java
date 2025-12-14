@@ -1,10 +1,10 @@
-package com.beemdevelopment.Tesser.ui.tasks;
+package com.hyz.tesser.ui.tasks;
 
 import android.content.Context;
 import android.net.Uri;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.util.IOUtils;
+import com.hyz.tesser.R;
+import com.hyz.tesser.util.IOUtils;
 
 import java.io.File;
 import java.io.FileOutputStream;

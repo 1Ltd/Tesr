@@ -1,9 +1,9 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
-import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_BIOMETRIC;
-import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_INVALID;
-import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_NONE;
-import static com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_PASS;
+import static com.hyz.tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_BIOMETRIC;
+import static com.hyz.tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_INVALID;
+import static com.hyz.tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_NONE;
+import static com.hyz.tesser.ui.slides.SecurityPickerSlide.CRYPT_TYPE_PASS;
 
 import android.os.Bundle;
 import android.view.WindowManager;
@@ -12,20 +12,20 @@ import android.view.inputmethod.InputMethodManager;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.ui.intro.IntroBaseActivity;
-import com.beemdevelopment.Tesser.ui.intro.SlideFragment;
-import com.beemdevelopment.Tesser.ui.slides.DoneSlide;
-import com.beemdevelopment.Tesser.ui.slides.SecurityPickerSlide;
-import com.beemdevelopment.Tesser.ui.slides.SecuritySetupSlide;
-import com.beemdevelopment.Tesser.ui.slides.WelcomeSlide;
-import com.beemdevelopment.Tesser.vault.VaultFile;
-import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
-import com.beemdevelopment.Tesser.vault.VaultRepository;
-import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
-import com.beemdevelopment.Tesser.vault.slots.BiometricSlot;
-import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.hyz.tesser.R;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.ui.intro.IntroBaseActivity;
+import com.hyz.tesser.ui.intro.SlideFragment;
+import com.hyz.tesser.ui.slides.DoneSlide;
+import com.hyz.tesser.ui.slides.SecurityPickerSlide;
+import com.hyz.tesser.ui.slides.SecuritySetupSlide;
+import com.hyz.tesser.ui.slides.WelcomeSlide;
+import com.hyz.tesser.vault.VaultFile;
+import com.hyz.tesser.vault.VaultFileCredentials;
+import com.hyz.tesser.vault.VaultRepository;
+import com.hyz.tesser.vault.VaultRepositoryException;
+import com.hyz.tesser.vault.slots.BiometricSlot;
+import com.hyz.tesser.vault.slots.PasswordSlot;
 
 public class IntroActivity extends IntroBaseActivity {
     // Permission request codes

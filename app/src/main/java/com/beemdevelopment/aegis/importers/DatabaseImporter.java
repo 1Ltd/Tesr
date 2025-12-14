@@ -1,14 +1,14 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 
 import androidx.annotation.StringRes;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.util.UUIDMap;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.hyz.tesser.R;
+import com.hyz.tesser.util.UUIDMap;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.vault.VaultGroup;
 import com.topjohnwu.superuser.Shell;
 import com.topjohnwu.superuser.io.SuFile;
 import com.topjohnwu.superuser.io.SuFileInputStream;

@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 public class VaultEntryIconException extends Exception {
     public VaultEntryIconException(Throwable cause) {

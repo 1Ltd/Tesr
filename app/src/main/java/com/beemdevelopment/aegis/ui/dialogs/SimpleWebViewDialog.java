@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.dialogs;
+package com.hyz.tesser.ui.dialogs;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -15,8 +15,8 @@ import androidx.annotation.StringRes;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.Theme;
+import com.hyz.tesser.R;
+import com.hyz.tesser.Theme;
 import com.google.android.material.color.MaterialColors;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.common.io.CharStreams;

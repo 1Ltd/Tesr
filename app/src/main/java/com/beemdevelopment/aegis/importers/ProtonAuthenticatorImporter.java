@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
@@ -7,11 +7,11 @@ import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.util.IOUtils;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.otp.GoogleAuthInfo;
+import com.hyz.tesser.otp.GoogleAuthInfoException;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.util.IOUtils;
+import com.hyz.tesser.vault.VaultEntry;
 import com.topjohnwu.superuser.io.SuFile;
 
 import org.json.JSONArray;

@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.tasks;
+package com.hyz.tesser.ui.tasks;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -15,8 +15,8 @@ import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.OnLifecycleEvent;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.R;
+import com.hyz.tesser.ui.dialogs.Dialogs;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public abstract class ProgressDialogTask<Params, Result> extends AsyncTask<Params, String, Result> {

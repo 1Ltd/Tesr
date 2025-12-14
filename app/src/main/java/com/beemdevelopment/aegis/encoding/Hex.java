@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.encoding;
+package com.hyz.tesser.encoding;
 
 import com.google.common.io.BaseEncoding;
 

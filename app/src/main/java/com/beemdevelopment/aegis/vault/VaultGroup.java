@@ -1,6 +1,6 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
-import com.beemdevelopment.Tesser.util.UUIDMap;
+import com.hyz.tesser.util.UUIDMap;
 
 import org.json.JSONException;
 import org.json.JSONObject;

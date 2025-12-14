@@ -1,7 +1,7 @@
-package com.beemdevelopment.Tesser.otp;
+package com.hyz.tesser.otp;
 
-import com.beemdevelopment.Tesser.crypto.otp.HOTP;
-import com.beemdevelopment.Tesser.crypto.otp.OTP;
+import com.hyz.tesser.crypto.otp.HOTP;
+import com.hyz.tesser.crypto.otp.OTP;
 
 import org.json.JSONException;
 import org.json.JSONObject;

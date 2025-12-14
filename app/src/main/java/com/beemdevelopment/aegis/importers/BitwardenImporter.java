@@ -1,16 +1,16 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 import android.net.Uri;
 
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.SteamInfo;
-import com.beemdevelopment.Tesser.util.IOUtils;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.otp.GoogleAuthInfo;
+import com.hyz.tesser.otp.GoogleAuthInfoException;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.SteamInfo;
+import com.hyz.tesser.util.IOUtils;
+import com.hyz.tesser.vault.VaultEntry;
 import com.topjohnwu.superuser.io.SuFile;
 
 import org.json.JSONArray;

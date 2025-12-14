@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.views;
+package com.hyz.tesser.ui.views;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.ui.models.ImportEntry;
+import com.hyz.tesser.R;
+import com.hyz.tesser.ui.models.ImportEntry;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.beemdevelopment.Tesser.database;
+package com.hyz.tesser.database;
 
 import androidx.lifecycle.LiveData;
 
-import com.beemdevelopment.Tesser.EventType;
+import com.hyz.tesser.EventType;
 
 import java.util.List;
 import java.util.concurrent.Executor;

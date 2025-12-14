@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.slides;
+package com.hyz.tesser.ui.slides;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -11,15 +11,15 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult;
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.importers.TesserImporter;
-import com.beemdevelopment.Tesser.importers.DatabaseImporter;
-import com.beemdevelopment.Tesser.importers.DatabaseImporterException;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.ui.intro.SlideFragment;
-import com.beemdevelopment.Tesser.ui.tasks.ImportFileTask;
-import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
-import com.beemdevelopment.Tesser.vault.VaultRepository;
+import com.hyz.tesser.R;
+import com.hyz.tesser.importers.TesserImporter;
+import com.hyz.tesser.importers.DatabaseImporter;
+import com.hyz.tesser.importers.DatabaseImporterException;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.ui.intro.SlideFragment;
+import com.hyz.tesser.ui.tasks.ImportFileTask;
+import com.hyz.tesser.vault.VaultFileCredentials;
+import com.hyz.tesser.vault.VaultRepository;
 
 import java.io.File;
 import java.io.FileInputStream;

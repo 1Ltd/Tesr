@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.dialogs;
+package com.hyz.tesser.ui.dialogs;
 
 import android.app.Dialog;
 import android.content.ClipData;
@@ -29,18 +29,18 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AlertDialog;
 
-import com.beemdevelopment.Tesser.BackupsVersioningStrategy;
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.helpers.EditTextHelper;
-import com.beemdevelopment.Tesser.helpers.PasswordStrengthHelper;
-import com.beemdevelopment.Tesser.helpers.SimpleTextWatcher;
-import com.beemdevelopment.Tesser.importers.DatabaseImporter;
-import com.beemdevelopment.Tesser.ui.tasks.KeyDerivationTask;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
-import com.beemdevelopment.Tesser.vault.slots.Slot;
-import com.beemdevelopment.Tesser.vault.slots.SlotException;
+import com.hyz.tesser.BackupsVersioningStrategy;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.R;
+import com.hyz.tesser.helpers.EditTextHelper;
+import com.hyz.tesser.helpers.PasswordStrengthHelper;
+import com.hyz.tesser.helpers.SimpleTextWatcher;
+import com.hyz.tesser.importers.DatabaseImporter;
+import com.hyz.tesser.ui.tasks.KeyDerivationTask;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.vault.slots.PasswordSlot;
+import com.hyz.tesser.vault.slots.Slot;
+import com.hyz.tesser.vault.slots.SlotException;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;

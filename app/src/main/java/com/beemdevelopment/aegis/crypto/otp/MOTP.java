@@ -1,9 +1,9 @@
-package com.beemdevelopment.Tesser.crypto.otp;
+package com.hyz.tesser.crypto.otp;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
-import com.beemdevelopment.Tesser.encoding.Hex;
+import com.hyz.tesser.encoding.Hex;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

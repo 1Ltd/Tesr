@@ -1,9 +1,9 @@
-package com.beemdevelopment.Tesser.otp;
+package com.hyz.tesser.otp;
 
 import static org.junit.Assert.assertThrows;
 
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.EncodingException;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.slides;
+package com.hyz.tesser.ui.slides;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,9 +11,9 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.helpers.BiometricsHelper;
-import com.beemdevelopment.Tesser.ui.intro.SlideFragment;
+import com.hyz.tesser.R;
+import com.hyz.tesser.helpers.BiometricsHelper;
+import com.hyz.tesser.ui.intro.SlideFragment;
 
 public class SecurityPickerSlide extends SlideFragment {
     public static final int CRYPT_TYPE_INVALID = 0;

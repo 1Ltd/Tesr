@@ -1,7 +1,7 @@
-package com.beemdevelopment.Tesser.crypto;
+package com.hyz.tesser.crypto;
 
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.encoding.Hex;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Hex;
 
 import org.json.JSONException;
 import org.json.JSONObject;

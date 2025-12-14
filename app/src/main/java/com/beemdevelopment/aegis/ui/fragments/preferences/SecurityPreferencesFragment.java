@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.fragments.preferences;
+package com.hyz.tesser.ui.fragments.preferences;
 
 import static android.text.TextUtils.isDigitsOnly;
 
@@ -13,23 +13,23 @@ import androidx.biometric.BiometricPrompt;
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreferenceCompat;
 
-import com.beemdevelopment.Tesser.PassReminderFreq;
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.crypto.KeyStoreHandle;
-import com.beemdevelopment.Tesser.crypto.KeyStoreHandleException;
-import com.beemdevelopment.Tesser.helpers.BiometricSlotInitializer;
-import com.beemdevelopment.Tesser.helpers.BiometricsHelper;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.ui.preferences.SwitchPreference;
-import com.beemdevelopment.Tesser.ui.tasks.PasswordSlotDecryptTask;
-import com.beemdevelopment.Tesser.vault.VaultFileCredentials;
-import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
-import com.beemdevelopment.Tesser.vault.slots.BiometricSlot;
-import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
-import com.beemdevelopment.Tesser.vault.slots.Slot;
-import com.beemdevelopment.Tesser.vault.slots.SlotException;
-import com.beemdevelopment.Tesser.vault.slots.SlotList;
+import com.hyz.tesser.PassReminderFreq;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.R;
+import com.hyz.tesser.crypto.KeyStoreHandle;
+import com.hyz.tesser.crypto.KeyStoreHandleException;
+import com.hyz.tesser.helpers.BiometricSlotInitializer;
+import com.hyz.tesser.helpers.BiometricsHelper;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.ui.preferences.SwitchPreference;
+import com.hyz.tesser.ui.tasks.PasswordSlotDecryptTask;
+import com.hyz.tesser.vault.VaultFileCredentials;
+import com.hyz.tesser.vault.VaultRepositoryException;
+import com.hyz.tesser.vault.slots.BiometricSlot;
+import com.hyz.tesser.vault.slots.PasswordSlot;
+import com.hyz.tesser.vault.slots.Slot;
+import com.hyz.tesser.vault.slots.SlotException;
+import com.hyz.tesser.vault.slots.SlotList;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.Arrays;

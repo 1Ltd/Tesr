@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.intro;
+package com.hyz.tesser.ui.intro;
 
 import android.content.Context;
 import android.os.Bundle;

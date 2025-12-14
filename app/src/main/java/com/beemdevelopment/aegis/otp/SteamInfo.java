@@ -1,7 +1,7 @@
-package com.beemdevelopment.Tesser.otp;
+package com.hyz.tesser.otp;
 
-import com.beemdevelopment.Tesser.crypto.otp.OTP;
-import com.beemdevelopment.Tesser.crypto.otp.TOTP;
+import com.hyz.tesser.crypto.otp.OTP;
+import com.hyz.tesser.crypto.otp.TOTP;
 
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;

@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.util;
+package com.hyz.tesser.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;

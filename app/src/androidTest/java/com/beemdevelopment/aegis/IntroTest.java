@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -30,13 +30,13 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.beemdevelopment.Tesser.rules.ScreenshotTestRule;
-import com.beemdevelopment.Tesser.ui.IntroActivity;
-import com.beemdevelopment.Tesser.util.IOUtils;
-import com.beemdevelopment.Tesser.vault.VaultRepository;
-import com.beemdevelopment.Tesser.vault.slots.BiometricSlot;
-import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
-import com.beemdevelopment.Tesser.vault.slots.SlotList;
+import com.hyz.tesser.rules.ScreenshotTestRule;
+import com.hyz.tesser.ui.IntroActivity;
+import com.hyz.tesser.util.IOUtils;
+import com.hyz.tesser.vault.VaultRepository;
+import com.hyz.tesser.vault.slots.BiometricSlot;
+import com.hyz.tesser.vault.slots.PasswordSlot;
+import com.hyz.tesser.vault.slots.SlotList;
 
 import org.junit.After;
 import org.junit.Before;

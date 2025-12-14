@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
 import android.content.ClipData;
 import android.content.ClipDescription;
@@ -22,14 +22,14 @@ import android.widget.Toast;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.Theme;
-import com.beemdevelopment.Tesser.helpers.QrCodeHelper;
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
-import com.beemdevelopment.Tesser.otp.Transferable;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.helpers.ViewHelper;
+import com.hyz.tesser.R;
+import com.hyz.tesser.Theme;
+import com.hyz.tesser.helpers.QrCodeHelper;
+import com.hyz.tesser.otp.GoogleAuthInfo;
+import com.hyz.tesser.otp.GoogleAuthInfoException;
+import com.hyz.tesser.otp.Transferable;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.helpers.ViewHelper;
 import com.google.android.material.color.MaterialColors;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.zxing.WriterException;

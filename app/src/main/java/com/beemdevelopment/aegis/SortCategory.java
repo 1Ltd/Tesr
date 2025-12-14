@@ -1,10 +1,10 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
-import com.beemdevelopment.Tesser.helpers.comparators.LastUsedComparator;
-import com.beemdevelopment.Tesser.helpers.comparators.UsageCountComparator;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.helpers.comparators.AccountNameComparator;
-import com.beemdevelopment.Tesser.helpers.comparators.IssuerNameComparator;
+import com.hyz.tesser.helpers.comparators.LastUsedComparator;
+import com.hyz.tesser.helpers.comparators.UsageCountComparator;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.helpers.comparators.AccountNameComparator;
+import com.hyz.tesser.helpers.comparators.IssuerNameComparator;
 
 import java.util.Collections;
 import java.util.Comparator;

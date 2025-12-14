@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
 import android.content.Intent;
 import android.graphics.Rect;
@@ -15,19 +15,19 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.helpers.MetricsHelper;
-import com.beemdevelopment.Tesser.icons.IconPack;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.ui.dialogs.IconPickerDialog;
-import com.beemdevelopment.Tesser.ui.glide.GlideHelper;
-import com.beemdevelopment.Tesser.ui.models.AssignIconEntry;
-import com.beemdevelopment.Tesser.ui.views.AssignIconAdapter;
-import com.beemdevelopment.Tesser.ui.views.IconAdapter;
-import com.beemdevelopment.Tesser.util.IOUtils;
-import com.beemdevelopment.Tesser.helpers.ViewHelper;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
+import com.hyz.tesser.R;
+import com.hyz.tesser.helpers.MetricsHelper;
+import com.hyz.tesser.icons.IconPack;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.ui.dialogs.IconPickerDialog;
+import com.hyz.tesser.ui.glide.GlideHelper;
+import com.hyz.tesser.ui.models.AssignIconEntry;
+import com.hyz.tesser.ui.views.AssignIconAdapter;
+import com.hyz.tesser.ui.views.IconAdapter;
+import com.hyz.tesser.util.IOUtils;
+import com.hyz.tesser.helpers.ViewHelper;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.vault.VaultEntryIcon;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.ListPreloader;
 import com.bumptech.glide.RequestBuilder;

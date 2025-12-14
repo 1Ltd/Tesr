@@ -1,10 +1,10 @@
-package com.beemdevelopment.Tesser.crypto.otp;
+package com.hyz.tesser.crypto.otp;
 
 import static org.junit.Assert.assertEquals;
 
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.YandexInfo;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.YandexInfo;
 
 import org.junit.Test;
 

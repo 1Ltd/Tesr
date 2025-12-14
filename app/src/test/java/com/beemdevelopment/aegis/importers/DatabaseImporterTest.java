@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -10,15 +10,15 @@ import android.content.Context;
 
 import androidx.test.core.app.ApplicationProvider;
 
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.otp.HotpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.SteamInfo;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.util.UUIDMap;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.vectors.VaultEntries;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.otp.HotpInfo;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.SteamInfo;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.util.UUIDMap;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.vectors.VaultEntries;
 import com.google.common.collect.Lists;
 
 import org.junit.Before;

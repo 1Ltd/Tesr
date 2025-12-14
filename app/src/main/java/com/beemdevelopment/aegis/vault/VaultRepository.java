@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 import android.content.Context;
 
@@ -6,9 +6,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.util.AtomicFile;
 
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
-import com.beemdevelopment.Tesser.util.Cloner;
-import com.beemdevelopment.Tesser.util.IOUtils;
+import com.hyz.tesser.otp.GoogleAuthInfo;
+import com.hyz.tesser.util.Cloner;
+import com.hyz.tesser.util.IOUtils;
 import com.google.zxing.WriterException;
 
 import org.json.JSONObject;

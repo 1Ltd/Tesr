@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.views;
+package com.hyz.tesser.ui.views;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -9,11 +9,11 @@ import android.widget.TextView;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.EventType;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.database.AuditLogEntry;
-import com.beemdevelopment.Tesser.ui.models.AuditLogEntryModel;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.EventType;
+import com.hyz.tesser.R;
+import com.hyz.tesser.database.AuditLogEntry;
+import com.hyz.tesser.ui.models.AuditLogEntryModel;
+import com.hyz.tesser.vault.VaultEntry;
 import com.google.android.material.color.MaterialColors;
 
 import java.time.Instant;

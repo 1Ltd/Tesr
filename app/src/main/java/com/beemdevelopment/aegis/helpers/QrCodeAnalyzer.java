@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import static android.graphics.ImageFormat.YUV_420_888;
 

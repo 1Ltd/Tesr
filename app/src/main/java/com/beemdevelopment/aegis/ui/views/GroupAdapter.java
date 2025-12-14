@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.views;
+package com.hyz.tesser.ui.views;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,10 +6,10 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.helpers.ItemTouchHelperAdapter;
-import com.beemdevelopment.Tesser.util.CollectionUtils;
-import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.hyz.tesser.R;
+import com.hyz.tesser.helpers.ItemTouchHelperAdapter;
+import com.hyz.tesser.util.CollectionUtils;
+import com.hyz.tesser.vault.VaultGroup;
 
 import java.util.ArrayList;
 import java.util.UUID;

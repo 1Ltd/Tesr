@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,12 +11,12 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.ui.views.GroupAdapter;
-import com.beemdevelopment.Tesser.util.Cloner;
-import com.beemdevelopment.Tesser.helpers.ViewHelper;
-import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.hyz.tesser.R;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.ui.views.GroupAdapter;
+import com.hyz.tesser.util.Cloner;
+import com.hyz.tesser.helpers.ViewHelper;
+import com.hyz.tesser.vault.VaultGroup;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.ArrayList;

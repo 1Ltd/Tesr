@@ -188,7 +188,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.beemdevelopment.Tesser.ui.views.TotpProgressBar
+        <com.hyz.tesser.ui.views.TotpProgressBar
             style="?android:attr/progressBarStyleHorizontal"
             android:progressDrawable="@drawable/progress_horizontal"
             android:layout_width="0dp"

@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.crypto;
+package com.hyz.tesser.crypto;
 
 public class CryptResult {
     private byte[] _data;

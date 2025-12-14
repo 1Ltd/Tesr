@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.preferences;
+package com.hyz.tesser.ui.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;

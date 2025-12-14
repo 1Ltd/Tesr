@@ -1,11 +1,11 @@
-package com.beemdevelopment.Tesser.vault.slots;
+package com.hyz.tesser.vault.slots;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertThrows;
 
-import com.beemdevelopment.Tesser.crypto.CryptoUtils;
-import com.beemdevelopment.Tesser.crypto.MasterKey;
-import com.beemdevelopment.Tesser.crypto.SCryptParameters;
+import com.hyz.tesser.crypto.CryptoUtils;
+import com.hyz.tesser.crypto.MasterKey;
+import com.hyz.tesser.crypto.SCryptParameters;
 
 import org.junit.Before;
 import org.junit.Test;

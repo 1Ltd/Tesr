@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.util;
+package com.hyz.tesser.util;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

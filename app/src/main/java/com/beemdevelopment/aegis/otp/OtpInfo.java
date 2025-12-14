@@ -1,7 +1,7 @@
-package com.beemdevelopment.Tesser.otp;
+package com.hyz.tesser.otp;
 
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.EncodingException;
 
 import org.json.JSONException;
 import org.json.JSONObject;

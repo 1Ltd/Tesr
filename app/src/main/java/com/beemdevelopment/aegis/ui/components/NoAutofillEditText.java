@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.components;
+package com.hyz.tesser.ui.components;
 
 import android.content.Context;
 import android.os.Build;

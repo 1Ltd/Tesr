@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 public class VaultException extends Exception {
     public VaultException(Throwable cause) {

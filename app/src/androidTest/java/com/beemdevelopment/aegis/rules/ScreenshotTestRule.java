@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.rules;
+package com.hyz.tesser.rules;
 
 import android.graphics.Bitmap;
 

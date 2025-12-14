@@ -1,6 +1,6 @@
-package com.beemdevelopment.Tesser.helpers.comparators;
+package com.hyz.tesser.helpers.comparators;
 
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.vault.VaultEntry;
 
 import java.util.Comparator;
 

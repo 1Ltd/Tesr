@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "com.beemdevelopment.Tesser";
+option java_package = "com.hyz.tesser";
 option java_outer_classname = "GoogleAuthProtos";
 
 message MigrationPayload {

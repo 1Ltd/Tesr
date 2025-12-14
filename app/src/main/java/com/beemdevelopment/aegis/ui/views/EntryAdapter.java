@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.views;
+package com.hyz.tesser.ui.views;
 
 import static androidx.recyclerview.widget.RecyclerView.NO_POSITION;
 
@@ -19,22 +19,22 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.AccountNamePosition;
-import com.beemdevelopment.Tesser.CopyBehavior;
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.SortCategory;
-import com.beemdevelopment.Tesser.ViewMode;
-import com.beemdevelopment.Tesser.helpers.ItemTouchHelperAdapter;
-import com.beemdevelopment.Tesser.helpers.comparators.FavoriteComparator;
-import com.beemdevelopment.Tesser.otp.HotpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.ui.models.ErrorCardInfo;
-import com.beemdevelopment.Tesser.util.CollectionUtils;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.hyz.tesser.AccountNamePosition;
+import com.hyz.tesser.CopyBehavior;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.R;
+import com.hyz.tesser.SortCategory;
+import com.hyz.tesser.ViewMode;
+import com.hyz.tesser.helpers.ItemTouchHelperAdapter;
+import com.hyz.tesser.helpers.comparators.FavoriteComparator;
+import com.hyz.tesser.otp.HotpInfo;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.ui.models.ErrorCardInfo;
+import com.hyz.tesser.util.CollectionUtils;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.vault.VaultGroup;
 
 import java.util.ArrayList;
 import java.util.Arrays;

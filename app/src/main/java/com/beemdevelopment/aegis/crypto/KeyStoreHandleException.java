@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.crypto;
+package com.hyz.tesser.crypto;
 
 public class KeyStoreHandleException extends Exception {
     public KeyStoreHandleException(Throwable cause) {

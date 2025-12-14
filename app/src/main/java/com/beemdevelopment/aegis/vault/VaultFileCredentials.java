@@ -1,13 +1,13 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.Tesser.crypto.CryptParameters;
-import com.beemdevelopment.Tesser.crypto.CryptResult;
-import com.beemdevelopment.Tesser.crypto.MasterKey;
-import com.beemdevelopment.Tesser.crypto.MasterKeyException;
-import com.beemdevelopment.Tesser.util.Cloner;
-import com.beemdevelopment.Tesser.vault.slots.SlotList;
+import com.hyz.tesser.crypto.CryptParameters;
+import com.hyz.tesser.crypto.CryptResult;
+import com.hyz.tesser.crypto.MasterKey;
+import com.hyz.tesser.crypto.MasterKeyException;
+import com.hyz.tesser.util.Cloner;
+import com.hyz.tesser.vault.slots.SlotList;
 
 import java.io.Serializable;
 

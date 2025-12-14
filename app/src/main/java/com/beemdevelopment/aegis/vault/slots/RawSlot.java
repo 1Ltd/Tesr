@@ -1,6 +1,6 @@
-package com.beemdevelopment.Tesser.vault.slots;
+package com.hyz.tesser.vault.slots;
 
-import com.beemdevelopment.Tesser.crypto.CryptParameters;
+import com.hyz.tesser.crypto.CryptParameters;
 
 import java.util.UUID;
 

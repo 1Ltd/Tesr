@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -6,20 +6,20 @@ import android.database.Cursor;
 
 import androidx.lifecycle.Lifecycle;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.helpers.ContextHelper;
-import com.beemdevelopment.Tesser.otp.HotpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.SteamInfo;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.ui.tasks.Argon2Task;
-import com.beemdevelopment.Tesser.ui.tasks.PBKDFTask;
-import com.beemdevelopment.Tesser.util.IOUtils;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.R;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.helpers.ContextHelper;
+import com.hyz.tesser.otp.HotpInfo;
+import com.hyz.tesser.otp.OtpInfo;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.SteamInfo;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.ui.tasks.Argon2Task;
+import com.hyz.tesser.ui.tasks.PBKDFTask;
+import com.hyz.tesser.util.IOUtils;
+import com.hyz.tesser.vault.VaultEntry;
 import com.topjohnwu.superuser.io.SuFile;
 
 import org.bouncycastle.crypto.params.Argon2Parameters;

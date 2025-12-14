@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import android.content.Context;
 import android.os.Build;
@@ -6,7 +6,7 @@ import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.os.VibratorManager;
 
-import com.beemdevelopment.Tesser.Preferences;
+import com.hyz.tesser.Preferences;
 
 public class VibrationHelper {
     private Preferences _preferences;

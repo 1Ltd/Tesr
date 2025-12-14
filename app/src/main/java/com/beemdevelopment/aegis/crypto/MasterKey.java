@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.crypto;
+package com.hyz.tesser.crypto;
 
 import java.io.IOException;
 import java.io.Serializable;

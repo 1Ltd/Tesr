@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.views;
+package com.hyz.tesser.ui.views;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,9 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.icons.IconPack;
-import com.beemdevelopment.Tesser.icons.IconType;
+import com.hyz.tesser.R;
+import com.hyz.tesser.icons.IconPack;
+import com.hyz.tesser.icons.IconType;
 
 import java.util.ArrayList;
 import java.util.Collections;

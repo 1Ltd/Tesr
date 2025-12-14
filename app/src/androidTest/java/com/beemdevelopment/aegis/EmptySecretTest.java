@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -12,11 +12,11 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.rules.ScreenshotTestRule;
-import com.beemdevelopment.Tesser.ui.MainActivity;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.rules.ScreenshotTestRule;
+import com.hyz.tesser.ui.MainActivity;
+import com.hyz.tesser.vault.VaultEntry;
 
 import org.junit.After;
 import org.junit.Before;

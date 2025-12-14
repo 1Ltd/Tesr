@@ -1,6 +1,6 @@
-package com.beemdevelopment.Tesser.crypto;
+package com.hyz.tesser.crypto;
 
-import com.beemdevelopment.Tesser.crypto.bc.SCrypt;
+import com.hyz.tesser.crypto.bc.SCrypt;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

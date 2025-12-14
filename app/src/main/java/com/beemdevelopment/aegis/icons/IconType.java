@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.icons;
+package com.hyz.tesser.icons;
 
 import com.google.common.io.Files;
 

@@ -74,10 +74,10 @@ Tesser is available on the Google Play Store and on F-Droid.
 
 [<img height=80 alt="Get it on Google Play"
 src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
-/>](http://play.google.com/store/apps/details?id=com.beemdevelopment.Tesser)
+/>](http://play.google.com/store/apps/details?id=com.hyz.tesser)
 [<img height="80" alt="Get it on F-Droid"
 src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-/>](https://f-droid.org/app/com.beemdevelopment.Tesser)
+/>](https://f-droid.org/app/com.hyz.tesser)
 
 ### Verification
 

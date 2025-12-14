@@ -1,7 +1,7 @@
-package com.beemdevelopment.Tesser.ui.models;
+package com.hyz.tesser.ui.models;
 
-import com.beemdevelopment.Tesser.database.AuditLogEntry;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.database.AuditLogEntry;
+import com.hyz.tesser.vault.VaultEntry;
 
 import javax.annotation.Nullable;
 

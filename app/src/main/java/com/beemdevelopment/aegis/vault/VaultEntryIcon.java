@@ -1,13 +1,13 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.beemdevelopment.Tesser.encoding.Base64;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.encoding.Hex;
-import com.beemdevelopment.Tesser.icons.IconType;
-import com.beemdevelopment.Tesser.util.JsonUtils;
+import com.hyz.tesser.encoding.Base64;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Hex;
+import com.hyz.tesser.icons.IconType;
+import com.hyz.tesser.util.JsonUtils;
 import com.google.common.hash.HashCode;
 
 import org.json.JSONException;

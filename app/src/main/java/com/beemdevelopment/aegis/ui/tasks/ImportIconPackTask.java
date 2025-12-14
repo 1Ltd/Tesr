@@ -1,13 +1,13 @@
-package com.beemdevelopment.Tesser.ui.tasks;
+package com.hyz.tesser.ui.tasks;
 
 import android.content.Context;
 import android.net.Uri;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.icons.IconPack;
-import com.beemdevelopment.Tesser.icons.IconPackException;
-import com.beemdevelopment.Tesser.icons.IconPackManager;
-import com.beemdevelopment.Tesser.util.IOUtils;
+import com.hyz.tesser.R;
+import com.hyz.tesser.icons.IconPack;
+import com.hyz.tesser.icons.IconPackException;
+import com.hyz.tesser.icons.IconPackManager;
+import com.hyz.tesser.util.IOUtils;
 
 import java.io.File;
 import java.io.FileOutputStream;

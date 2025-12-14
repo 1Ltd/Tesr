@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.services;
+package com.hyz.tesser.services;
 
 import android.annotation.SuppressLint;
 import android.app.PendingIntent;
@@ -10,9 +10,9 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.beemdevelopment.Tesser.BuildConfig;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.receivers.VaultLockReceiver;
+import com.hyz.tesser.BuildConfig;
+import com.hyz.tesser.R;
+import com.hyz.tesser.receivers.VaultLockReceiver;
 
 public class NotificationService extends Service {
     private static final int NOTIFICATION_VAULT_UNLOCKED = 1;

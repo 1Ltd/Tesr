@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.views;
+package com.hyz.tesser.ui.views;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -7,8 +7,8 @@ import android.util.AttributeSet;
 import android.view.animation.LinearInterpolator;
 import android.widget.ProgressBar;
 
-import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.hyz.tesser.helpers.AnimationsHelper;
+import com.hyz.tesser.otp.TotpInfo;
 
 public class TotpProgressBar extends ProgressBar {
     private int _period = TotpInfo.DEFAULT_PERIOD;

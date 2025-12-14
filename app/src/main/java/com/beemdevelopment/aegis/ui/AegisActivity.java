@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -17,14 +17,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ActionMode;
 import androidx.core.view.ViewPropertyAnimatorCompat;
 
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.ThemeMap;
-import com.beemdevelopment.Tesser.database.AuditLogRepository;
-import com.beemdevelopment.Tesser.helpers.ThemeHelper;
-import com.beemdevelopment.Tesser.icons.IconPackManager;
-import com.beemdevelopment.Tesser.vault.VaultManager;
-import com.beemdevelopment.Tesser.vault.VaultRepositoryException;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.R;
+import com.hyz.tesser.ThemeMap;
+import com.hyz.tesser.database.AuditLogRepository;
+import com.hyz.tesser.helpers.ThemeHelper;
+import com.hyz.tesser.icons.IconPackManager;
+import com.hyz.tesser.vault.VaultManager;
+import com.hyz.tesser.vault.VaultRepositoryException;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.color.MaterialColors;
 

@@ -1,9 +1,9 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import com.beemdevelopment.Tesser.util.IOUtils;
+import com.hyz.tesser.util.IOUtils;
 import com.topjohnwu.superuser.io.SuFile;
 
 import org.json.JSONArray;

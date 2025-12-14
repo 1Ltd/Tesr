@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -12,10 +12,10 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;
 
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.ui.MainActivity;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.otp.GoogleAuthInfo;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.ui.MainActivity;
+import com.hyz.tesser.vault.VaultEntry;
 
 import org.junit.Before;
 import org.junit.Test;

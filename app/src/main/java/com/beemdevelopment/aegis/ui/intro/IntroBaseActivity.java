@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.intro;
+package com.hyz.tesser.ui.intro;
 
 import android.os.Bundle;
 import android.view.View;
@@ -12,9 +12,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
-import com.beemdevelopment.Tesser.ui.TesserActivity;
+import com.hyz.tesser.R;
+import com.hyz.tesser.helpers.AnimationsHelper;
+import com.hyz.tesser.ui.TesserActivity;
 import com.google.android.material.button.MaterialButton;
 
 import java.lang.ref.WeakReference;

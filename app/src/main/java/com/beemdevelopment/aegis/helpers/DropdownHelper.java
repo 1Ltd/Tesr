@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;
@@ -6,7 +6,7 @@ import android.widget.AutoCompleteTextView;
 
 import androidx.annotation.ArrayRes;
 
-import com.beemdevelopment.Tesser.R;
+import com.hyz.tesser.R;
 
 import java.util.List;
 

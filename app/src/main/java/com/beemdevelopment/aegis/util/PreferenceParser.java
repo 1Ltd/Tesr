@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.util;
+package com.hyz.tesser.util;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

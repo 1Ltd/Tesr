@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.fragments.preferences;
+package com.hyz.tesser.ui.fragments.preferences;
 
 import android.graphics.Rect;
 import android.os.Bundle;
@@ -14,14 +14,14 @@ import androidx.lifecycle.LiveData;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.database.AuditLogEntry;
-import com.beemdevelopment.Tesser.database.AuditLogRepository;
-import com.beemdevelopment.Tesser.helpers.MetricsHelper;
-import com.beemdevelopment.Tesser.ui.models.AuditLogEntryModel;
-import com.beemdevelopment.Tesser.ui.views.AuditLogAdapter;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.vault.VaultManager;
+import com.hyz.tesser.R;
+import com.hyz.tesser.database.AuditLogEntry;
+import com.hyz.tesser.database.AuditLogRepository;
+import com.hyz.tesser.helpers.MetricsHelper;
+import com.hyz.tesser.ui.models.AuditLogEntryModel;
+import com.hyz.tesser.ui.views.AuditLogAdapter;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.vault.VaultManager;
 
 import java.util.List;
 import java.util.UUID;

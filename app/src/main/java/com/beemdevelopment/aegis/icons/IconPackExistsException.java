@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.icons;
+package com.hyz.tesser.icons;
 
 public class IconPackExistsException extends IconPackException {
     private IconPack _pack;

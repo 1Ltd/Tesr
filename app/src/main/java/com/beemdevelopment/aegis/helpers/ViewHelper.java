@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;

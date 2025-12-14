@@ -1,10 +1,10 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 import android.content.Context;
 
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.otp.GoogleAuthInfo;
+import com.hyz.tesser.otp.GoogleAuthInfoException;
+import com.hyz.tesser.vault.VaultEntry;
 import com.topjohnwu.superuser.io.SuFile;
 
 import java.io.BufferedReader;

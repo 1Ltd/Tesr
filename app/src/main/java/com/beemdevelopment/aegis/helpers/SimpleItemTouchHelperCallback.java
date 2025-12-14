@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import static androidx.recyclerview.widget.RecyclerView.NO_POSITION;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.ui.views.EntryAdapter;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.ui.views.EntryAdapter;
+import com.hyz.tesser.vault.VaultEntry;
 
 public class SimpleItemTouchHelperCallback extends ItemTouchHelper.Callback {
 

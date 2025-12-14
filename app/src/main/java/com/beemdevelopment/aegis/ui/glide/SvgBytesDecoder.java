@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.glide;
+package com.hyz.tesser.ui.glide;
 
 import androidx.annotation.NonNull;
 

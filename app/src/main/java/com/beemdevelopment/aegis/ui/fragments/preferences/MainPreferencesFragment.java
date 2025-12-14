@@ -1,8 +1,8 @@
-package com.beemdevelopment.Tesser.ui.fragments.preferences;
+package com.hyz.tesser.ui.fragments.preferences;
 
 import android.os.Bundle;
 
-import com.beemdevelopment.Tesser.R;
+import com.hyz.tesser.R;
 
 public class MainPreferencesFragment extends PreferencesFragment {
     @Override

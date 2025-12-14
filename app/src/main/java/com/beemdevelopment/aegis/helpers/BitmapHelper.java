@@ -1,10 +1,10 @@
-package com.beemdevelopment.Tesser.helpers;
+package com.hyz.tesser.helpers;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import com.beemdevelopment.Tesser.icons.IconType;
-import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
+import com.hyz.tesser.icons.IconType;
+import com.hyz.tesser.vault.VaultEntryIcon;
 
 import java.io.ByteArrayOutputStream;
 import java.util.Objects;

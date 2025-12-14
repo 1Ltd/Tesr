@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.views;
+package com.hyz.tesser.ui.views;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -6,8 +6,8 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.icons.IconPack;
+import com.hyz.tesser.R;
+import com.hyz.tesser.icons.IconPack;
 
 public class IconPackHolder extends RecyclerView.ViewHolder {
     private final TextView _iconPackName;

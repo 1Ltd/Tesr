@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.views;
+package com.hyz.tesser.ui.views;
 
 import static androidx.recyclerview.widget.RecyclerView.NO_POSITION;
 
@@ -28,23 +28,23 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.beemdevelopment.Tesser.AccountNamePosition;
-import com.beemdevelopment.Tesser.CopyBehavior;
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.SortCategory;
-import com.beemdevelopment.Tesser.VibrationPatterns;
-import com.beemdevelopment.Tesser.ViewMode;
-import com.beemdevelopment.Tesser.helpers.AnimationsHelper;
-import com.beemdevelopment.Tesser.helpers.MetricsHelper;
-import com.beemdevelopment.Tesser.helpers.SimpleItemTouchHelperCallback;
-import com.beemdevelopment.Tesser.helpers.UiRefresher;
-import com.beemdevelopment.Tesser.helpers.VibrationHelper;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.ui.glide.GlideHelper;
-import com.beemdevelopment.Tesser.ui.models.ErrorCardInfo;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.vault.VaultGroup;
+import com.hyz.tesser.AccountNamePosition;
+import com.hyz.tesser.CopyBehavior;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.R;
+import com.hyz.tesser.SortCategory;
+import com.hyz.tesser.VibrationPatterns;
+import com.hyz.tesser.ViewMode;
+import com.hyz.tesser.helpers.AnimationsHelper;
+import com.hyz.tesser.helpers.MetricsHelper;
+import com.hyz.tesser.helpers.SimpleItemTouchHelperCallback;
+import com.hyz.tesser.helpers.UiRefresher;
+import com.hyz.tesser.helpers.VibrationHelper;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.ui.glide.GlideHelper;
+import com.hyz.tesser.ui.models.ErrorCardInfo;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.vault.VaultGroup;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.ListPreloader;
 import com.bumptech.glide.RequestBuilder;

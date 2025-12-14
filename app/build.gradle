@@ -15,7 +15,7 @@ def getCmdOutput = { cmd ->
 def getGitHash = { -> return getCmdOutput(["git", "rev-parse", "--short", "HEAD"]) }
 def getGitBranch = { -> return getCmdOutput(["git", "rev-parse", "--abbrev-ref", "HEAD"]) }
 
-def packageName = "com.beemdevelopment.Tesser"
+def packageName = "com.hyz.tesser"
 def fileProviderAuthority = "${packageName}.fileprovider"
 def fileProviderAuthorityDebug = "${packageName}.debug.fileprovider"
 
@@ -41,7 +41,7 @@ android {
             }
         }
 
-        testInstrumentationRunner "com.beemdevelopment.Tesser.TesserTestRunner"
+        testInstrumentationRunner "com.hyz.tesser.TesserTestRunner"
         testInstrumentationRunnerArguments clearPackageData: 'true'
     }
 

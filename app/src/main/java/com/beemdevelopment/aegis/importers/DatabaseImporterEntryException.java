@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.importers;
+package com.hyz.tesser.importers;
 
 public class DatabaseImporterEntryException extends Exception {
     private String _text;

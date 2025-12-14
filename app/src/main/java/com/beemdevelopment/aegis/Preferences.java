@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,9 +11,9 @@ import androidx.annotation.Nullable;
 import androidx.core.provider.DocumentsContractCompat;
 import androidx.preference.PreferenceManager;
 
-import com.beemdevelopment.Tesser.util.JsonUtils;
-import com.beemdevelopment.Tesser.util.TimeUtils;
-import com.beemdevelopment.Tesser.vault.VaultBackupPermissionException;
+import com.hyz.tesser.util.JsonUtils;
+import com.hyz.tesser.util.TimeUtils;
+import com.hyz.tesser.vault.VaultBackupPermissionException;
 
 import org.json.JSONArray;
 import org.json.JSONException;

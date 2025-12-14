@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.Espresso.openContextualActionModeOverflowMenu;
@@ -30,19 +30,19 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.Hex;
-import com.beemdevelopment.Tesser.otp.HotpInfo;
-import com.beemdevelopment.Tesser.otp.MotpInfo;
-import com.beemdevelopment.Tesser.otp.SteamInfo;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.otp.YandexInfo;
-import com.beemdevelopment.Tesser.rules.ScreenshotTestRule;
-import com.beemdevelopment.Tesser.ui.MainActivity;
-import com.beemdevelopment.Tesser.ui.views.EntryAdapter;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
-import com.beemdevelopment.Tesser.vault.VaultRepository;
-import com.beemdevelopment.Tesser.vault.slots.PasswordSlot;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.Hex;
+import com.hyz.tesser.otp.HotpInfo;
+import com.hyz.tesser.otp.MotpInfo;
+import com.hyz.tesser.otp.SteamInfo;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.otp.YandexInfo;
+import com.hyz.tesser.rules.ScreenshotTestRule;
+import com.hyz.tesser.ui.MainActivity;
+import com.hyz.tesser.ui.views.EntryAdapter;
+import com.hyz.tesser.vault.VaultEntry;
+import com.hyz.tesser.vault.VaultRepository;
+import com.hyz.tesser.vault.slots.PasswordSlot;
 
 import org.junit.Rule;
 import org.junit.Test;

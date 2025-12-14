@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
-        <com.beemdevelopment.Tesser.ui.views.IconRecyclerView
+        <com.hyz.tesser.ui.views.IconRecyclerView
             android:id="@+id/list_icons"
             android:layout_width="match_parent"
             android:layout_height="0dp"

@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.services;
+package com.hyz.tesser.services;
 
 import android.annotation.SuppressLint;
 import android.app.PendingIntent;
@@ -9,7 +9,7 @@ import android.service.quicksettings.TileService;
 
 import androidx.annotation.RequiresApi;
 
-import com.beemdevelopment.Tesser.ui.MainActivity;
+import com.hyz.tesser.ui.MainActivity;
 
 @RequiresApi(api = Build.VERSION_CODES.N)
 public class LaunchAppTileService extends TileService {

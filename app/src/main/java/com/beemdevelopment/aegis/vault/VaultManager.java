@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 import android.app.Activity;
 import android.app.backup.BackupManager;
@@ -12,14 +12,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.beemdevelopment.Tesser.BackupsVersioningStrategy;
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.crypto.KeyStoreHandle;
-import com.beemdevelopment.Tesser.crypto.KeyStoreHandleException;
-import com.beemdevelopment.Tesser.database.AuditLogRepository;
-import com.beemdevelopment.Tesser.services.NotificationService;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.BackupsVersioningStrategy;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.R;
+import com.hyz.tesser.crypto.KeyStoreHandle;
+import com.hyz.tesser.crypto.KeyStoreHandleException;
+import com.hyz.tesser.database.AuditLogRepository;
+import com.hyz.tesser.services.NotificationService;
+import com.hyz.tesser.ui.dialogs.Dialogs;
 
 import java.io.File;
 import java.io.FileOutputStream;

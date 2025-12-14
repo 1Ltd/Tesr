@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -17,13 +17,13 @@ import androidx.camera.lifecycle.ProcessCameraProvider;
 import androidx.camera.view.PreviewView;
 import androidx.core.content.ContextCompat;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.helpers.QrCodeAnalyzer;
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfo;
-import com.beemdevelopment.Tesser.otp.GoogleAuthInfoException;
-import com.beemdevelopment.Tesser.ui.dialogs.Dialogs;
-import com.beemdevelopment.Tesser.helpers.ViewHelper;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.R;
+import com.hyz.tesser.helpers.QrCodeAnalyzer;
+import com.hyz.tesser.otp.GoogleAuthInfo;
+import com.hyz.tesser.otp.GoogleAuthInfoException;
+import com.hyz.tesser.ui.dialogs.Dialogs;
+import com.hyz.tesser.helpers.ViewHelper;
+import com.hyz.tesser.vault.VaultEntry;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.zxing.Result;
 

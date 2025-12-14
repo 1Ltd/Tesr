@@ -1,12 +1,12 @@
-package com.beemdevelopment.Tesser.vectors;
+package com.hyz.tesser.vectors;
 
-import com.beemdevelopment.Tesser.encoding.Base32;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.otp.HotpInfo;
-import com.beemdevelopment.Tesser.otp.OtpInfoException;
-import com.beemdevelopment.Tesser.otp.SteamInfo;
-import com.beemdevelopment.Tesser.otp.TotpInfo;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.encoding.Base32;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.otp.HotpInfo;
+import com.hyz.tesser.otp.OtpInfoException;
+import com.hyz.tesser.otp.SteamInfo;
+import com.hyz.tesser.otp.TotpInfo;
+import com.hyz.tesser.vault.VaultEntry;
 import com.google.common.collect.Lists;
 
 import java.util.List;

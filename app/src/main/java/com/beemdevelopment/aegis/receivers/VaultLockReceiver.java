@@ -1,12 +1,12 @@
-package com.beemdevelopment.Tesser.receivers;
+package com.hyz.tesser.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.beemdevelopment.Tesser.BuildConfig;
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.vault.VaultManager;
+import com.hyz.tesser.BuildConfig;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.vault.VaultManager;
 
 import javax.inject.Inject;
 

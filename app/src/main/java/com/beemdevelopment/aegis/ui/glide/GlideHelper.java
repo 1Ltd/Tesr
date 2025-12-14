@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.glide;
+package com.hyz.tesser.ui.glide;
 
 import android.graphics.drawable.Drawable;
 import android.os.Build;
@@ -8,10 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.amulyakhare.textdrawable.TextDrawable;
-import com.beemdevelopment.Tesser.helpers.TextDrawableHelper;
-import com.beemdevelopment.Tesser.icons.IconPack;
-import com.beemdevelopment.Tesser.icons.IconType;
-import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.hyz.tesser.helpers.TextDrawableHelper;
+import com.hyz.tesser.icons.IconPack;
+import com.hyz.tesser.icons.IconType;
+import com.hyz.tesser.vault.VaultEntry;
 import com.bumptech.glide.RequestBuilder;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.DataSource;

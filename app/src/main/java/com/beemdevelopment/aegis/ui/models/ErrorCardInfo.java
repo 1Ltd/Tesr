@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui.models;
+package com.hyz.tesser.ui.models;
 
 import android.view.View;
 

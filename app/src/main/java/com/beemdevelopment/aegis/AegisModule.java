@@ -1,14 +1,14 @@
-package com.beemdevelopment.Tesser;
+package com.hyz.tesser;
 
 import android.content.Context;
 
 import androidx.room.Room;
 
-import com.beemdevelopment.Tesser.database.AppDatabase;
-import com.beemdevelopment.Tesser.database.AuditLogDao;
-import com.beemdevelopment.Tesser.database.AuditLogRepository;
-import com.beemdevelopment.Tesser.icons.IconPackManager;
-import com.beemdevelopment.Tesser.vault.VaultManager;
+import com.hyz.tesser.database.AppDatabase;
+import com.hyz.tesser.database.AuditLogDao;
+import com.hyz.tesser.database.AuditLogRepository;
+import com.hyz.tesser.icons.IconPackManager;
+import com.hyz.tesser.vault.VaultManager;
 
 import javax.inject.Singleton;
 

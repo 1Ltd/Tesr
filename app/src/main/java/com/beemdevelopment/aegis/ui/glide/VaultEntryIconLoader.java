@@ -1,9 +1,9 @@
-package com.beemdevelopment.Tesser.ui.glide;
+package com.hyz.tesser.ui.glide;
 
 import androidx.annotation.NonNull;
 
-import com.beemdevelopment.Tesser.icons.IconType;
-import com.beemdevelopment.Tesser.vault.VaultEntryIcon;
+import com.hyz.tesser.icons.IconType;
+import com.hyz.tesser.vault.VaultEntryIcon;
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.Option;

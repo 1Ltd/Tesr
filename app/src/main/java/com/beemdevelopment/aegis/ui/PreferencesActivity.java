@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.ui;
+package com.hyz.tesser.ui;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -9,11 +9,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
-import com.beemdevelopment.Tesser.R;
-import com.beemdevelopment.Tesser.ui.fragments.preferences.AppearancePreferencesFragment;
-import com.beemdevelopment.Tesser.ui.fragments.preferences.MainPreferencesFragment;
-import com.beemdevelopment.Tesser.ui.fragments.preferences.PreferencesFragment;
-import com.beemdevelopment.Tesser.helpers.ViewHelper;
+import com.hyz.tesser.R;
+import com.hyz.tesser.ui.fragments.preferences.AppearancePreferencesFragment;
+import com.hyz.tesser.ui.fragments.preferences.MainPreferencesFragment;
+import com.hyz.tesser.ui.fragments.preferences.PreferencesFragment;
+import com.hyz.tesser.helpers.ViewHelper;
 
 public class PreferencesActivity extends TesserActivity implements
         PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {

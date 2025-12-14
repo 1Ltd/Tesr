@@ -1,4 +1,4 @@
-package com.beemdevelopment.Tesser.vault;
+package com.hyz.tesser.vault;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -10,10 +10,10 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.documentfile.provider.DocumentFile;
 
-import com.beemdevelopment.Tesser.BackupsVersioningStrategy;
-import com.beemdevelopment.Tesser.Preferences;
-import com.beemdevelopment.Tesser.database.AuditLogRepository;
-import com.beemdevelopment.Tesser.util.IOUtils;
+import com.hyz.tesser.BackupsVersioningStrategy;
+import com.hyz.tesser.Preferences;
+import com.hyz.tesser.database.AuditLogRepository;
+import com.hyz.tesser.util.IOUtils;
 
 import java.io.File;
 import java.io.FileInputStream;

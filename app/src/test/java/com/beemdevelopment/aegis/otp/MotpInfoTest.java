@@ -1,10 +1,10 @@
-package com.beemdevelopment.Tesser.otp;
+package com.hyz.tesser.otp;
 
 import static org.junit.Assert.assertEquals;
 
-import com.beemdevelopment.Tesser.crypto.otp.MOTPTest;
-import com.beemdevelopment.Tesser.encoding.EncodingException;
-import com.beemdevelopment.Tesser.encoding.Hex;
+import com.hyz.tesser.crypto.otp.MOTPTest;
+import com.hyz.tesser.encoding.EncodingException;
+import com.hyz.tesser.encoding.Hex;
 
 import org.junit.Test;
 
