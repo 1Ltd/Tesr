@@ -1,12 +1,12 @@
 <resources>
-    <style name="Theme.Aegis.Launch" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Tesser.Launch" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- colorPrimary in the root theme sets the task description color (seen in task switcher) -->
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
-    <style name="Base.Theme.Aegis.Light" parent="Theme.Material3.Light">
+    <style name="Base.Theme.Tesser.Light" parent="Theme.Material3.Light">
         <!-- Material colors -->
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
@@ -55,29 +55,29 @@
         <item name="colorSurfaceDim">@color/md_theme_light_surfaceDim</item>
         <item name="colorSurfaceBright">@color/md_theme_light_surfaceBright</item>
         <!-- Custom colors -->
-        <item name="colorFavorite">@color/aegis_theme_all_favorite</item>
+        <item name="colorFavorite">@color/Tesser_theme_all_favorite</item>
         <item name="colorPrimaryAlternative">?attr/colorPrimary</item>
         <item name="colorProgressbar">?attr/colorPrimaryAlternative</item>
         <item name="colorOnDark">@android:color/white</item>
-        <item name="colorSuccess">@color/aegis_theme_light_success</item>
-        <item name="colorOnSurfaceDim">@color/aegis_theme_light_onSurfaceDim</item>
+        <item name="colorSuccess">@color/Tesser_theme_light_success</item>
+        <item name="colorOnSurfaceDim">@color/Tesser_theme_light_onSurfaceDim</item>
         <item name="colorCode">?attr/colorPrimary</item>
         <item name="colorCodeHidden">?attr/colorOutlineVariant</item>
         <!-- Intro colors -->
         <item name="dot_color">?attr/colorSurfaceVariant</item>
         <item name="dot_color_selected">?attr/colorOnSurfaceVariant</item>
         <!-- Styles -->
-        <item name="dropdownStyle">@style/Widget.Aegis.Dropdown</item>
-        <item name="preferenceTheme">@style/ThemeOverlay.Aegis.Preference</item>
-        <item name="actionModeTheme">@style/ThemeOverlay.Aegis.ActionMode</item>
-        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Aegis.AlertDialog</item>
+        <item name="dropdownStyle">@style/Widget.Tesser.Dropdown</item>
+        <item name="preferenceTheme">@style/ThemeOverlay.Tesser.Preference</item>
+        <item name="actionModeTheme">@style/ThemeOverlay.Tesser.ActionMode</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Tesser.AlertDialog</item>
         <!-- Settings -->
         <item name="windowActionModeOverlay">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Base.Theme.Aegis.Dark" parent="Theme.Material3.Dark">
+    <style name="Base.Theme.Tesser.Dark" parent="Theme.Material3.Dark">
         <!-- Material colors -->
         <item name="colorPrimary">@color/md_theme_dark_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
@@ -126,29 +126,29 @@
         <item name="colorSurfaceDim">@color/md_theme_dark_surfaceDim</item>
         <item name="colorSurfaceBright">@color/md_theme_dark_surfaceBright</item>
         <!-- Custom colors -->
-        <item name="colorFavorite">@color/aegis_theme_all_favorite</item>
+        <item name="colorFavorite">@color/Tesser_theme_all_favorite</item>
         <item name="colorPrimaryAlternative">?attr/colorPrimaryInverse</item>
         <item name="colorProgressbar">?attr/colorPrimaryAlternative</item>
         <item name="colorOnDark">@android:color/white</item>
-        <item name="colorSuccess">@color/aegis_theme_dark_success</item>
-        <item name="colorOnSurfaceDim">@color/aegis_theme_dark_onSurfaceDim</item>
+        <item name="colorSuccess">@color/Tesser_theme_dark_success</item>
+        <item name="colorOnSurfaceDim">@color/Tesser_theme_dark_onSurfaceDim</item>
         <item name="colorCode">?attr/colorPrimary</item>
         <item name="colorCodeHidden">?attr/colorOutlineVariant</item>
         <!-- Intro colors -->
         <item name="dot_color">?attr/colorSurfaceVariant</item>
         <item name="dot_color_selected">?attr/colorOnSurfaceVariant</item>
         <!-- Styles -->
-        <item name="dropdownStyle">@style/Widget.Aegis.Dropdown</item>
-        <item name="preferenceTheme">@style/ThemeOverlay.Aegis.Preference</item>
-        <item name="actionModeTheme">@style/ThemeOverlay.Aegis.ActionMode</item>
-        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Aegis.AlertDialog</item>
+        <item name="dropdownStyle">@style/Widget.Tesser.Dropdown</item>
+        <item name="preferenceTheme">@style/ThemeOverlay.Tesser.Preference</item>
+        <item name="actionModeTheme">@style/ThemeOverlay.Tesser.ActionMode</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Tesser.AlertDialog</item>
         <!-- Settings -->
         <item name="windowActionModeOverlay">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Base.Theme.Aegis.Amoled" parent="Base.Theme.Aegis.Dark">
+    <style name="Base.Theme.Tesser.Amoled" parent="Base.Theme.Tesser.Dark">
         <!-- Setting android:colorBackground to #000000 on API 28 and below causes smearing -->
         <item name="android:colorBackground">@android:color/black</item>
         <item name="colorSurface">#000000</item>
@@ -165,11 +165,11 @@
         <item name="colorProgressbar">@android:color/white</item>
     </style>
 
-    <style name="ThemeOverlay.Aegis.Dynamic.Dark" parent="ThemeOverlay.Material3.DynamicColors.Dark">
+    <style name="ThemeOverlay.Tesser.Dynamic.Dark" parent="ThemeOverlay.Material3.DynamicColors.Dark">
         <item name="colorProgressbar">?attr/colorCode</item>
     </style>
 
-    <style name="ThemeOverlay.Aegis.Dynamic.Amoled" parent="ThemeOverlay.Material3.DynamicColors.Dark">
+    <style name="ThemeOverlay.Tesser.Dynamic.Amoled" parent="ThemeOverlay.Material3.DynamicColors.Dark">
         <!-- Setting android:colorBackground to #000000 on API 28 and below causes smearing -->
         <item name="android:colorBackground">@android:color/black</item>
         <item name="colorSurface">#000000</item>
@@ -186,94 +186,95 @@
         <item name="colorProgressbar">@android:color/white</item>
     </style>
 
-    <style name="Theme.Aegis.Light" parent="Base.Theme.Aegis.Light">
+    <style name="Theme.Tesser.Light" parent="Base.Theme.Tesser.Light">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
-    <style name="Theme.Aegis.Dark" parent="Base.Theme.Aegis.Dark">
+    <style name="Theme.Tesser.Dark" parent="Base.Theme.Tesser.Dark">
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 
-    <style name="Theme.Aegis.Amoled" parent="Base.Theme.Aegis.Amoled">
+    <style name="Theme.Tesser.Amoled" parent="Base.Theme.Tesser.Amoled">
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 
-    <style name="Widget.Aegis.Dropdown" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu" />
+    <style name="Widget.Tesser.Dropdown" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu" />
 
-    <style name="ThemeOverlay.Aegis.Preference" parent="@style/PreferenceThemeOverlay">
+    <style name="ThemeOverlay.Tesser.Preference" parent="@style/PreferenceThemeOverlay">
         <item name="android:tint">?attr/colorOnSurface</item>
-        <item name="switchPreferenceCompatStyle">@style/Preference.Aegis.SwitchPreference</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.Tesser.SwitchPreference</item>
     </style>
 
-    <style name="Preference.Aegis.SwitchPreference" parent="@style/Preference.SwitchPreferenceCompat.Material">
+    <style name="Preference.Tesser.SwitchPreference" parent="@style/Preference.SwitchPreferenceCompat.Material">
         <item name="widgetLayout">@layout/view_preference_switch</item>
     </style>
 
-    <style name="Widget.Aegis.EntryCardView" parent="Widget.Material3.CardView.Elevated">
-        <item name="materialThemeOverlay">@style/ThemeOverlay.Aegis.EntryCardView</item>
+    <style name="Widget.Tesser.EntryCardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Tesser.EntryCardView</item>
     </style>
 
-    <style name="Widget.Aegis.CompactEntryCardView" parent="Widget.Material3.CardView.Elevated">
-        <item name="materialThemeOverlay">@style/ThemeOverlay.Aegis.CompactEntryCardView</item>
+    <style name="Widget.Tesser.CompactEntryCardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Tesser.CompactEntryCardView</item>
     </style>
 
-    <style name="ThemeOverlay.Aegis.EntryCardView" parent="">
+    <style name="ThemeOverlay.Tesser.EntryCardView" parent="">
         <item name="colorSurfaceContainerLow">?attr/colorSurfaceContainer</item>
     </style>
 
-    <style name="ThemeOverlay.Aegis.CompactEntryCardView" parent="">
+    <style name="ThemeOverlay.Tesser.CompactEntryCardView" parent="">
         <item name="colorSurfaceContainerLow">?attr/colorSurface</item>
     </style>
 
-    <style name="Widget.Aegis.ErrorCardView" parent="Widget.Material3.CardView.Filled">
-        <item name="materialThemeOverlay">@style/ThemeOverlay.Aegis.ErrorCardView</item>
+    <style name="Widget.Tesser.ErrorCardView" parent="Widget.Material3.CardView.Filled">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Tesser.ErrorCardView</item>
     </style>
 
-    <style name="ThemeOverlay.Aegis.ErrorCardView" parent="">
+    <style name="ThemeOverlay.Tesser.ErrorCardView" parent="">
         <item name="colorSurfaceContainerHighest">?attr/colorErrorContainer</item>
     </style>
 
-    <style name="ThemeOverlay.Aegis.ActionMode" parent="">
+    <style name="ThemeOverlay.Tesser.ActionMode" parent="">
         <!-- Magically give the action mode icons the right color -->
         <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
         <!-- The hack below is necessary to force the action mode overflow menu to the right color -->
         <item name="actionBarPopupTheme">@style/Widget.Material3.PopupMenu.ContextMenu</item>
     </style>
 
-    <style name="ThemeOverlay.Aegis.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog.Centered">
+    <style name="ThemeOverlay.Tesser.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog.Centered">
 
     </style>
 
-    <style name="ThemeOverlay.Aegis.AlertDialog.Error">
+    <style name="ThemeOverlay.Tesser.AlertDialog.Error">
         <item name="android:alertDialogIcon">@drawable/ic_outline_error_24</item>
-        <item name="materialAlertDialogTitleIconStyle">@style/Widget.Aegis.AlertDialog.Icon.Error</item>
+        <item name="materialAlertDialogTitleIconStyle">@style/Widget.Tesser.AlertDialog.Icon.Error</item>
     </style>
 
-    <style name="ThemeOverlay.Aegis.AlertDialog.Warning">
+    <style name="ThemeOverlay.Tesser.AlertDialog.Warning">
         <item name="android:alertDialogIcon">@drawable/ic_outline_warning_24</item>
-        <item name="materialAlertDialogTitleIconStyle">@style/Widget.Aegis.AlertDialog.Icon.Warning</item>
+        <item name="materialAlertDialogTitleIconStyle">@style/Widget.Tesser.AlertDialog.Icon.Warning</item>
     </style>
 
-    <style name="Widget.Aegis.AlertDialog.Icon.Error" parent="@style/MaterialAlertDialog.Material3.Title.Icon.CenterStacked">
+    <style name="Widget.Tesser.AlertDialog.Icon.Error" parent="@style/MaterialAlertDialog.Material3.Title.Icon.CenterStacked">
         <item name="android:tint">?attr/colorError</item>
     </style>
 
-    <style name="Widget.Aegis.AlertDialog.Icon.Warning" parent="@style/MaterialAlertDialog.Material3.Title.Icon.CenterStacked">
+    <style name="Widget.Tesser.AlertDialog.Icon.Warning" parent="@style/MaterialAlertDialog.Material3.Title.Icon.CenterStacked">
         <item name="android:tint">?attr/colorError</item>
     </style>
 
-    <style name="ShapeAppearanceOverlay.Aegis.ImageView.Rounded" parent="">
+    <style name="ShapeAppearanceOverlay.Tesser.ImageView.Rounded" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">8dp</item>
     </style>
 
-    <style name="ShapeAppearanceOverlay.Aegis.ImageView.Circle" parent="">
+    <style name="ShapeAppearanceOverlay.Tesser.ImageView.Circle" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
     </style>
 </resources>
+        
