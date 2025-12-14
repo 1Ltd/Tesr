@@ -1,10 +1,10 @@
-package com.beemdevelopment.aegis.otp;
+package com.beemdevelopment.Tesser.otp;
 
 import static org.junit.Assert.assertEquals;
 
-import com.beemdevelopment.aegis.crypto.otp.MOTPTest;
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.encoding.Hex;
+import com.beemdevelopment.Tesser.crypto.otp.MOTPTest;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.encoding.Hex;
 
 import org.junit.Test;
 

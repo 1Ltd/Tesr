@@ -1,12 +1,12 @@
-package com.beemdevelopment.aegis.vectors;
+package com.beemdevelopment.Tesser.vectors;
 
-import com.beemdevelopment.aegis.encoding.Base32;
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.otp.HotpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.SteamInfo;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.vault.VaultEntry;
+import com.beemdevelopment.Tesser.encoding.Base32;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.otp.HotpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.SteamInfo;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
 import com.google.common.collect.Lists;
 
 import java.util.List;

@@ -28,7 +28,7 @@
     <string name="pref_section_security_title">Bảo mật</string>
     <string name="pref_section_security_summary">Mã hóa, mở khóa sinh trắc học, tự động khóa và các cài đặt khác.</string>
     <string name="pref_section_import_export_title">Nhập &amp; xuất</string>
-    <string name="pref_section_import_export_summary">Nhập hoặc xuất các bản sao lưu của Aegis.</string>
+    <string name="pref_section_import_export_summary">Nhập hoặc xuất các bản sao lưu của Tesser.</string>
     <string name="pref_section_audit_log_title">Nhật ký</string>
     <string name="pref_section_audit_log_summary">Danh sách tất cả các sự kiện diễn ra trong ứng dụng.</string>
     <string name="pref_section_backups_title">Sao lưu</string>
@@ -56,14 +56,14 @@
     <string name="pref_import_file_title">Nhập từ tập tin</string>
     <string name="pref_import_file_summary">Nhập mã từ tập tin</string>
     <string name="pref_android_backups_title">Sao lưu trên mây Android</string>
-    <string name="pref_android_backups_summary">Cho phép hệ thống sao lưu trên mây Android lưu trữ kho Aegis. Chỉ hỗ trợ các kho được mã hoá.</string>
+    <string name="pref_android_backups_summary">Cho phép hệ thống sao lưu trên mây Android lưu trữ kho Tesser. Chỉ hỗ trợ các kho được mã hoá.</string>
     <string name="pref_android_backups_hint"><i>Các bản sao lưu thiết bị (D2D) luôn được cho phép, không kể cài đặt trên</i></string>
     <string name="pref_backups_title">Tự động sao lưu kho</string>
     <string name="pref_backups_summary">Tự động tạo bản sao lưu kho trên bộ nhớ ngoài khi có thay đổi. Chỉ hỗ trợ các kho được mã hóa.</string>
     <string name="pref_backups_reminder_title">Nhắc nhở sao lưu</string>
     <string name="pref_backups_reminder_summary">Hiện lời nhắc sao lưu kho của bạn trong trường hợp bạn chưa sao lưu các thay đổi mới nhất.</string>
     <string name="pref_backups_reminder_dialog_title">Tắt nhắc nhở sao lưu</string>
-    <string name="pref_backups_reminder_dialog_summary">Tắt lời nhắc này có nghĩa là Aegis sẽ không cho bạn biết liệu bạn có những thay đổi chưa được sao lưu hay không. Điều này khiến bạn có nguy cơ mất quyền truy cập vào mã của mình. Bạn có chắc muốn tắt lời nhắc?</string>
+    <string name="pref_backups_reminder_dialog_summary">Tắt lời nhắc này có nghĩa là Tesser sẽ không cho bạn biết liệu bạn có những thay đổi chưa được sao lưu hay không. Điều này khiến bạn có nguy cơ mất quyền truy cập vào mã của mình. Bạn có chắc muốn tắt lời nhắc?</string>
     <string name="pref_backups_versioning_strategy_title">Chiến lược sao lưu</string>
     <string name="pref_backups_versioning_strategy_keep_x_versions">Nhiều bản sao</string>
     <string name="pref_backups_versioning_strategy_single_backup">Một bản sao</string>
@@ -101,7 +101,7 @@
     <string name="pref_auto_lock_title">Tự động khóa</string>
     <string name="pref_auto_lock_summary">Khi %s</string>
     <string name="pref_auto_lock_summary_disabled">Tắt</string>
-    <string name="pref_auto_lock_prompt">Tự động khóa Aegis khi</string>
+    <string name="pref_auto_lock_prompt">Tự động khóa Tesser khi</string>
     <string name="pref_auto_lock_type_back_button">Nhấn nút quay lại</string>
     <string name="pref_auto_lock_type_minimize">Ứng dụng được thu nhỏ</string>
     <string name="pref_auto_lock_type_device_lock">Thiết bị bị khóa</string>
@@ -143,11 +143,11 @@
     <string name="today_at_time">%1$s hôm nay</string>
     <string name="day_of_week_at_time">%2$s lúc %1$s</string>
     <string name="export_encrypted">Mã hoá kho</string>
-    <string name="export_help">Hành động này sẽ xuất kho ra ngoài bộ nhớ trong của Aegis. Hãy chọn định dạng bản xuất:</string>
-    <string name="export_warning_unencrypted">Bạn sắp xuất một bản sao chưa được mã khóa của kho Aegis. <b>Việc này không được khuyến khích</b>.</string>
+    <string name="export_help">Hành động này sẽ xuất kho ra ngoài bộ nhớ trong của Tesser. Hãy chọn định dạng bản xuất:</string>
+    <string name="export_warning_unencrypted">Bạn sắp xuất một bản sao chưa được mã khóa của kho Tesser. <b>Việc này không được khuyến khích</b>.</string>
     <string name="export_warning_password">Quá trình xuất được mã hóa bằng mật khẩu riêng được định cấu hình trong cài đặt Bảo mật.</string>
     <string name="understand_risk_accept">Tôi hiểu rủi ro</string>
-    <string name="export_format_aegis">Aegis (.JSON)</string>
+    <string name="export_format_Tesser">Tesser (.JSON)</string>
     <string name="export_format_google_auth_uri">Tập tin văn bản thuần (.TXT)</string>
     <string name="export_format_html">Trang web (.HTML)</string>
     <string name="export_format_hint">Định dạng xuất</string>
@@ -157,9 +157,9 @@
         <item quantity="other">%d nhãn đã chọn</item>
     </plurals>
     <string name="export_no_groups_selected">Chưa chọn nhãn để xuất</string>
-    <string name="export_html_title" comment="The title of an HTML export document">Xuất Aegis Authenticator</string>
+    <string name="export_html_title" comment="The title of an HTML export document">Xuất Tesser Authenticator</string>
     <string name="choose_authentication_method">Bảo mật</string>
-    <string name="authentication_method_explanation">Aegis là ứng dụng xác thực hai yếu tố chú trọng vào bảo mật. Mã xác thực được lưu trong kho và kho này có thể được mã hóa bằng mật khẩu do bạn nhập. Trường hợp kẻ tấn công lấy được tập tin chứa kho này, y không thể truy cập nội dung trong kho nếu không biết mật khẩu.\n\nChúng tôi đã đề xuất tùy chọn phù hợp nhất với thiết bị của bạn.</string>
+    <string name="authentication_method_explanation">Tesser là ứng dụng xác thực hai yếu tố chú trọng vào bảo mật. Mã xác thực được lưu trong kho và kho này có thể được mã hóa bằng mật khẩu do bạn nhập. Trường hợp kẻ tấn công lấy được tập tin chứa kho này, y không thể truy cập nội dung trong kho nếu không biết mật khẩu.\n\nChúng tôi đã đề xuất tùy chọn phù hợp nhất với thiết bị của bạn.</string>
     <string name="authentication_method_none">Không</string>
     <string name="authentication_method_none_description">Kho không được mã hóa và không cần mật khẩu để mở.
 <b>Tùy chọn này không được khuyến khích</b>.</string>
@@ -176,18 +176,18 @@
     <string name="set_number">Vui lòng nhập số</string>
     <string name="set_password_confirm">Xác nhận lại mật khẩu</string>
     <string name="invalid_password">Mật khẩu không đúng</string>
-    <string name="invalidated_biometrics">Đã phát hiện một thay đổi trong cài đặt bảo mật của thiết bị. Vui lòng đi đến \"Aegis &gt; Cài đặt &gt; Bảo mật &gt; Mở khóa sinh trắc học\" để tắt và bật lại mở khóa sinh trắc học.</string>
+    <string name="invalidated_biometrics">Đã phát hiện một thay đổi trong cài đặt bảo mật của thiết bị. Vui lòng đi đến \"Tesser &gt; Cài đặt &gt; Bảo mật &gt; Mở khóa sinh trắc học\" để tắt và bật lại mở khóa sinh trắc học.</string>
     <string name="password_reminder">Vui lòng nhập mật khẩu. Chúng tôi thỉnh thoảng hỏi điều này để cho bạn không quên mật khẩu.</string>
     <string name="password_reminder_dialog_title">Mở khóa sinh trắc học theo mặc định</string>
-    <string name="password_reminder_dialog_message">Thỉnh thoảng chúng tôi nhắc bạn nhập mật khẩu để đảm bảo bạn không quên mật khẩu và không mất quyền truy cập vào kho của mình. Sau khi nhập mật khẩu của bạn, Aegis sẽ mặc định quay lại mở khóa sinh trắc học cho đến khi đến lần nhắc tiếp theo.</string>
+    <string name="password_reminder_dialog_message">Thỉnh thoảng chúng tôi nhắc bạn nhập mật khẩu để đảm bảo bạn không quên mật khẩu và không mất quyền truy cập vào kho của mình. Sau khi nhập mật khẩu của bạn, Tesser sẽ mặc định quay lại mở khóa sinh trắc học cho đến khi đến lần nhắc tiếp theo.</string>
     <string name="password_reminder_freq_never">Không bao giờ</string>
     <string name="password_reminder_freq_weekly">Hằng tuần</string>
     <string name="password_reminder_freq_biweekly">Nửa tháng</string>
     <string name="password_reminder_freq_monthly">Hàng tháng</string>
     <string name="password_reminder_freq_quarterly">Mỗi ba tháng</string>
     <string name="enter_password_2fas_message">Bản sao lưu 2FAS này được mã hóa. Vui lòng nhập mật khẩu ở dưới.</string>
-    <string name="enter_password_authy_message">Các mã Authy của bạn đã được mã hóa. Vui lòng đóng Aegis, mở Authy và mở khóa các mã bằng mật khẩu của bạn. Bên cạnh đó, Aegis cũng có thể thử giải các mã Authy cho bạn, nếu bạn nhập mật khẩu ở dưới.</string>
-    <string name="enter_password_aegis_title">Vui lòng nhập mật khẩu để nhập</string>
+    <string name="enter_password_authy_message">Các mã Authy của bạn đã được mã hóa. Vui lòng đóng Tesser, mở Authy và mở khóa các mã bằng mật khẩu của bạn. Bên cạnh đó, Tesser cũng có thể thử giải các mã Authy cho bạn, nếu bạn nhập mật khẩu ở dưới.</string>
+    <string name="enter_password_Tesser_title">Vui lòng nhập mật khẩu để nhập</string>
     <string name="period_hint">Đếm ngược (s)</string>
     <string name="algorithm_hint">Hàm băm</string>
     <string name="type">Loại</string>
@@ -247,9 +247,9 @@
     <string name="saving_profile_error">Lỗi khi lưu hồ sơ</string>
     <string name="saving_assign_icons_error">Lỗi khi gán biểu tượng</string>
     <string name="welcome">Chào mừng</string>
-    <string name="app_description">Aegis là một ứng dụng xác thực 2 yếu tố tự do, bảo mật và nguồn mở</string>
+    <string name="app_description">Tesser là một ứng dụng xác thực 2 yếu tố tự do, bảo mật và nguồn mở</string>
     <string name="setup_completed">Thiết lập hoàn tất</string>
-    <string name="setup_completed_description">Aegis đã được thiết lập và sẵn sàng hoạt động.</string>
+    <string name="setup_completed_description">Tesser đã được thiết lập và sẵn sàng hoạt động.</string>
     <string name="vault_not_found">Không tìm thấy kho, đang bắt đầu thiết lập…</string>
     <string name="copied">Đã sao chép</string>
     <string name="errors_copied">Đã sao chép các lỗi vào bộ nhớ tạm</string>
@@ -261,8 +261,8 @@
     <string name="saving_error">Đã xảy ra lỗi trong khi lưu kho</string>
     <string name="vault_init_error">Đã xảy ra lỗi trong khi khởi tạo kho</string>
     <string name="vault_load_error">Đã xảy ra lỗi trong khi nạp kho từ bộ nhớ</string>
-    <string name="biometric_decrypt_error">Đã xảy ra lỗi trong khi giải mã kho bằng xác minh sinh trắc học. Điều này thường chỉ xảy ra nếu cài đặt bảo mật của thiết bị đã được thay đổi. Vui lòng mở khóa kho bằng mật khẩu và thiết lập lại xác minh sinh trắc học trong cài đặt của Aegis.</string>
-    <string name="biometric_init_error">Đã xảy ra lỗi trong khi chuẩn bị xác minh sinh trắc học. Điều này thường chỉ xảy ra nếu cài đặt bảo mật của thiết bị đã được thay đổi. Vui lòng mở khóa kho bằng mật khẩu và thiết lập lại xác minh sinh trắc học trong cài đặt của Aegis.</string>
+    <string name="biometric_decrypt_error">Đã xảy ra lỗi trong khi giải mã kho bằng xác minh sinh trắc học. Điều này thường chỉ xảy ra nếu cài đặt bảo mật của thiết bị đã được thay đổi. Vui lòng mở khóa kho bằng mật khẩu và thiết lập lại xác minh sinh trắc học trong cài đặt của Tesser.</string>
+    <string name="biometric_init_error">Đã xảy ra lỗi trong khi chuẩn bị xác minh sinh trắc học. Điều này thường chỉ xảy ra nếu cài đặt bảo mật của thiết bị đã được thay đổi. Vui lòng mở khóa kho bằng mật khẩu và thiết lập lại xác minh sinh trắc học trong cài đặt của Tesser.</string>
     <string name="disable_encryption">Tắt mã hóa</string>
     <string name="disable_encryption_description">Bạn có chắc muốn tắt mã hóa không? Làm vậy sẽ khiến kho được lưu trữ dưới dạng văn bản thuần. <b>Sao lưu tự động cũng sẽ bị tắt</b>.</string>
     <string name="enable_encryption_error">Đã xảy ra lỗi trong khi bật mã hóa</string>
@@ -295,7 +295,7 @@
     <string name="file_not_found">Lỗi: Không tìm thấy tập tin</string>
     <string name="reading_file_error">Đã xảy ra lỗi trong khi đọc tập tin</string>
     <string name="app_lookup_error">Lỗi: Ứng dụng không được cài đặt</string>
-    <string name="app_version_error">Phiên bản %s không được hỗ trợ. Các phiên bản gần đây đã bắt đầu mã hóa một số tập tin trong thư mục lưu trữ nội bộ, khiến Aegis không thể truy cập thông tin cần thiết để nhập. Việc cố gắng nhập có thể dẫn đến lỗi. Bạn vẫn muốn tiếp tục?</string>
+    <string name="app_version_error">Phiên bản %s không được hỗ trợ. Các phiên bản gần đây đã bắt đầu mã hóa một số tập tin trong thư mục lưu trữ nội bộ, khiến Tesser không thể truy cập thông tin cần thiết để nhập. Việc cố gắng nhập có thể dẫn đến lỗi. Bạn vẫn muốn tiếp tục?</string>
     <string name="root_error">Lỗi: Không thể nhận quyền truy cập root</string>
     <plurals name="imported_entries_count">
         <item quantity="other">Đã nhập %d mục</item>
@@ -311,7 +311,7 @@
     <string name="encryption_enable_biometrics_error">Đã xảy ra lỗi trong khi bật mở khóa sinh trắc học. Một số thiết bị có xác minh sinh trắc học rất kém chất lượng và có khả năng là thiết bị của bạn là một trong số chúng. Hãy cân nhắc việc chuyển sang thiết lập chỉ dùng mật khẩu.</string>
     <string name="no_cameras_available">Không có sẵn camera</string>
     <string name="read_qr_error">Đã xảy ra lỗi trong khi đọc mã QR</string>
-    <string name="read_qr_error_phonefactor">Aegis không tương thích với thuật toán Xác minh 2 bước độc quyền của Microsoft. Vui lòng chắc chắn là bạn chọn \"Thiết lập ứng dụng không có thông báo\" khi thiết lập Xác minh 2 bước trong Office 365.</string>
+    <string name="read_qr_error_phonefactor">Tesser không tương thích với thuật toán Xác minh 2 bước độc quyền của Microsoft. Vui lòng chắc chắn là bạn chọn \"Thiết lập ứng dụng không có thông báo\" khi thiết lập Xác minh 2 bước trong Office 365.</string>
     <string name="partial_google_auth_import">Đã phát hiện quá trình xuất Google Authenticator chưa hoàn tất</string>
     <string name="partial_google_auth_import_warning">Một số mã QR bị thiếu trong quá trình nhập. Không tìm thấy các mã sau:\n\n<b>%s</b>\n\nBạn có thể tiếp tục nhập bản xuất này nhưng chúng tôi khuyên bạn nên thử lại với tất cả các mã QR để không có nguy cơ mất quyền truy cập vào bất kỳ mã nào.</string>
     <string name="missing_qr_code_descriptor">• Mã QR %d</string>
@@ -396,7 +396,7 @@
     <string name="unknown_issuer">Dịch vụ chưa rõ</string>
     <string name="unknown_account_name">Tên tài khoản không xác định</string>
     <plurals name="import_error_dialog">
-        <item quantity="other">Aegis không thể nhập %d mã. Các mã đó sẽ bị bỏ qua. Nhấn \'Chi tiết\' để xem thêm thông tin về lỗi.</item>
+        <item quantity="other">Tesser không thể nhập %d mã. Các mã đó sẽ bị bỏ qua. Nhấn \'Chi tiết\' để xem thêm thông tin về lỗi.</item>
     </plurals>
     <string name="unable_to_process_deeplink">Không thể xử lý deep link</string>
     <string name="unable_to_read_qrcode_file">Không thể đọc và xử lý mã QR từ tập tin: %s.</string>
@@ -410,16 +410,16 @@
     <string name="toggle_checkboxes">Đánh dấu các hộp kiểm</string>
     <string name="search">Tìm kiếm</string>
     <string name="channel_name_lock_status">Trạng thái khóa</string>
-    <string name="channel_description_lock_status">Aegis có thể tạo một thông báo liên tục để báo cho bạn khi kho được khóa</string>
+    <string name="channel_description_lock_status">Tesser có thể tạo một thông báo liên tục để báo cho bạn khi kho được khóa</string>
     <string name="vault_unlocked_state">Đã mở khóa kho. Nhấn vào đây để khóa.</string>
     <string name="version">Phiên bản</string>
     <string name="changelog">Changelog</string>
     <string name="whats_new">Có gì mới</string>
     <string name="github_description">Mã nguồn và báo lỗi</string>
     <string name="license">Giấy phép</string>
-    <string name="license_description">Aegis Authenticator sử dụng giấy phép GPLv3</string>
+    <string name="license_description">Tesser Authenticator sử dụng giấy phép GPLv3</string>
     <string name="third_party_licenses">Giấy phép bên thứ ba</string>
-    <string name="third_party_licenses_description">Các thư viện nguồn mở mà Aegis sử dụng</string>
+    <string name="third_party_licenses_description">Các thư viện nguồn mở mà Tesser sử dụng</string>
     <string name="country_netherlands">Hà Lan</string>
     <string name="email_us">Gửi email</string>
     <string name="visit_website">Trang chủ</string>
@@ -429,7 +429,7 @@
     <string name="webview_error">Thiết bị này không hỗ trợ WebView, nó là cần thiết để xem changelog và giấy phép. Đây là một thành phần hệ thống.</string>
     <string name="email">Email</string>
     <string name="time_sync_warning_title">Tự đồng bộ thời gian</string>
-    <string name="time_sync_warning_message">Aegis dựa vào việc thời gian hệ thống được đồng bộ để tạo các mã chính xác. Một sự sai lệch chỉ vài giây cũng có thể dẫn đến các mã không chính xác. Có vẻ như thiết bị của bạn không được thiết lập tự đồng bộ thời gian. Bạn có muốn bật tính năng này?</string>
+    <string name="time_sync_warning_message">Tesser dựa vào việc thời gian hệ thống được đồng bộ để tạo các mã chính xác. Một sự sai lệch chỉ vài giây cũng có thể dẫn đến các mã không chính xác. Có vẻ như thiết bị của bạn không được thiết lập tự đồng bộ thời gian. Bạn có muốn bật tính năng này?</string>
     <string name="time_sync_warning_disable">Đừng cảnh báo tôi nữa. Tôi biết tôi đang làm gì.</string>
     <string name="google_qr_export_unrelated">Đã tìm thấy mã QR không liên quan. Hãy thử khởi động lại trình quét.</string>
     <plurals name="google_qr_export_scanned">
@@ -439,9 +439,9 @@
     <string name="backup_error_bar_message"><b>Sao lưu kho thất bại</b></string>
     <string name="backup_error_dialog_details" comment="The first parameter is the type of backup (e.g. built-in or Android backup). The second parameter is an elapsed time in the style of 'x seconds/minutes/days ago'.">        Một bản sao lưu kho gần đây bằng cách sử dụng %1$s đã thất bại. Bản sao lưu đã thử %2$s. Vui lòng kiểm tra cài đặt sao lưu của bạn để đảm bảo quá trình sao lưu có thể hoàn tất.
     </string>
-    <string name="backup_permission_error_dialog_details" comment="The first parameter is the type of backup (e.g. built-in or Android backup). The second parameter is an elapsed time in the style of 'x seconds/minutes/days ago'.">        Lần sao lưu kho gần đây bằng %1$s không thành công vì Aegis không có quyền ghi vào thư mục. Đã thử sao lưu %2$s. Lỗi này có thể xảy ra nếu bạn di chuyển/đổi tên thư mục sao lưu hoặc nếu gần đây bạn đã khôi phục Aegis từ bản sao lưu. Vui lòng chọn lại thư mục sao lưu.
+    <string name="backup_permission_error_dialog_details" comment="The first parameter is the type of backup (e.g. built-in or Android backup). The second parameter is an elapsed time in the style of 'x seconds/minutes/days ago'.">        Lần sao lưu kho gần đây bằng %1$s không thành công vì Tesser không có quyền ghi vào thư mục. Đã thử sao lưu %2$s. Lỗi này có thể xảy ra nếu bạn di chuyển/đổi tên thư mục sao lưu hoặc nếu gần đây bạn đã khôi phục Tesser từ bản sao lưu. Vui lòng chọn lại thư mục sao lưu.
     </string>
-    <string name="backup_system_builtin">Sao lưu tự động tích hợp của Aegis</string>
+    <string name="backup_system_builtin">Sao lưu tự động tích hợp của Tesser</string>
     <string name="backup_system_android">Sao lưu đám mây của Android</string>
     <string name="backup_reminder_bar_message_with_latest" comment="The parameter is an elapsed time in the style of 'x seconds/minutes/days ago'">        Bản sao lưu cuối cùng đã cũ (%s)
     </string>
@@ -459,7 +459,7 @@
     <string name="empty_list_title">Chưa có mục nào</string>
     <string name="empty_group_list">Hãy thêm các nhãn khi chỉnh sửa một mục</string>
     <string name="empty_group_list_title">Chưa có nhãn nào</string>
-    <string name="no_icon_packs">Chưa nhập gói biểu tượng nào. Hãy nhấn vào ký hiệu dấu cộng để nhập một gói. Mẹo: thử <a href="https://aegis-icons.github.io">aegis-icons</a>.</string>
+    <string name="no_icon_packs">Chưa nhập gói biểu tượng nào. Hãy nhấn vào ký hiệu dấu cộng để nhập một gói. Mẹo: thử <a href="https://Tesser-icons.github.io">Tesser-icons</a>.</string>
     <string name="no_icon_packs_title">Chưa có gói biểu tượng</string>
     <string name="pick_icon">Chọn biểu tượng</string>
     <string name="uncategorized">Chưa phân loại</string>
@@ -474,7 +474,7 @@
     <string name="uri_copied_to_clipboard">Đã sao chép vào bộ nhớ tạm</string>
     <string name="transfer_entry_description">Quét mã QR này bằng ứng dụng xác minh mà bạn muốn truyền mục này đến</string>
     <string name="transfer_entry_brightness">Nhấn vào mã QR để chuyển đổi độ sáng toàn màn hình</string>
-    <string name="google_auth_compatible_transfer_description">Quét các mã QR này bằng Aegis hoặc Google Authenticator.\n\nDo hạn chế của ứng dụng Google Authenticator, chỉ áp dụng với mã TOTP &amp; HOTP 6 chữ số sử dụng SHA1</string>
+    <string name="google_auth_compatible_transfer_description">Quét các mã QR này bằng Tesser hoặc Google Authenticator.\n\nDo hạn chế của ứng dụng Google Authenticator, chỉ áp dụng với mã TOTP &amp; HOTP 6 chữ số sử dụng SHA1</string>
     <string name="password_strength_very_weak">Rất yếu</string>
     <string name="password_strength_weak">Yếu</string>
     <string name="password_strength_fair">Khá</string>
@@ -495,16 +495,16 @@
     <string name="dialog_wipe_entries_title">Xóa toàn bộ mục</string>
     <string name="dialog_wipe_entries_message">Kho của bạn đã chứa các mục. Bạn có muốn xóa các mục đó trước khi nhập từ tập tin này không?\n\n<b>Nếu làm vậy, bạn sẽ vĩnh viễn mất quyền truy cập vào các mục hiện có trong kho.</b></string>
     <string name="dialog_wipe_entries_checkbox">Xóa toàn bộ nội dung kho</string>
-    <string name="panic_trigger_ignore_toast">Aegis đã nhận kích hoạt khẩn nhưng cài đặt bị tắt, đang bỏ qua</string>
+    <string name="panic_trigger_ignore_toast">Tesser đã nhận kích hoạt khẩn nhưng cài đặt bị tắt, đang bỏ qua</string>
     <string name="pref_panic_trigger_title">Xóa kho khẩn cấp</string>
     <string name="pref_panic_trigger_summary">Khi nhận kích hoạt từ Ripple</string>
-    <string name="import_vault">Nhập kho Aegis</string>
+    <string name="import_vault">Nhập kho Tesser</string>
     <string name="import_vault_hint">Bạn muốn nhập từ một ứng dụng 2FA khác? Hoàn tất thiết lập trước và sau đó đi tới menu cài đặt.</string>
     <plurals name="import_duplicate_toast">
         <item quantity="other">Bỏ đánh dấu %d mục khả năng trùng lặp. Vui lòng xem lại danh sách các mục.</item>
     </plurals>
     <string name="importer_help_2fas">Cung cấp một tập tin sao lưu 2FAS Authenticator.</string>
-    <string name="importer_help_aegis">Cung cấp một file xuất/sao lưu Aegis.</string>
+    <string name="importer_help_Tesser">Cung cấp một file xuất/sao lưu Tesser.</string>
     <string name="importer_help_authenticator_plus">Cung cấp một tập tin xuất Authenticator Plus được nhận qua <b>Cài đặt -&gt; Sao lưu &amp; Khôi phục -&gt; Xuất dưới dạng Văn bản và HTML</b>.</string>
     <string name="importer_help_authy">Cung cấp một bản sao của <b>/data/data/com.authy.authy/shared_prefs/com.authy.storage.tokens.authenticator.xml</b>, nằm trong thư mục bộ nhớ trong của Authy.</string>
     <string name="importer_help_andotp">Cung cấp một tập tin xuất/sao lưu andOTP.</string>
@@ -515,7 +515,7 @@
     <string name="importer_help_freeotp">FreeOTP 2: Cung cấp một file sao lưu.\nFreeOTP 1.x: Cung cấp một bản sao <b>/data/data/org.fedorahosted.freeotp/shared_prefs/tokens.xml</b>, nằm trong thư mục lưu trữ nội bộ của FreeOTP.</string>
     <string name="importer_help_freeotp_plus">Cung cấp một tập tin xuất FreeOTP+.</string>
     <string name="importer_warning_title_freeotp2">Tương thích FreeOTP 2</string>
-    <string name="importer_warning_message_freeotp2">Có một số vấn đề trong FreeOTP 2 có thể dẫn đến việc sao lưu bị hỏng. Aegis sẽ cố gắng cứu càng nhiều mục nhập càng tốt, nhưng có thể một số hoặc thậm chí tất cả các mục nhập đều không nhập được.</string>
+    <string name="importer_warning_message_freeotp2">Có một số vấn đề trong FreeOTP 2 có thể dẫn đến việc sao lưu bị hỏng. Tesser sẽ cố gắng cứu càng nhiều mục nhập càng tốt, nhưng có thể một số hoặc thậm chí tất cả các mục nhập đều không nhập được.</string>
     <string name="importer_help_google_authenticator"><b>Chỉ có tập tin cơ sở dữ liệu từ Google Authenticator v5.10 và cũ hơn mới được hỗ trợ</b>.\n\nHãy lấy bản sao của <b>/data/data/com.google.android.apps.authenticator2/databases/databases</b> ở trong thư mục bộ nhớ trong của Google Authenticator.</string>
     <string name="importer_help_microsoft_authenticator">Cung cấp một bản sao của <b>/data/data/com.azure.authenticator/databases/PhoneFactor</b>, nằm trong thư mục bộ nhớ trong của Microsoft Authenticator.</string>
     <string name="importer_help_plain_text">Cung cấp một tập tin văn bản thuần có một URI Google Authenticator trên mỗi dòng.</string>
@@ -526,7 +526,7 @@
     <string name="import_assign_icons_dialog_title">Gán biểu tượng</string>
     <string name="import_assign_icons_dialog_text">Bạn có chắc muốn gán biểu tượng vào những mục đã nhập?</string>
     <string name="importer_encrypted_exception_google_authenticator">Đã bỏ qua mục mã hoá: %s</string>
-    <string name="importer_help_direct">Nhập các mục trực tiếp từ %s. Việc này yêu cầu ứng dụng được cài đặt trên thiết bị này và quyền truy cập root được cấp cho Aegis.</string>
+    <string name="importer_help_direct">Nhập các mục trực tiếp từ %s. Việc này yêu cầu ứng dụng được cài đặt trên thiết bị này và quyền truy cập root được cấp cho Tesser.</string>
     <string name="groups">Nhãn</string>
     <string name="pref_focus_search">Khởi động tìm kiếm</string>
     <string name="pref_focus_search_summary">Hiện tìm kiếm ngay sau khi mở ứng dụng</string>

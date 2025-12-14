@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.util;
+package com.beemdevelopment.Tesser.util;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

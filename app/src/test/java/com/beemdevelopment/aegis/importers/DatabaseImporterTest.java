@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.importers;
+package com.beemdevelopment.Tesser.importers;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -10,15 +10,15 @@ import android.content.Context;
 
 import androidx.test.core.app.ApplicationProvider;
 
-import com.beemdevelopment.aegis.encoding.Base32;
-import com.beemdevelopment.aegis.otp.HotpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfo;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.SteamInfo;
-import com.beemdevelopment.aegis.otp.TotpInfo;
-import com.beemdevelopment.aegis.util.UUIDMap;
-import com.beemdevelopment.aegis.vault.VaultEntry;
-import com.beemdevelopment.aegis.vectors.VaultEntries;
+import com.beemdevelopment.Tesser.encoding.Base32;
+import com.beemdevelopment.Tesser.otp.HotpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfo;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.SteamInfo;
+import com.beemdevelopment.Tesser.otp.TotpInfo;
+import com.beemdevelopment.Tesser.util.UUIDMap;
+import com.beemdevelopment.Tesser.vault.VaultEntry;
+import com.beemdevelopment.Tesser.vectors.VaultEntries;
 import com.google.common.collect.Lists;
 
 import org.junit.Before;
@@ -38,7 +38,7 @@ public class DatabaseImporterTest {
     /**
      * The procedure for adding new importer tests is as follows:
      * 1. Generate QR codes for each test vector:
-     *     -> while read line; do (qrencode "$line" -o - | feh -); done < ./app/src/test/resources/com/beemdevelopment/aegis/importers/plain.txt
+     *     -> while read line; do (qrencode "$line" -o - | feh -); done < ./app/src/test/resources/com/beemdevelopment/Tesser/importers/plain.txt
      * 2. Scan the QR codes with the app we want to test our import functionality of
      * 3. Create an export and add the file to the importers resource directory.
      * 4. Add a new test for it here.
@@ -56,16 +56,16 @@ public class DatabaseImporterTest {
     }
 
     @Test
-    public void testImportAegisPlain() throws IOException, DatabaseImporterException, OtpInfoException {
-        List<VaultEntry> entries = importPlain(AegisImporter.class, "aegis_plain.json");
+    public void testImportTesserPlain() throws IOException, DatabaseImporterException, OtpInfoException {
+        List<VaultEntry> entries = importPlain(TesserImporter.class, "Tesser_plain.json");
         checkImportedEntries(entries);
     }
 
     @Test
-    public void testImportAegisEncrypted() throws IOException, DatabaseImporterException, OtpInfoException {
-        List<VaultEntry> entries = importEncrypted(AegisImporter.class, "aegis_encrypted.json", encryptedState -> {
+    public void testImportTesserEncrypted() throws IOException, DatabaseImporterException, OtpInfoException {
+        List<VaultEntry> entries = importEncrypted(TesserImporter.class, "Tesser_encrypted.json", encryptedState -> {
             final char[] password = "test".toCharArray();
-            return ((AegisImporter.EncryptedState) encryptedState).decrypt(password);
+            return ((TesserImporter.EncryptedState) encryptedState).decrypt(password);
         });
 
         checkImportedEntries(entries);

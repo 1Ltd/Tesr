@@ -28,8 +28,8 @@
     <string name="pref_section_security_title">אבטחה</string>
     <string name="pref_section_security_summary">קבע הצפנה, כניסה ביומטרית, נעילה אוטומטית והגדרות אבטחה נוספות.</string>
     <string name="pref_section_import_export_title">ייבוא &amp; ייצוא</string>
-    <string name="pref_section_import_export_summary">ייבא גיבויים של Aegis ויישומי אימות נוספים.
-צור ייצואים ידניים של כספת ה-Aegis שלך.</string>
+    <string name="pref_section_import_export_summary">ייבא גיבויים של Tesser ויישומי אימות נוספים.
+צור ייצואים ידניים של כספת ה-Tesser שלך.</string>
     <string name="pref_section_audit_log_title">יומן ביקורת</string>
     <string name="pref_section_audit_log_summary">מצא רשימה של כל האירועים החשובים שדווחו שקרו בתוך האפליקציה.</string>
     <string name="pref_section_backups_title">גיבויים</string>
@@ -56,14 +56,14 @@
     <string name="pref_import_file_title">ייבוא מקובץ</string>
     <string name="pref_import_file_summary">ייבוא טוקנים מקובץ</string>
     <string name="pref_android_backups_title">גיבויי ענן אנדרואיד</string>
-    <string name="pref_android_backups_summary">אפשר למערכת גיבוי הענן של אנדרואיד לכלול את הכספת של Aegis בגיבויים שלה. אפשרות זו נתמכת רק עבור כספות מוצפנות.</string>
+    <string name="pref_android_backups_summary">אפשר למערכת גיבוי הענן של אנדרואיד לכלול את הכספת של Tesser בגיבויים שלה. אפשרות זו נתמכת רק עבור כספות מוצפנות.</string>
     <string name="pref_android_backups_hint"><i>גיבויי התקן להתקן (D2D) מותרים תמיד, ללא קשר להגדרה לעיל</i></string>
     <string name="pref_backups_title">גיבוי אוטומטי של הכספת</string>
     <string name="pref_backups_summary">צור באופן אוטומטי גיבויים של הכספת באחסון חיצוני כאשר מתבצעים שינויים. אפשרות זו נתמכת רק עבור כספות מוצפנות.</string>
     <string name="pref_backups_reminder_title">תזכורת לגיבוי</string>
     <string name="pref_backups_reminder_summary">הצג תזכורת לגיבוי הכספת שלך למקרה שלא גיבית את השינויים האחרונים שלך.</string>
     <string name="pref_backups_reminder_dialog_title">השבת תזכורת גיבוי</string>
-    <string name="pref_backups_reminder_dialog_summary">השבתת תזכורת זו פירושה ש-Aegis לא יגיד לך אם יש לך שינויים שעדיין לא מגובים. זה מעמיד אותך בסיכון לאבד גישה לאסימונים שלך. האם אתה בטוח שברצונך להשבית את התזכורת?</string>
+    <string name="pref_backups_reminder_dialog_summary">השבתת תזכורת זו פירושה ש-Tesser לא יגיד לך אם יש לך שינויים שעדיין לא מגובים. זה מעמיד אותך בסיכון לאבד גישה לאסימונים שלך. האם אתה בטוח שברצונך להשבית את התזכורת?</string>
     <string name="pref_backups_versioning_strategy_title">תכנית גיבויים</string>
     <string name="pref_backups_versioning_strategy_keep_x_versions">שמור מספר גרסאות</string>
     <string name="pref_backups_versioning_strategy_single_backup">גיבוי יחיד</string>
@@ -105,7 +105,7 @@
     <string name="pref_auto_lock_title">נעילה אוטומטית</string>
     <string name="pref_auto_lock_summary">מתי %s</string>
     <string name="pref_auto_lock_summary_disabled">מושבת</string>
-    <string name="pref_auto_lock_prompt">נעילה אוטומטית של Aegis כאשר</string>
+    <string name="pref_auto_lock_prompt">נעילה אוטומטית של Tesser כאשר</string>
     <string name="pref_auto_lock_type_back_button">כאשר כפתור נלחץ</string>
     <string name="pref_auto_lock_type_minimize">האפליקציה ממוזערת</string>
     <string name="pref_auto_lock_type_device_lock">המכשיר נעול</string>
@@ -128,11 +128,11 @@
     <string name="today_at_time">היום בשעה %1$s</string>
     <string name="day_of_week_at_time">%1$s בשעה %2$s</string>
     <string name="export_encrypted">הצפנת הכספת</string>
-    <string name="export_help">פעולה זו תייצא את הכספת מהאחסון הפנימי של Aegis. בחר את הפורמט שבו תרצה שהייצוא שלך יהיה:</string>
-    <string name="export_warning_unencrypted">אתה עומד לייצא עותק לא מוצפן של כספת Aegis שלך. <b>זה לא מומלץ</b>.</string>
+    <string name="export_help">פעולה זו תייצא את הכספת מהאחסון הפנימי של Tesser. בחר את הפורמט שבו תרצה שהייצוא שלך יהיה:</string>
+    <string name="export_warning_unencrypted">אתה עומד לייצא עותק לא מוצפן של כספת Tesser שלך. <b>זה לא מומלץ</b>.</string>
     <string name="export_warning_password">פעולות הייצוא מוצפנות באמצעות סיסמה נפרדת שהוגדרה בהגדרות האבטחה.</string>
     <string name="understand_risk_accept">אני מבין את הסיכון</string>
-    <string name="export_format_aegis">Aegis (.JSON)</string>
+    <string name="export_format_Tesser">Tesser (.JSON)</string>
     <string name="export_format_google_auth_uri">קובץ טקסט (.TXT)</string>
     <string name="export_format_html">דף אינטרנט (.HTML)</string>
     <string name="export_format_hint">פורמט ייצוא</string>
@@ -145,9 +145,9 @@
         <item quantity="other">נבחרו %d קבוצות</item>
     </plurals>
     <string name="export_no_groups_selected">לא נבחרו קבוצות לייצוא</string>
-    <string name="export_html_title" comment="The title of an HTML export document">Aegis מאמת ייצוא</string>
+    <string name="export_html_title" comment="The title of an HTML export document">Tesser מאמת ייצוא</string>
     <string name="choose_authentication_method">אבטחה</string>
-    <string name="authentication_method_explanation">Aegis היא אפליקציית אימות דו-שלבי ממוקדת אבטחה. אסימונים מאוחסנים בכספת, שבאופן אופציונלי ניתן להצפין באמצעות סיסמה לבחירתך. אם תוקף משיג את קובץ הכספת המוצפן שלך, הוא לא יוכל לגשת לתוכן מבלי לדעת את הסיסמה. \n\nבחרנו מראש באפשרות שלדעתנו תתאים ביותר למכשיר שלך.</string>
+    <string name="authentication_method_explanation">Tesser היא אפליקציית אימות דו-שלבי ממוקדת אבטחה. אסימונים מאוחסנים בכספת, שבאופן אופציונלי ניתן להצפין באמצעות סיסמה לבחירתך. אם תוקף משיג את קובץ הכספת המוצפן שלך, הוא לא יוכל לגשת לתוכן מבלי לדעת את הסיסמה. \n\nבחרנו מראש באפשרות שלדעתנו תתאים ביותר למכשיר שלך.</string>
     <string name="authentication_method_none">ללא</string>
     <string name="authentication_method_none_description">אין צורך בסיסמה כדי לפתוח את הכספת והיא לא תהיה מוצפנת. <b>אפשרות זו אינה מומלצת</b>.</string>
     <string name="authentication_method_password">סיסמא</string>
@@ -171,8 +171,8 @@
     <string name="password_reminder_freq_monthly">חודשי</string>
     <string name="password_reminder_freq_quarterly">רבעוני</string>
     <string name="enter_password_2fas_message">נראה שגיבוי 2FAS זה מוצפן. אנא הזן את הסיסמה למטה.</string>
-    <string name="enter_password_authy_message">זה נראה כאילו אסימוני Authy שלך מוצפנים. אנא סגור את Aegis, פתח את Authy ובטל את נעילת האסימונים עם הסיסמה שלך. במקום זאת, Aegis יכולה גם לנסות לפענח עבורך את אסימוני Authy שלך, אם תזין את הסיסמה שלך למטה.</string>
-    <string name="enter_password_aegis_title">אנא הזן את סיסמת הייבוא</string>
+    <string name="enter_password_authy_message">זה נראה כאילו אסימוני Authy שלך מוצפנים. אנא סגור את Tesser, פתח את Authy ובטל את נעילת האסימונים עם הסיסמה שלך. במקום זאת, Tesser יכולה גם לנסות לפענח עבורך את אסימוני Authy שלך, אם תזין את הסיסמה שלך למטה.</string>
+    <string name="enter_password_Tesser_title">אנא הזן את סיסמת הייבוא</string>
     <string name="period_hint">פרק זמן (שניות)</string>
     <string name="algorithm_hint">פונקציית Hash</string>
     <string name="type">סוג</string>
@@ -224,9 +224,9 @@
     <string name="discard_changes_description">השינויים שלך לא נשמרו</string>
     <string name="saving_profile_error">שגיאה בשמירת פרופיל</string>
     <string name="welcome">ברוך הבא</string>
-    <string name="app_description">Aegis היא אפליקציית אימות דו-שלבי חינמית, מאובטחת וקוד פתוח</string>
+    <string name="app_description">Tesser היא אפליקציית אימות דו-שלבי חינמית, מאובטחת וקוד פתוח</string>
     <string name="setup_completed">ההתקנה הושלמה</string>
-    <string name="setup_completed_description">Aegis הוקמה והיא מוכנה לצאת לדרך.</string>
+    <string name="setup_completed_description">Tesser הוקמה והיא מוכנה לצאת לדרך.</string>
     <string name="vault_not_found">הכספת לא נמצאה, החל בהתקנה…</string>
     <string name="copied">הועתק</string>
     <string name="errors_copied">שגיאות הועתקו ללוח</string>
@@ -237,8 +237,8 @@
     <string name="saving_error">אירעה שגיאה בעת ניסיון לשמור את הכספת</string>
     <string name="vault_init_error">אירעה שגיאה בעת ניסיון לאתחל את הכספת</string>
     <string name="vault_load_error">אירעה שגיאה בעת ניסיון לטעון את הכספת מהאחסון</string>
-    <string name="biometric_decrypt_error">אירעה שגיאה בעת ניסיון לפענח את הכספת באמצעות אימות ביומטרי. זה בדרך כלל קורה רק אם הגדרות האבטחה של המכשיר שלך שונו. אנא פתח את נעילת הכספת עם הסיסמה שלך והגדר מחדש את האימות הביומטרי בהגדרות של Aegis.</string>
-    <string name="biometric_init_error">אירעה שגיאה בעת ניסיון להכין אימות ביומטרי. זה בדרך כלל קורה רק אם הגדרות האבטחה של המכשיר שלך שונו. אנא פתח את נעילת הכספת עם הסיסמה שלך והגדר מחדש את האימות הביומטרי בהגדרות של Aegis.</string>
+    <string name="biometric_decrypt_error">אירעה שגיאה בעת ניסיון לפענח את הכספת באמצעות אימות ביומטרי. זה בדרך כלל קורה רק אם הגדרות האבטחה של המכשיר שלך שונו. אנא פתח את נעילת הכספת עם הסיסמה שלך והגדר מחדש את האימות הביומטרי בהגדרות של Tesser.</string>
+    <string name="biometric_init_error">אירעה שגיאה בעת ניסיון להכין אימות ביומטרי. זה בדרך כלל קורה רק אם הגדרות האבטחה של המכשיר שלך שונו. אנא פתח את נעילת הכספת עם הסיסמה שלך והגדר מחדש את האימות הביומטרי בהגדרות של Tesser.</string>
     <string name="disable_encryption">השבת את ההצפנה</string>
     <string name="disable_encryption_description">האם אתה בטוח שברצונך להשבית את ההצפנה? זה יגרום לאחסנת הכספת בטקסט רגיל. <b>גם גיבויים אוטומטיים יושבתו</b>.</string>
     <string name="enable_encryption_error">אירעה שגיאה בעת הפעלת ההצפנה</string>
@@ -266,7 +266,7 @@
     <string name="file_not_found">שגיאה: הקובץ לא נמצא</string>
     <string name="reading_file_error">אירעה שגיאה בעת ניסיון לקרוא את הקובץ</string>
     <string name="app_lookup_error">שגיאה: האפליקציה לא מותקנת</string>
-    <string name="app_version_error">הגרסה של %s המותקנת אינה נתמכת. גרסאות אחרונות החלו להצפין חלק מהקבצים בספריית האחסון הפנימית, מה שהופך את Aegis לא מסוגלת לגשת למידע שהיא צריכה לצורך הייבוא. ניסיון לייבא צפוי לגרום לשגיאה. האם תרצה להמשיך בכל מקרה?</string>
+    <string name="app_version_error">הגרסה של %s המותקנת אינה נתמכת. גרסאות אחרונות החלו להצפין חלק מהקבצים בספריית האחסון הפנימית, מה שהופך את Tesser לא מסוגלת לגשת למידע שהיא צריכה לצורך הייבוא. ניסיון לייבא צפוי לגרום לשגיאה. האם תרצה להמשיך בכל מקרה?</string>
     <string name="root_error">שגיאה: לא ניתן להשיג גישת שורש</string>
     <string name="intro_import_error_title">אירעה שגיאה בעת ייבוא הכספת</string>
     <string name="import_error_title">אירעה שגיאה אחת או יותר במהלך הייבוא</string>
@@ -276,7 +276,7 @@
     <string name="encryption_enable_biometrics_error">אירעה שגיאה בעת ניסיון לאפשר פתיחה ביומטרית. לחלק מהמכשירים יש יישומים גרועים של אימות ביומטרי וסביר להניח שהמכשיר שלך הוא אחד מהם. שקול להחליף לתצורה של סיסמה בלבד במקום זאת.</string>
     <string name="no_cameras_available">אין מצלמות זמינות</string>
     <string name="read_qr_error">אירעה שגיאה בעת ניסיון לקרוא את קוד ה-QR</string>
-    <string name="read_qr_error_phonefactor">Aegis אינו תואם לאלגוריתם 2FA הקנייני של מיקרוסופט. אנא הקפד לבחור \"הגדר יישום ללא התראות\" בעת הגדרת 2FA ב-Office 365.</string>
+    <string name="read_qr_error_phonefactor">Tesser אינו תואם לאלגוריתם 2FA הקנייני של מיקרוסופט. אנא הקפד לבחור \"הגדר יישום ללא התראות\" בעת הגדרת 2FA ב-Office 365.</string>
     <string name="partial_google_auth_import">זוהה ייצוא לא שלם של Google Authenticator</string>
     <string name="partial_google_auth_import_warning">כמה קודי QR חסרים בייבוא שלך. הקודים הבאים לא נמצאו:\n\n<b>%s</b>\n\nתוכל להמשיך לייבא את הייצוא החלקי הזה, אך אנו ממליצים לנסות שוב עם כל קודי ה-QR כדי לא להסתכן באובדן גישה לכל קודי אסימונים.</string>
     <string name="missing_qr_code_descriptor">• קוד QR %d</string>
@@ -342,16 +342,16 @@
     <string name="toggle_checkboxes">החלף את תיבות הסימון</string>
     <string name="search">חיפוש</string>
     <string name="channel_name_lock_status">מצב נעילה</string>
-    <string name="channel_description_lock_status">Aegis יכולה ליצור הודעה מתמשכת כדי להודיע לך כאשר הכספת נעולה</string>
+    <string name="channel_description_lock_status">Tesser יכולה ליצור הודעה מתמשכת כדי להודיע לך כאשר הכספת נעולה</string>
     <string name="vault_unlocked_state">הכספת לא נעולה. הקש כאן כדי לנעול.</string>
     <string name="version">גירסה</string>
     <string name="changelog">יומן שינויים</string>
     <string name="whats_new">מה חדש</string>
     <string name="github_description">קוד מקור, בעיות ומידע</string>
     <string name="license">רישיון</string>
-    <string name="license_description">Aegis Authenticator מורשה תחת GPLv3</string>
+    <string name="license_description">Tesser Authenticator מורשה תחת GPLv3</string>
     <string name="third_party_licenses">רישיונות של צד שלישי</string>
-    <string name="third_party_licenses_description">רישיונות של ספריות צד שלישי שבהן משתמשת Aegis</string>
+    <string name="third_party_licenses_description">רישיונות של ספריות צד שלישי שבהן משתמשת Tesser</string>
     <string name="country_netherlands">הולנד</string>
     <string name="email_us">כתוב מייל</string>
     <string name="visit_website">בקר באתר שלנו</string>
@@ -361,11 +361,11 @@
     <string name="webview_error">מכשיר זה אינו תומך בתצוגת אינטרנט, הנחוצה להצגת יומן השינויים והרישיון. חסר לו רכיב מערכת.</string>
     <string name="email">אימייל</string>
     <string name="time_sync_warning_title">סנכרון זמן אוטומטי</string>
-    <string name="time_sync_warning_message">Aegis מסתמכת על זמן המערכת להיות מסונכרן כדי ליצור קודים נכונים. סטייה של מספר שניות בלבד עלולה לגרום לקודים שגויים. נראה שהמכשיר שלך לא מוגדר לסנכרון אוטומטי של השעה. האם תרצה לעשות זאת כעת?</string>
+    <string name="time_sync_warning_message">Tesser מסתמכת על זמן המערכת להיות מסונכרן כדי ליצור קודים נכונים. סטייה של מספר שניות בלבד עלולה לגרום לקודים שגויים. נראה שהמכשיר שלך לא מוגדר לסנכרון אוטומטי של השעה. האם תרצה לעשות זאת כעת?</string>
     <string name="time_sync_warning_disable">תפסיק להזהיר אותי. אני יודע מה אני עושה.</string>
     <string name="google_qr_export_unrelated">נמצא קוד QR לא קשור. נסה להפעיל מחדש את הסורק.</string>
     <string name="backup_error_bar_message"><b>גיבוי הכספת נכשל לאחרונה</b></string>
-    <string name="backup_system_builtin">גיבויים אוטומטיים מובנים של Aegis</string>
+    <string name="backup_system_builtin">גיבויים אוטומטיים מובנים של Tesser</string>
     <string name="backup_system_android">מערכת גיבוי בענן של אנדרואיד</string>
     <string name="backup_reminder_bar_message_with_latest" comment="The parameter is an elapsed time in the style of 'x seconds/minutes/days ago'">        הגיבוי האחרון מיושן (%s)
     </string>
@@ -383,7 +383,7 @@
     <string name="empty_list_title">לא נמצאו נתונים</string>
     <string name="empty_group_list">אין קבוצות שיוצגו. הוספת קבוצות במסך העריכה של ערך</string>
     <string name="empty_group_list_title">לא נמצאו קבוצות</string>
-    <string name="no_icon_packs">עדיין לא יובאו חבילות סמלים. הקש על סימן החיבור כדי לייבא סימן חיבור. טיפ: נסו <a href="https://aegis-icons.github.io">aegis-icons</a>.</string>
+    <string name="no_icon_packs">עדיין לא יובאו חבילות סמלים. הקש על סימן החיבור כדי לייבא סימן חיבור. טיפ: נסו <a href="https://Tesser-icons.github.io">Tesser-icons</a>.</string>
     <string name="no_icon_packs_title">אין חבילות סמלים</string>
     <string name="pick_icon">בחר סמל</string>
     <string name="uncategorized">ללא קטגוריה</string>
@@ -394,7 +394,7 @@
     <string name="unable_to_copy_uri_to_clipboard">לא ניתן להעתיק URI ללוח</string>
     <string name="uri_copied_to_clipboard">URI שהועתק ללוח</string>
     <string name="transfer_entry_description">סרוק קוד QR זה באמצעות אפליקציית המאמת שאליה ברצונך להעביר ערך זה</string>
-    <string name="google_auth_compatible_transfer_description">סרוק קודי QR אלה באמצעות Aegis אוGoogle Authenticator.\n\n בשל מגבלות אפליקציית מאמת Google, רק אסימוני TOTP &amp; HOTP המשתמשים ב- SHA1 ומייצרים קודים בני 6 ספרות כלולים</string>
+    <string name="google_auth_compatible_transfer_description">סרוק קודי QR אלה באמצעות Tesser אוGoogle Authenticator.\n\n בשל מגבלות אפליקציית מאמת Google, רק אסימוני TOTP &amp; HOTP המשתמשים ב- SHA1 ומייצרים קודים בני 6 ספרות כלולים</string>
     <string name="password_strength_very_weak">חלש מאוד</string>
     <string name="password_strength_weak">חלש</string>
     <string name="password_strength_fair">סביר</string>
@@ -412,11 +412,11 @@
     <string name="dialog_wipe_entries_title">מחיקת רשומה</string>
     <string name="dialog_wipe_entries_message">הכספת שלך כבר מכילה ערכים. האם ברצונך להסיר את הערכים הללו לפני ייבוא הקובץ הזה?\n\n<b>בכך, תאבד לצמיתות את הגישה לערכים הקיימים בכספת.</b></string>
     <string name="dialog_wipe_entries_checkbox">מחק את תוכן הכספת</string>
-    <string name="panic_trigger_ignore_toast">Aegis קיבל הפעלת פאניקה אך ההגדרה מושבתת, מתעלמת</string>
+    <string name="panic_trigger_ignore_toast">Tesser קיבל הפעלת פאניקה אך ההגדרה מושבתת, מתעלמת</string>
     <string name="pref_panic_trigger_title">מחק את הכספת בהפעלת הפאניקה</string>
     <string name="pref_panic_trigger_summary">מחק את הכספת בהפעלת הפאניקה</string>
     <string name="importer_help_2fas">ספק קובץ גיבוי של 2FAS Authenticator.</string>
-    <string name="importer_help_aegis">ספק קובץ ייצוא/גיבוי של Aegis.</string>
+    <string name="importer_help_Tesser">ספק קובץ ייצוא/גיבוי של Tesser.</string>
     <string name="importer_help_authenticator_plus">ספק קובץ ייצוא של Authenticator Plus שהושג דרך <b>הגדרות -&gt; גיבוי &amp; שחזור -&gt; ייצוא כטקסט ו-HTML</b>.</string>
     <string name="importer_help_authy">ספק עותק של <b>/data/data/com.authy.authy/shared_prefs/com.authy.storage.tokens.authenticator.xml</b>, הממוקם בספריית האחסון הפנימית של Authy.</string>
     <string name="importer_help_andotp">ספק קובץ יצוא/גיבוי andOTP.</string>
@@ -430,7 +430,7 @@
     <string name="importer_help_totp_authenticator">ספק קובץ ייצוא של TOTP Authenticator.</string>
     <string name="importer_help_winauth">ספק קובץ ייצוא של WinAuth.</string>
     <string name="importer_encrypted_exception_google_authenticator">ערך מוצפן דילג: %s</string>
-    <string name="importer_help_direct">ייבא ערכים ישירות מ-%s. זה מחייב את האפליקציה להיות מותקנת במכשיר זה וכדי להעניק גישת שורש ל-Aegis.</string>
+    <string name="importer_help_direct">ייבא ערכים ישירות מ-%s. זה מחייב את האפליקציה להיות מותקנת במכשיר זה וכדי להעניק גישת שורש ל-Tesser.</string>
     <string name="groups">קבוצות</string>
     <string name="pref_focus_search">התמקד בחיפוש בהתחלת האפליקציה</string>
     <string name="pref_focus_search_summary">מקד את החיפוש מיד לאחר פתיחת האפליקציה.</string>

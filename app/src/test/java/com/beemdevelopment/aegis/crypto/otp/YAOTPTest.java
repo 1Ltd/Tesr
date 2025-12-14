@@ -1,10 +1,10 @@
-package com.beemdevelopment.aegis.crypto.otp;
+package com.beemdevelopment.Tesser.crypto.otp;
 
 import static org.junit.Assert.assertEquals;
 
-import com.beemdevelopment.aegis.encoding.Base32;
-import com.beemdevelopment.aegis.otp.OtpInfoException;
-import com.beemdevelopment.aegis.otp.YandexInfo;
+import com.beemdevelopment.Tesser.encoding.Base32;
+import com.beemdevelopment.Tesser.otp.OtpInfoException;
+import com.beemdevelopment.Tesser.otp.YandexInfo;
 
 import org.junit.Test;
 

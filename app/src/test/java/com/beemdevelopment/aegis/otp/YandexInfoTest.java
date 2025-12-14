@@ -1,9 +1,9 @@
-package com.beemdevelopment.aegis.otp;
+package com.beemdevelopment.Tesser.otp;
 
 import static org.junit.Assert.assertThrows;
 
-import com.beemdevelopment.aegis.encoding.Base32;
-import com.beemdevelopment.aegis.encoding.EncodingException;
+import com.beemdevelopment.Tesser.encoding.Base32;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
 
 import org.junit.Test;
 

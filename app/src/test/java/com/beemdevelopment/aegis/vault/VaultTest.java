@@ -1,8 +1,8 @@
-package com.beemdevelopment.aegis.vault;
+package com.beemdevelopment.Tesser.vault;
 
 import static org.junit.Assert.assertEquals;
 
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.util.IOUtils;
 
 import org.junit.Test;
 
@@ -16,7 +16,7 @@ public class VaultTest {
     public void testGroupConversion()
             throws IOException, VaultFileException, VaultException {
         Vault vault;
-        try (InputStream inStream = getClass().getResourceAsStream("aegis_plain_grouped_v2.json")) {
+        try (InputStream inStream = getClass().getResourceAsStream("Tesser_plain_grouped_v2.json")) {
             byte[] bytes = IOUtils.readAll(inStream);
             VaultFile file = VaultFile.fromBytes(bytes);
             vault = Vault.fromJson(file.getContent());

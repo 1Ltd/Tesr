@@ -1,8 +1,8 @@
-package com.beemdevelopment.aegis.otp;
+package com.beemdevelopment.Tesser.otp;
 
 import static org.junit.Assert.assertEquals;
 
-import com.beemdevelopment.aegis.crypto.otp.TOTPTest;
+import com.beemdevelopment.Tesser.crypto.otp.TOTPTest;
 
 import org.junit.Test;
 

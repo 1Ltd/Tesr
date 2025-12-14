@@ -1,4 +1,4 @@
-package com.beemdevelopment.aegis.helpers;
+package com.beemdevelopment.Tesser.helpers;
 
 import static android.graphics.ImageFormat.YUV_420_888;
 import static org.junit.Assert.assertEquals;
@@ -13,7 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.camera.core.ImageInfo;
 import androidx.camera.core.ImageProxy;
 
-import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.Tesser.util.IOUtils;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

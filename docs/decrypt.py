@@ -3,7 +3,7 @@
 # this depends on the 'cryptography' package
 # pip install cryptography
 
-# example usage: ./scripts/decrypt.py --input ./app/src/test/resources/com/beemdevelopment/aegis/importers/aegis_encrypted.json
+# example usage: ./scripts/decrypt.py --input ./app/src/test/resources/com/beemdevelopment/Tesser/importers/Tesser_encrypted.json
 # password: test
 
 import argparse
@@ -19,17 +19,21 @@ from cryptography.hazmat.backends import default_backend
 import cryptography
 backend = default_backend()
 
+
 def die(msg, code=1):
     print(msg, file=sys.stderr)
     exit(code)
 
+
 def main():
-    parser = argparse.ArgumentParser(description="Decrypt an Aegis vault")
-    parser.add_argument("--input", dest="input", required=True, help="encrypted Aegis vault file")
-    parser.add_argument("--output", dest="output", default="-", help="output file ('-' for stdout)")
+    parser = argparse.ArgumentParser(description="Decrypt an Tesser vault")
+    parser.add_argument("--input", dest="input", required=True,
+                        help="encrypted Tesser vault file")
+    parser.add_argument("--output", dest="output", default="-",
+                        help="output file ('-' for stdout)")
     args = parser.parse_args()
 
-    # parse the Aegis vault file
+    # parse the Tesser vault file
     with io.open(args.input, "r") as f:
         data = json.load(f)
 
@@ -88,6 +92,7 @@ def main():
             f.write(db)
     else:
         print(db)
+
 
 if __name__ == "__main__":
     main()

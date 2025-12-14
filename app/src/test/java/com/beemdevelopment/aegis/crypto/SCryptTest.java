@@ -1,11 +1,11 @@
-package com.beemdevelopment.aegis.crypto;
+package com.beemdevelopment.Tesser.crypto;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertFalse;
 
-import com.beemdevelopment.aegis.crypto.bc.SCrypt;
-import com.beemdevelopment.aegis.encoding.EncodingException;
-import com.beemdevelopment.aegis.encoding.Hex;
+import com.beemdevelopment.Tesser.crypto.bc.SCrypt;
+import com.beemdevelopment.Tesser.encoding.EncodingException;
+import com.beemdevelopment.Tesser.encoding.Hex;
 
 import org.junit.Test;
 

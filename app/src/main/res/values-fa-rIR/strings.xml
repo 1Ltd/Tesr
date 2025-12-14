@@ -41,7 +41,7 @@
     <string name="pref_import_file_title">وارد کردن از فایل</string>
     <string name="pref_import_file_summary">وارد کردن توکن ها از فایل</string>
     <string name="pref_android_backups_title">پشتیبان‌گیری ابری Android</string>
-    <string name="pref_android_backups_summary">به سیستم پشتیبان‌گیری ابری Android اجازه دهید تا خزانهٔ Aegis را در فایل‌های پشتیبان خود شامل کند. این کنش تنها برای خزانه‌های رمزنگاری شده پشتیبانی می‌شود.</string>
+    <string name="pref_android_backups_summary">به سیستم پشتیبان‌گیری ابری Android اجازه دهید تا خزانهٔ Tesser را در فایل‌های پشتیبان خود شامل کند. این کنش تنها برای خزانه‌های رمزنگاری شده پشتیبانی می‌شود.</string>
     <string name="pref_android_backups_hint"><i>پشتیبان‌گیریِ دستگاه به دستگاه (D2D) بدون در نظر گرفتن تنظیمات بالا، همواره مجاز است</i></string>
     <string name="pref_backups_title">بصورت خودکار از مخزن پشتیبانگیری شود</string>
     <string name="pref_backups_summary">به صورت خودکار از مخزن ها در کارت حافظه پیشتیبان گیری شود. این ویژگی فقط مخصوص مخزن های رمزگذاری شده است.</string>
@@ -92,11 +92,11 @@
     <string name="export_encrypted">رمزگذاری مخزن</string>
     <string name="export_help">این عملیات مخرن را از حافظه داخلی آگیس صادر میکند. فرمت مورد نظر فایل خروجی را انتخاب کنید:</string>
     <string name="export_warning_unencrypted">شما در حال صادر کردن یک کپی محافظت نشده از مخزن آگیس هستید. <b>این روش توصیه نمیشود</b>.</string>
-    <string name="export_format_aegis">فایل جیسون (.json)</string>
+    <string name="export_format_Tesser">فایل جیسون (.json)</string>
     <string name="export_format_google_auth_uri">فایل متنی (.txt)</string>
     <string name="export_format_hint">فرمت خروجی</string>
     <string name="choose_authentication_method">امنیت</string>
-    <string name="authentication_method_explanation">Aegis یک برنامه ورود دو مرحله ای با تمرکز روی امنیت می‌باشد. توکن ها در یک مخزن می‌باشد که شما می‌توانید آن را با کلمه عبور رمزگذاری کنید. اگر هکر ها به فایل شما دسترسی پیدا کنند، بدون دانستن کلمه عبور نمی‌توانند از محتویات آن اطلاع یابند.\n\nما به صورت پیش فرض گزینه ای انتخاب کرده ایم که فکر می‌کنیم بهتری برای دستگاه شما می‌باشد.</string>
+    <string name="authentication_method_explanation">Tesser یک برنامه ورود دو مرحله ای با تمرکز روی امنیت می‌باشد. توکن ها در یک مخزن می‌باشد که شما می‌توانید آن را با کلمه عبور رمزگذاری کنید. اگر هکر ها به فایل شما دسترسی پیدا کنند، بدون دانستن کلمه عبور نمی‌توانند از محتویات آن اطلاع یابند.\n\nما به صورت پیش فرض گزینه ای انتخاب کرده ایم که فکر می‌کنیم بهتری برای دستگاه شما می‌باشد.</string>
     <string name="authentication_method_none">هیچ کدام</string>
     <string name="authentication_method_none_description">عدم رمزگذاری مخزن<b>این روش پیشنهاد نمی‌شود</b>.</string>
     <string name="authentication_method_password">کلمه عبور</string>
@@ -118,8 +118,8 @@
     <string name="password_reminder_freq_monthly">ماهانه</string>
     <string name="password_reminder_freq_quarterly">هر سه ماه یکبار</string>
     <string name="enter_password_2fas_message">به‌نظر می‌رسد این نسخهٔ پشتیبان 2FAS رمزگذاری شده‌است. لطفاً گذرواژه خود را در زیر وارد نمایید.</string>
-    <string name="enter_password_authy_message">به نظر میرسد توکن های Authy توسط کلمه عبور رمزگذاری شده است. برانمه Aegis را ببندید و در برنامه Authy توکن ها را با پسورد رمزگشایی کنید. همچنین می‌توانید با وارد کردن کلمه عبور در قسمت زیر این کار را انجام دهید.</string>
-    <string name="enter_password_aegis_title">لطفاً گذرواژهٔ واردات را یادداشت نمایید</string>
+    <string name="enter_password_authy_message">به نظر میرسد توکن های Authy توسط کلمه عبور رمزگذاری شده است. برانمه Tesser را ببندید و در برنامه Authy توکن ها را با پسورد رمزگشایی کنید. همچنین می‌توانید با وارد کردن کلمه عبور در قسمت زیر این کار را انجام دهید.</string>
+    <string name="enter_password_Tesser_title">لطفاً گذرواژهٔ واردات را یادداشت نمایید</string>
     <string name="period_hint">زمان (ثانیه)</string>
     <string name="algorithm_hint">عملکرد Hash</string>
     <string name="type">نوع</string>
@@ -161,7 +161,7 @@
     <string name="discard_changes_description">تغییرات اعمال شده ذخیره نشد</string>
     <string name="saving_profile_error">خطا در ذخیره حساب کاربری</string>
     <string name="welcome">خوش آمدید</string>
-    <string name="app_description">Aegis یک نرم افزار امن، رایگان و متن باز برای ورود دو مرحله ای می‌باشد</string>
+    <string name="app_description">Tesser یک نرم افزار امن، رایگان و متن باز برای ورود دو مرحله ای می‌باشد</string>
     <string name="setup_completed">آماده سازی تکمیل شد</string>
     <string name="setup_completed_description">آماده سازی تکمیل و برنامه آماده استفاده می‌باشد!</string>
     <string name="vault_not_found">مخزن یافت نشد. در حال ساخت…</string>
@@ -247,7 +247,7 @@
     <string name="toggle_checkboxes">تغییر وضعیت چک باکس‌ها</string>
     <string name="search">جستجو</string>
     <string name="channel_name_lock_status">قفل نمودن وضعیت</string>
-    <string name="channel_description_lock_status">Aegis می‌تواند یک اعلان برای اعلام قفل شدن برنامه به شما بسازد.</string>
+    <string name="channel_description_lock_status">Tesser می‌تواند یک اعلان برای اعلام قفل شدن برنامه به شما بسازد.</string>
     <string name="vault_unlocked_state">مخزن رمزگشایی شد. برای قفل شدن لمس کنید.</string>
     <string name="version">نسخه</string>
     <string name="changelog">گزارش تغییرات</string>
@@ -293,7 +293,7 @@
     <string name="panic_trigger_ignore_toast">آگیس ماشه وحشت را دریافت کرده ولی تنظیمات مربوطه غیر فعال میباشد, نادیده گرفتن</string>
     <string name="pref_panic_trigger_title">حذف مخزن بر روی فرمان ماشه وحشت</string>
     <string name="pref_panic_trigger_summary">حذف مخزن زمانی که یک ماشه وحشت از طرف Ripple دریافت شده</string>
-    <string name="importer_help_aegis">تهیه یک فایل بکاپ / صادر کردن از آگیس.</string>
+    <string name="importer_help_Tesser">تهیه یک فایل بکاپ / صادر کردن از آگیس.</string>
     <string name="importer_help_authenticator_plus">تهیه یک فایل خروجی از Authenticator Plus از طریق <b> تنظیمات -&gt; پشتیبان گیری &amp; بازیابی - &gt; صادر کردن به عنوان متن و HTML میباشد </b>.</string>
     <string name="importer_help_authy">تهیه کپی از
 <b>/data/data/com.authy.authy/shared_prefs/com.authy.storage.tokens.authenticator.xml</b>,
