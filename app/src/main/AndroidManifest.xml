@@ -18,18 +18,18 @@
         android:required="false" />
 
     <application
-        android:name=".AegisApplication"
+        android:name=".TesserApplication"
         android:allowBackup="true"
         android:fullBackupOnly="true"
         android:fullBackupContent="@xml/backup_rules_old"
         android:dataExtractionRules="@xml/backup_rules"
-        android:backupAgent=".AegisBackupAgent"
+        android:backupAgent=".TesserBackupAgent"
         android:enableOnBackInvokedCallback="true"
         android:icon="@mipmap/${iconName}"
-        android:label="Aegis"
+        android:label="Tesser"
         android:supportsRtl="true"
         android:largeHeap="true"
-        android:theme="@style/Theme.Aegis.Launch"
+        android:theme="@style/Theme.Tesser.Launch"
         tools:targetApi="tiramisu">
         <activity android:name=".ui.TransferEntriesActivity"
             android:label="@string/title_activity_transfer" />
