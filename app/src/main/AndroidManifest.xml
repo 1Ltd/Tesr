@@ -26,7 +26,7 @@
         android:backupAgent=".AegisBackupAgent"
         android:enableOnBackInvokedCallback="true"
         android:icon="@mipmap/${iconName}"
-        android:label="Tesser"
+        android:label="Aegis"
         android:supportsRtl="true"
         android:largeHeap="true"
         android:theme="@style/Theme.Aegis.Launch"
