@@ -8,7 +8,7 @@ concurrency: "crowdin-upload-${{ github.ref }}"
 jobs:
   upload-sources:
     runs-on: ubuntu-latest
-    if: github.repository == 'beemdevelopment/Tesser'
+    if: github.repository == 'hyz/tesser'
     steps:
       - uses: actions/checkout@v4
       - name: Install crowdin-cli
