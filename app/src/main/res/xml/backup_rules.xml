@@ -2,10 +2,10 @@
 <data-extraction-rules>
     <cloud-backup>
         <include domain="sharedpref" path="."/>
-        <include domain="file" path="backup/Tesser.json"/>
+        <include domain="file" path="backup/tesser.json"/>
     </cloud-backup>
     <device-transfer>
         <include domain="sharedpref" path="."/>
-        <include domain="file" path="backup/Tesser.json"/>
+        <include domain="file" path="backup/tesser.json"/>
     </device-transfer>
 </data-extraction-rules>
