@@ -38,7 +38,7 @@ public class DatabaseImporterTest {
     /**
      * The procedure for adding new importer tests is as follows:
      * 1. Generate QR codes for each test vector:
-     *     -> while read line; do (qrencode "$line" -o - | feh -); done < ./app/src/test/resources/com/beemdevelopment/Tesser/importers/plain.txt
+     *     -> while read line; do (qrencode "$line" -o - | feh -); done < ./app/src/test/resources/com/hyz/tesser/importers/plain.txt
      * 2. Scan the QR codes with the app we want to test our import functionality of
      * 3. Create an export and add the file to the importers resource directory.
      * 4. Add a new test for it here.

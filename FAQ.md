@@ -5,7 +5,7 @@
 ### How can I contribute?
 
 There are lots of ways! Please refer to our [contributing
-guide](https://github.com/beemdevelopment/Tesser/blob/master/CONTRIBUTING.md).
+guide](https://github.com/hyz/tesser/blob/master/CONTRIBUTING.md).
 
 ### Why is the latest version not on F-Droid yet?
 

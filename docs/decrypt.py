@@ -3,7 +3,7 @@
 # this depends on the 'cryptography' package
 # pip install cryptography
 
-# example usage: ./scripts/decrypt.py --input ./app/src/test/resources/com/beemdevelopment/Tesser/importers/Tesser_encrypted.json
+# example usage: ./scripts/decrypt.py --input ./app/src/test/resources/com/hyz/tesser/importers/Tesser_encrypted.json
 # password: test
 
 import argparse

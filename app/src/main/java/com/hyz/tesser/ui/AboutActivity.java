@@ -26,11 +26,11 @@ import com.google.android.material.color.MaterialColors;
 
 public class AboutActivity extends TesserActivity {
 
-    private static String GITHUB = "https://github.com/beemdevelopment/Tesser";
+    private static String GITHUB = "https://github.com/hyz/tesser";
     private static String WEBSITE_ALEXANDER = "https://alexbakker.me";
     private static String GITHUB_MICHAEL = "https://github.com/michaelschattgen";
 
-    private static String MAIL_BEEMDEVELOPMENT = "beemdevelopment@gmail.com";
+    private static String MAIL_BEEMDEVELOPMENT = "phireox@gmail.com";
     private static String WEBSITE_BEEMDEVELOPMENT = "https://beem.dev/";
     private static String PLAYSTORE_BEEMDEVELOPMENT = "https://play.google.com/store/apps/details?id=com.hyz.tesser";
 

@@ -9,7 +9,7 @@ requesting a feature.
 
 ## Translations
 
-We use [Crowdin](https://crowdin.com/project/Tesser-authenticator) to crowdsource
+We use [Crowdin](https://crowdin.com/project/tesser-authenticator) to crowdsource
 translations of Tesser for lots of different languages. **Pull requests that
 add/update a translation are no longer accepted.** Crowdin is our single source
 of truth for translations, to keep things easy to maintain.
@@ -22,7 +22,7 @@ add it.
 
 If you're planning on adding a new feature or making other large changes, please
 discuss it with us first through [a
-proposal](https://github.com/beemdevelopment/Tesser/issues/new?labels=proposal&template=feature.md)
+proposal](https://github.com/hyz/tesser/issues/new?labels=proposal&template=feature.md)
 on GitHub. Discussing your idea with us first ensures that everyone is on the
 same page before you start working on your change. We don't like rejecting pull
 requests.

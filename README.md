@@ -5,7 +5,7 @@ alt="App icon">
 
 <br>
 
-[![Build](https://github.com/beemdevelopment/Tesser/actions/workflows/build-app-workflow.yaml/badge.svg)](https://github.com/beemdevelopment/Tesser/actions/workflows/build-app-workflow.yaml?query=branch%3Amaster) [![Crowdin](https://badges.crowdin.net/Tesser-authenticator/localized.svg)](https://crowdin.com/project/Tesser-authenticator) [![Donate](https://img.shields.io/badge/donate-buy%20us%20a%20beer-%23FF813F)](https://www.buymeacoffee.com/beemdevelopment) [![Matrix](https://img.shields.io/matrix/Tesser:matrix.org?color=blue)](https://matrix.to/#/#Tesser:matrix.org)
+[![Build](https://github.com/hyz/tesser/actions/workflows/build-app-workflow.yaml/badge.svg)](https://github.com/hyz/tesser/actions/workflows/build-app-workflow.yaml?query=branch%3Amaster) [![Crowdin](https://badges.crowdin.net/tesser-authenticator/localized.svg)](https://crowdin.com/project/tesser-authenticator) [![Donate](https://img.shields.io/badge/donate-buy%20us%20a%20beer-%23FF813F)](https://www.buymeacoffee.com/hyz) [![Matrix](https://img.shields.io/matrix/tesser:matrix.org?color=blue)](https://matrix.to/#/#tesser:matrix.org)
 
 **Tesser Authenticator** is a free, secure and open source 2FA app for Android.
 It aims to provide a secure authenticator for your online services, while also
